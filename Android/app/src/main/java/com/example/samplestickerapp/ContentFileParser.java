@@ -68,6 +68,7 @@ class ContentFileParser {
         String identifier = null;
         String name = null;
         String publisher = null;
+        String price = null;
         String trayImageFile = null;
         String publisherEmail = null;
         String publisherWebsite = null;
@@ -88,6 +89,9 @@ class ContentFileParser {
                     break;
                 case "publisher":
                     publisher = reader.nextString();
+                    break;
+                case "price":
+                    price = reader.nextString();
                     break;
                 case "tray_image_file":
                     trayImageFile = reader.nextString();
@@ -129,6 +133,9 @@ class ContentFileParser {
         if (TextUtils.isEmpty(publisher)) {
             throw new IllegalStateException("publisher cannot be empty");
         }
+        if (TextUtils.isEmpty(price)) {
+            throw new IllegalStateException("price cannot be empty");
+        }
         if (TextUtils.isEmpty(trayImageFile)) {
             throw new IllegalStateException("tray_image_file cannot be empty");
         }
@@ -142,7 +149,7 @@ class ContentFileParser {
             throw new IllegalStateException("image_data_version should not be empty");
         }
         reader.endObject();
-        final StickerPack stickerPack = new StickerPack(identifier, name, publisher, trayImageFile, publisherEmail, publisherWebsite, privacyPolicyWebsite, licenseAgreementWebsite, imageDataVersion, avoidCache, animatedStickerPack);
+        final StickerPack stickerPack = new StickerPack(identifier, name, publisher, price, trayImageFile, publisherEmail, publisherWebsite, privacyPolicyWebsite, licenseAgreementWebsite, imageDataVersion, avoidCache, animatedStickerPack);
         stickerPack.setStickers(stickerList);
         return stickerPack;
     }

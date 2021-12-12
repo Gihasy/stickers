@@ -39,6 +39,7 @@ public class StickerContentProvider extends ContentProvider {
     public static final String STICKER_PACK_IDENTIFIER_IN_QUERY = "sticker_pack_identifier";
     public static final String STICKER_PACK_NAME_IN_QUERY = "sticker_pack_name";
     public static final String STICKER_PACK_PUBLISHER_IN_QUERY = "sticker_pack_publisher";
+    public static final String STICKER_PACK_PRICE_IN_QUERY = "sticker_pack_price";
     public static final String STICKER_PACK_ICON_IN_QUERY = "sticker_pack_icon";
     public static final String ANDROID_APP_DOWNLOAD_LINK_IN_QUERY = "android_play_store_link";
     public static final String IOS_APP_DOWNLOAD_LINK_IN_QUERY = "ios_app_download_link";
@@ -183,6 +184,7 @@ public class StickerContentProvider extends ContentProvider {
                         STICKER_PACK_IDENTIFIER_IN_QUERY,
                         STICKER_PACK_NAME_IN_QUERY,
                         STICKER_PACK_PUBLISHER_IN_QUERY,
+                        STICKER_PACK_PRICE_IN_QUERY,
                         STICKER_PACK_ICON_IN_QUERY,
                         ANDROID_APP_DOWNLOAD_LINK_IN_QUERY,
                         IOS_APP_DOWNLOAD_LINK_IN_QUERY,
@@ -199,6 +201,7 @@ public class StickerContentProvider extends ContentProvider {
             builder.add(stickerPack.identifier);
             builder.add(stickerPack.name);
             builder.add(stickerPack.publisher);
+            builder.add(stickerPack.price);
             builder.add(stickerPack.trayImageFile);
             builder.add(stickerPack.androidPlayStoreLink);
             builder.add(stickerPack.iosAppStoreLink);

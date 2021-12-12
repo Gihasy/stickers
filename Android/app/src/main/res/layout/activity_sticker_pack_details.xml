@@ -154,6 +154,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/add_to_whatsapp_text"
                     style="@style/StickerPreviewButtonText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -169,7 +170,6 @@
 
 
             </FrameLayout>
-
             <TextView
                 android:id="@+id/sticker_pack_details_tap_to_preview"
                 android:layout_width="match_parent"

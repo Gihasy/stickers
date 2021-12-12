@@ -93,9 +93,9 @@ class StickerPackValidator {
         if (!TextUtils.isEmpty(stickerPack.publisherWebsite) && !isValidWebsiteUrl(stickerPack.publisherWebsite)) {
             throw new IllegalStateException("Make sure to include http or https in url links, publisher website link is not a valid url: " + stickerPack.publisherWebsite);
         }
-        if (!TextUtils.isEmpty(stickerPack.publisherEmail) && !Patterns.EMAIL_ADDRESS.matcher(stickerPack.publisherEmail).matches()) {
-            throw new IllegalStateException("publisher email does not seem valid, email is: " + stickerPack.publisherEmail);
-        }
+//        if (!TextUtils.isEmpty(stickerPack.publisherEmail) && !Patterns.EMAIL_ADDRESS.matcher(stickerPack.publisherEmail).matches()) {
+//            throw new IllegalStateException("publisher email does not seem valid, email is: " + stickerPack.publisherEmail);
+//        }
         try {
             final byte[] stickerAssetBytes = StickerPackLoader.fetchStickerAsset(stickerPack.identifier, stickerPack.trayImageFile, context.getContentResolver());
             if (stickerAssetBytes.length > TRAY_IMAGE_FILE_SIZE_MAX_KB * KB_IN_BYTES) {
@@ -124,9 +124,9 @@ class StickerPackValidator {
         if (sticker.emojis.size() > EMOJI_MAX_LIMIT) {
             throw new IllegalStateException("emoji count exceed limit, sticker pack identifier: " + identifier + ", filename: " + sticker.imageFileName);
         }
-        if (sticker.emojis.size() < EMOJI_MIN_LIMIT) {
-            throw new IllegalStateException("To provide best user experience, please associate at least 1 emoji to this sticker, sticker pack identifier: " + identifier + ", filename: " + sticker.imageFileName);
-        }
+//        if (sticker.emojis.size() < EMOJI_MIN_LIMIT) {
+//            throw new IllegalStateException("To provide best user experience, please associate at least 1 emoji to this sticker, sticker pack identifier: " + identifier + ", filename: " + sticker.imageFileName);
+//        }
         if (TextUtils.isEmpty(sticker.imageFileName)) {
             throw new IllegalStateException("no file path for sticker, sticker pack identifier:" + identifier);
         }

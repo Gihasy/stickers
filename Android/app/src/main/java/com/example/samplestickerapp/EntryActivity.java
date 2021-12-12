@@ -19,10 +19,12 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
+import com.anjlab.android.iab.v3.BillingProcessor;
+
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 
-public class EntryActivity extends BaseActivity {
+public class EntryActivity extends BaseActivity  {
     private View progressBar;
     private LoadListAsyncTask loadListAsyncTask;
 

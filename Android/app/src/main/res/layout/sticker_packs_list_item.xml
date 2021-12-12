@@ -16,6 +16,7 @@
     android:paddingBottom="4dp">
 
     <ImageView
+        android:visibility="gone"
         android:id="@+id/add_button_on_list"
         android:layout_width="48dp"
         android:layout_height="48dp"
@@ -43,7 +44,7 @@
         <TextView
             android:id="@+id/sticker_pack_title"
             style="@style/sticker_packs_list_item_author_style"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:ellipsize="end"
@@ -71,6 +72,8 @@
             android:layout_marginLeft="4dp"
             android:ellipsize="end"
             android:maxWidth="120dp"
+            android:visibility="gone"
+
             tools:text="petellison" />
 
         <TextView
@@ -81,11 +84,12 @@
             android:paddingStart="@dimen/sticker_pack_list_item_row_dot_horizontal_padding"
             android:paddingLeft="@dimen/sticker_pack_list_item_row_dot_horizontal_padding"
             android:paddingEnd="@dimen/sticker_pack_list_item_row_dot_horizontal_padding"
+            android:visibility="gone"
+
             android:paddingRight="@dimen/sticker_pack_list_item_row_dot_horizontal_padding"
             android:text="@string/dot" />
-
-
         <TextView
+            android:visibility="gone"
             android:id="@+id/sticker_pack_filesize"
             style="@style/sticker_packs_list_item_author_style"
             android:layout_width="wrap_content"

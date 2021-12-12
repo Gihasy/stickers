@@ -13,22 +13,29 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.format.Formatter;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.anjlab.android.iab.v3.BillingProcessor;
+import com.anjlab.android.iab.v3.PurchaseInfo;
 import com.facebook.drawee.view.SimpleDraweeView;
+
+import org.w3c.dom.Text;
 
 import java.lang.ref.WeakReference;
 
-public class StickerPackDetailsActivity extends AddStickerPackActivity {
+public class StickerPackDetailsActivity extends AddStickerPackActivity implements BillingProcessor.IBillingHandler {
 
     /**
      * Do not change below values of below 3 lines as this is also used by WhatsApp
@@ -51,11 +58,12 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
     private StickerPreviewAdapter stickerPreviewAdapter;
     private int numColumns;
     private View addButton;
+    private TextView addText;
     private View alreadyAddedText;
     private StickerPack stickerPack;
     private View divider;
     private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
-
+    BillingProcessor bp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +78,7 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
         SimpleDraweeView expandedStickerView = findViewById(R.id.sticker_details_expanded_sticker);
 
         addButton = findViewById(R.id.add_to_whatsapp_button);
+        addText = findViewById(R.id.add_to_whatsapp_text);
         alreadyAddedText = findViewById(R.id.already_added_text);
         layoutManager = new GridLayoutManager(this, 1);
         recyclerView = findViewById(R.id.sticker_list);
@@ -85,11 +94,23 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
         packPublisherTextView.setText(stickerPack.publisher);
         packTrayIcon.setImageURI(StickerPackLoader.getStickerAssetUri(stickerPack.identifier, stickerPack.trayImageFile));
         packSizeTextView.setText(Formatter.formatShortFileSize(this, stickerPack.getTotalSize()));
-        addButton.setOnClickListener(v -> addStickerPackToWhatsApp(stickerPack.identifier, stickerPack.name));
+        bp = BillingProcessor.newBillingProcessor(this, "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm4F2ft7eUQgKlhYXCO/QcgJt5kdM7W/P7jcd0Z2Yx2n+/cer1CswvNi+MBf0fcnsZN6XNvK0fi8I+cE78ZcxmTUp1KCmy/Bvt/osYq58BaCx/YoIweHXNV8sffWyP0rRtspwantD90QUnq4vYLzFezE5XCPuJJWAmPkwSdlbCWYtDiQKuWX7S2/U+yDStsMJmGp89xrVwrZgJ0Q7jzvKDFsxpQknujDPsAlEqhGhRyuU8EERsbKPOwgeTfZJR3nqy+xZQ0wUrKPR7vduSI2P8k90n/dASgdqhJkWvDpYCdNmkX6OnIE8ci3S1yh1ygMrSS5kMLZrdObfvdj+mKKVdQIDAQAB", this);
+        bp.initialize();
+
+
+        if(stickerPack.price.equals("FREE")) {
+            addButton.setOnClickListener(v -> addStickerPackToWhatsApp(stickerPack.identifier, stickerPack.name));
+        }else{
+            addButton.setOnClickListener(v ->
+                    bp.purchase(this,stickerPack.identifier)
+            );
+        }
+
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(showUpButton);
             getSupportActionBar().setTitle(showUpButton ? getResources().getString(R.string.title_activity_sticker_pack_details_multiple_pack) : getResources().getQuantityString(R.plurals.title_activity_sticker_packs_list, 1));
         }
+
         findViewById(R.id.sticker_pack_animation_indicator).setVisibility(stickerPack.animatedStickerPack ? View.VISIBLE : View.GONE);
     }
 
@@ -165,6 +186,13 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
         whiteListCheckAsyncTask = new WhiteListCheckAsyncTask(this);
         whiteListCheckAsyncTask.execute(stickerPack);
     }
+    @Override
+    public void onDestroy() {
+        if (bp != null) {
+            bp.release();
+        }
+        super.onDestroy();
+    }
 
     @Override
     protected void onPause() {
@@ -175,15 +203,45 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
     }
 
     private void updateAddUI(Boolean isWhitelisted) {
-        if (isWhitelisted) {
-            addButton.setVisibility(View.GONE);
-            alreadyAddedText.setVisibility(View.VISIBLE);
-            findViewById(R.id.sticker_pack_details_tap_to_preview).setVisibility(View.GONE);
-        } else {
-            addButton.setVisibility(View.VISIBLE);
-            alreadyAddedText.setVisibility(View.GONE);
-            findViewById(R.id.sticker_pack_details_tap_to_preview).setVisibility(View.VISIBLE);
+        if(stickerPack.price.equals("FREE")){
+            if (isWhitelisted) {
+                alreadyAddedText.setVisibility(View.VISIBLE);
+                findViewById(R.id.sticker_pack_details_tap_to_preview).setVisibility(View.GONE);
+            } else {
+                alreadyAddedText.setVisibility(View.GONE);
+                findViewById(R.id.sticker_pack_details_tap_to_preview).setVisibility(View.VISIBLE);
+            }
+        }else{
+            addText.setText("Purchase");
         }
+
+
+    }
+
+    @Override
+    public void onProductPurchased(@NonNull String productId, @Nullable PurchaseInfo details) {
+        addText.setText("Add to WhatsApp");
+        addButton.setOnClickListener(v -> addStickerPackToWhatsApp(stickerPack.identifier, stickerPack.name));
+    }
+
+    @Override
+    public void onPurchaseHistoryRestored() {
+    }
+
+    @Override
+    public void onBillingError(int errorCode, @Nullable Throwable error) {
+        Toast.makeText(getApplicationContext(), "Billing Error: " + Integer.toString(errorCode), Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onBillingInitialized() {
+        if(bp.isPurchased(stickerPack.identifier))
+        {
+            addText.setText("Add to WhatsApp");
+            addButton.setOnClickListener(v -> addStickerPackToWhatsApp(stickerPack.identifier, stickerPack.name));
+//                    Toast.makeText(getApplicationContext(), "Billing Intialized, Owned: ", Toast.LENGTH_SHORT).show();
+        }
+
     }
 
     static class WhiteListCheckAsyncTask extends AsyncTask<StickerPack, Void, Boolean> {
