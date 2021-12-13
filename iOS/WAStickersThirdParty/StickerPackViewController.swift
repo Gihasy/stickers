@@ -39,7 +39,7 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
         super.viewDidLoad()
 
         if #available(iOS 11.0, *) {
-            navigationItem.largeTitleDisplayMode = .always
+            navigationItem.largeTitleDisplayMode = .never
         }
 
         if #available(iOS 10.0, *) {
@@ -50,9 +50,9 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
 
         itemsPerRow = portraitOrientation ? portraitItems : landscapeItems
 
-        let infoButton: UIButton = UIButton(type: .infoLight)
-        infoButton.addTarget(self, action: #selector(infoPressed(button:)), for: .touchUpInside)
-        navigationItem.rightBarButtonItem = UIBarButtonItem(customView: infoButton)
+//        let infoButton: UIButton = UIButton(type: .infoLight)
+//        infoButton.addTarget(self, action: #selector(infoPressed(button:)), for: .touchUpInside)
+//        navigationItem.rightBarButtonItem = UIBarButtonItem(customView: infoButton)
 
         bottomGradientView.isUserInteractionEnabled = false
         bottomGradientView.translatesAutoresizingMaskIntoConstraints = false
@@ -75,12 +75,13 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
         addButton.isEnabled = Interoperability.canSend()
         view.addSubview(addButton)
 
-        let shareButton: GrayRoundedButton = GrayRoundedButton(frame: .zero)
-        shareButton.setTitle("Share", for: .normal)
-        shareButton.setImage(shareImage, for: .normal)
-        shareButton.addTarget(self, action: #selector(shareButtonPressed(button:)), for: .touchUpInside)
-        shareButton.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(shareButton)
+//        let shareButton: GrayRoundedButton = GrayRoundedButton(frame: .zero)
+//        shareButton.setTitle("Share", for: .normal)
+//        shareButton.setImage(shareImage, for: .normal)
+//        shareButton.addTarget(self, action: #selector(shareButtonPressed(button:)), for: .touchUpInside)
+//        shareButton.translatesAutoresizingMaskIntoConstraints = false
+//        view.addSubview(shareButton)
+        
 
         stickerPackPublisherLabel.text = "\(stickerPack.publisher) • \(stickerPack.formattedSize)"
         stickerPackAnimationIcon.isHidden = !stickerPack.animated
@@ -99,23 +100,23 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
         guard let view = view else { return }
 
         // Share button constraints
-        view.addConstraint(NSLayoutConstraint(item: view, attribute: .bottomMargin, relatedBy: .equal, toItem: shareButton, attribute: .bottom, multiplier: 1.0, constant: buttonBottomMargin))
-        let centerPortraitShareConstraint = NSLayoutConstraint(item: view, attribute: .centerXWithinMargins, relatedBy: .equal, toItem: shareButton, attribute: .centerXWithinMargins, multiplier: 1.0, constant: 0.0)
-        let centerLandscapeShareConstraint = NSLayoutConstraint(item: view, attribute: .centerXWithinMargins, relatedBy: .equal, toItem: shareButton, attribute: .centerXWithinMargins, multiplier: 1.0, constant: -buttonSize.width / 2.0 - 5.0)
-        portraitConstraints.append(centerPortraitShareConstraint)
-        landscapeConstraints.append(centerLandscapeShareConstraint)
-        view.addConstraint(centerPortraitShareConstraint)
-        view.addConstraint(centerLandscapeShareConstraint)
-        let widthPortraitShareConstraint = NSLayoutConstraint(item: shareButton, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .width, multiplier: 1.0, constant: buttonSize.width)
-        let widthLandscapeShareConstraint = NSLayoutConstraint(item: shareButton, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .width, multiplier: 1.0, constant: buttonLandscapeSize.width)
-        shareButton.addConstraint(widthPortraitShareConstraint)
-        shareButton.addConstraint(widthLandscapeShareConstraint)
-        portraitConstraints.append(widthPortraitShareConstraint)
-        landscapeConstraints.append(widthLandscapeShareConstraint)
-        shareButton.addConstraint(NSLayoutConstraint(item: shareButton, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .height, multiplier: 1.0, constant: buttonSize.height))
+//        view.addConstraint(NSLayoutConstraint(item: view, attribute: .bottomMargin, relatedBy: .equal, toItem: shareButton, attribute: .bottom, multiplier: 1.0, constant: buttonBottomMargin))
+//        let centerPortraitShareConstraint = NSLayoutConstraint(item: view, attribute: .centerXWithinMargins, relatedBy: .equal, toItem: shareButton, attribute: .centerXWithinMargins, multiplier: 1.0, constant: 0.0)
+//        let centerLandscapeShareConstraint = NSLayoutConstraint(item: view, attribute: .centerXWithinMargins, relatedBy: .equal, toItem: shareButton, attribute: .centerXWithinMargins, multiplier: 1.0, constant: -buttonSize.width / 2.0 - 5.0)
+//        portraitConstraints.append(centerPortraitShareConstraint)
+//        landscapeConstraints.append(centerLandscapeShareConstraint)
+//        view.addConstraint(centerPortraitShareConstraint)
+//        view.addConstraint(centerLandscapeShareConstraint)
+//        let widthPortraitShareConstraint = NSLayoutConstraint(item: shareButton, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .width, multiplier: 1.0, constant: buttonSize.width)
+//        let widthLandscapeShareConstraint = NSLayoutConstraint(item: shareButton, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .width, multiplier: 1.0, constant: buttonLandscapeSize.width)
+//        shareButton.addConstraint(widthPortraitShareConstraint)
+//        shareButton.addConstraint(widthLandscapeShareConstraint)
+//        portraitConstraints.append(widthPortraitShareConstraint)
+//        landscapeConstraints.append(widthLandscapeShareConstraint)
+//        shareButton.addConstraint(NSLayoutConstraint(item: shareButton, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .height, multiplier: 1.0, constant: buttonSize.height))
 
         // Add button constraints
-        let bottomPortraitAddConstraint = NSLayoutConstraint(item: shareButton, attribute: .top, relatedBy: .equal, toItem: addButton, attribute: .bottom, multiplier: 1.0, constant: 7.0)
+        let bottomPortraitAddConstraint = NSLayoutConstraint(item: view, attribute: .bottomMargin, relatedBy: .equal, toItem: addButton, attribute: .bottom, multiplier: 1.0, constant: buttonBottomMargin)
         let bottomLandscapeAddConstraint = NSLayoutConstraint(item: view, attribute: .bottomMargin, relatedBy: .equal, toItem: addButton, attribute: .bottom, multiplier: 1.0, constant: buttonBottomMargin)
         portraitConstraints.append(bottomPortraitAddConstraint)
         landscapeConstraints.append(bottomLandscapeAddConstraint)
@@ -240,12 +241,12 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
         actionSheet.popoverPresentationController?.permittedArrowDirections = UIPopoverArrowDirection()
         actionSheet.popoverPresentationController?.sourceRect = CGRect(x: cell.contentView.bounds.midX, y: cell.contentView.bounds.midY, width: 0, height: 0)
 
-        actionSheet.addAction(UIAlertAction(title: "Copy to Clipboard", style: .default, handler: { _ in
-            sticker.copyToPasteboardAsImage()
-        }))
-        actionSheet.addAction(UIAlertAction(title: "Share via", style: .default, handler: { _ in
-            self.showShareSheet(withSticker: sticker)
-        }))
+//        actionSheet.addAction(UIAlertAction(title: "Copy to Clipboard", style: .default, handler: { _ in
+//            sticker.copyToPasteboardAsImage()
+//        }))
+//        actionSheet.addAction(UIAlertAction(title: "Share via", style: .default, handler: { _ in
+//            self.showShareSheet(withSticker: sticker)
+//        }))
         actionSheet.addAction(UIAlertAction(title: "Cancel", style: .cancel))
 
         if let stickerImage = sticker.imageData.image {

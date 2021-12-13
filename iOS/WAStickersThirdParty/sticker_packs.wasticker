@@ -1,283 +1,3051 @@
 {
-    "ios_app_store_link" : "",
-    "android_play_store_link" : "",
-    "sticker_packs" : [
-    {
-        "identifier": "cuppyID",
-        "name": "Cuppy",
-        "publisher": "Jane Doe",
-        "tray_image_file" : "tray_Cuppy.png",
-        "publisher_website" : "",
-        "privacy_policy_website" : "",
-        "license_agreement_website" : "",
+    "android_play_store_link": "https://play.google.com/store/apps/details?id=com.klovastudios.wasticker",
+    "ios_app_store_link": "https://itunes.apple.com/app/id1523469785?fbclid=IwAR1MNCzf50WbVrrqwYidSTRmVhbUxzVlp5Xbm7YGJSEkWtAhBm9",
+    "sticker_packs": [
+      {
+        "identifier": "centilia_animated2",
+        "name": "(NEW) Centilia Animated 2",
+        "publisher": "Klova Studios",
+        "price": "PAID",
+        "tray_image_file": "tray_centilia_animated2.webp",
+        "image_data_version": "1",
+        "publisher_email":"NEW",
+        "publisher_website" : "https://klova.id",
+        "privacy_policy_website": "https://klova.id",
+        "license_agreement_website": "https://klova.id",
+        "animated_sticker_pack": true,
         "stickers": [
-        {
-            "image_file": "01_Cuppy_smile.png",
-            "emojis": ["☕","🙂"]
-        },
-        {
-            "image_file": "02_Cuppy_lol.png",
-            "emojis": ["😄","😀"]
-        },
-        {
-            "image_file": "03_Cuppy_rofl.png",
-            "emojis": ["😆","😂"]
-        },
-        {
-            "image_file": "04_Cuppy_sad.png",
-            "emojis": ["😃", "😍"]
-        },
-        {
-            "image_file": "05_Cuppy_cry.png",
-            "emojis": ["😭","💧"]
-        },
-        {
-            "image_file": "06_Cuppy_love.png",
-            "emojis": ["😍","♥"]
-        },
-        {
-            "image_file": "07_Cuppy_hate.png",
-            "emojis": ["💔","👎"]
-        },
-        {
-            "image_file": "08_Cuppy_lovewithmug.png",
-            "emojis": ["😍","💑"]
-        },
-        {
-            "image_file": "09_Cuppy_lovewithcookie.png",
-            "emojis": ["😘","🍪"]
-        },
-        {
-            "image_file": "10_Cuppy_hmm.png",
-            "emojis": ["🤔","😐"]
-        },
-        {
-            "image_file": "11_Cuppy_upset.png",
-            "emojis": ["😱","😵"]
-        },
-        {
-            "image_file": "12_Cuppy_angry.png",
-            "emojis": ["😡","😠"]
-        },
-        {
-            "image_file": "13_Cuppy_curious.png",
-            "emojis": ["❓","🤔"]
-        },
-        {
-            "image_file": "14_Cuppy_weird.png",
-            "emojis": ["🌈","😜"]
-        },
-        {
-            "image_file": "15_Cuppy_bluescreen.png",
-            "emojis": ["💻","😩"]
-        },
-        {
-            "image_file": "16_Cuppy_angry.png",
-            "emojis": ["😡","😤"]
-        },
-        {
-            "image_file": "17_Cuppy_tired.png",
-            "emojis": ["😩","😨"]
-        },
-        {
-            "image_file": "18_Cuppy_workhard.png",
-            "emojis": ["😔", "😨"]
-        },
-        {
-            "image_file": "19_Cuppy_shine.png",
-            "emojis": ["🎉","✨"]
-        },
-        {
-            "image_file": "20_Cuppy_disgusting.png",
-            "emojis": ["🤮","👎"]
-        },
-        {
-            "image_file": "21_Cuppy_hi.png",
-            "emojis": ["🖐","🙋"]
-        },
-        {
-            "image_file": "22_Cuppy_bye.png",
-            "emojis": ["🖐","👋"]
-        }]
-    },
-    {
-        "identifier": "togetherAtHomeID",
-        "name": "Together At Home",
-        "publisher": "World Health Organization",
-        "tray_image_file" : "tray_TogetherAtHome.png",
-        "publisher_website" : "",
-        "privacy_policy_website" : "",
-        "license_agreement_website" : "",
-        "animated_sticker_pack" : true,
+          {
+            "image_file": "centilia_animated2_1.webp",
+            "emojis": ["",""]
+          },
+
+          {
+            "image_file": "centilia_animated2_2.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_3.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_4.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_5.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_6.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_7.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_8.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_9.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_10.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_11.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_12.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_13.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_14.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_15.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_16.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_17.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_18.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_19.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_20.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_21.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_22.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated2_23.webp",
+            "emojis": [""]
+          }
+        ]
+      },
+      {
+        "identifier": "centilia_animated1",
+        "name": "(NEW) Centilia Animated 1",
+        "publisher": "Klova Studios",
+        "price": "FREE",
+        "tray_image_file": "tray_centilia_animated1.webp",
+        "image_data_version": "1",
+        "publisher_email":"NEW",
+        "publisher_website" : "https://klova.id",
+        "privacy_policy_website": "https://klova.id",
+        "license_agreement_website": "https://klova.id",
+        "animated_sticker_pack": true,
         "stickers": [
-        {
-          "image_file": "01_SendingLove.webp",
-          "emojis": [
-            "💕",
-            "😘",
-            "❤️"
+          {
+            "image_file": "centilia_animated1_1.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated1_2.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated1_3.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated1_4.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated1_5.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated1_6.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated1_7.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated1_8.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated1_9.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated1_10.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated1_11.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated1_12.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated1_13.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated1_14.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "centilia_animated1_15.webp",
+            "emojis": [""]
+          }
+        ]
+      },
+      {
+        "identifier": "centilia_raei_cuddle",
+        "name": "(NEW) Centilia & Raei Cuddle",
+        "publisher": "Klova Studios",
+        "price": "PAID",
+        "tray_image_file": "tray_centilia_raei_cuddle.webp",
+        "image_data_version": "1",
+        "publisher_email":"NEW",
+        "publisher_website" : "https://klova.id",
+        "privacy_policy_website": "https://klova.id",
+        "license_agreement_website": "https://klova.id",
+        "stickers": [
+          {
+            "image_file": "centilia_raei_cuddle_1.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_2.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_3.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_4.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_5.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_6.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_7.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_8.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_9.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_10.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_11.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_12.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_13.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_14.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_15.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_16.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_17.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_18.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_19.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_20.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_21.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_22.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_23.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_24.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_25.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "centilia_raei_cuddle_26.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_27.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_28.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_29.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "centilia_raei_cuddle_30.webp",
+            "emojis": [""]
+          }
+        ]
+      },
+      {
+        "identifier": "everyday_milk_mocha",
+        "name": "Everyday Milk Mocha stickers",
+        "publisher": "Klova Studios",
+        "price": "PAID",
+        "tray_image_file": "tray_everyday_milk_mocha.webp",
+        "image_data_version": "1",
+        "publisher_email":"NEW",
+        "publisher_website" : "https://klova.id",
+        "privacy_policy_website": "https://klova.id",
+        "license_agreement_website": "https://klova.id",
+        "stickers": [
+          {
+            "image_file": "everyday_milk_mocha_01.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_02.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_03.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_04.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_05.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_06.webp",
+            "emojis": [""]
+          },
+     
+          {
+            "image_file": "everyday_milk_mocha_07.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_08.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_09.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_10.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_11.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_12.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_13.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_14.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_15.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_16.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_17.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_18.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_19.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_20.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_21.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_22.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_23.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_24.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "everyday_milk_mocha_25.webp",
+            "emojis": [""]
+          }
+        ]
+      },
+      {
+        "identifier": "mocca_centilia_friends",
+        "name": "Mocca - Centilia Friends",
+        "publisher": "Klova Studios",
+        "price": "FREE",
+        "tray_image_file": "tray_Mocca.webp",
+        "image_data_version": "1",
+        "publisher_email":"NEW",
+        "publisher_website" : "https://klova.id",
+        "privacy_policy_website": "https://klova.id",
+        "license_agreement_website": "https://klova.id",
+        "stickers": [
+          {
+            "image_file": "01_Mocca_A.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "02_Mocca_B.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "03_Mocca_C.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "04_Mocca_D.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "05_Mocca_E.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "06_Mocca_F.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "07_Mocca_G.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "08_Mocca_H.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "09_Mocca_I.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "10_Mocca_J.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "11_Mocca_K.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "12_Mocca_L.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "13_Mocca_M.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "14_Mocca_N.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "15_Mocca_O.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "16_Mocca_P.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "17_Mocca_Q.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "18_Mocca_R.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "19_Mocca_S.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "20_Mocca_T.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "21_Mocca_U.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "22_Mocca_V.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "23_Mocca_W.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "24_Mocca_X.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "25_Mocca_Y.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "26_Mocca_Z.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "27_Mocca_AA.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "28_Mocca_AB.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "29_Mocca_AC.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "30_Mocca_AD.webp",
+            "emojis": [""]
+          }
+        ]
+      },
+      {
+        "identifier": "chocony_centilia_friends",
+        "name": "Chocony - Centilia Friends",
+        "publisher": "Klova Studios",
+        "tray_image_file": "tray_Chocony.webp",
+        "price": "FREE",
+        "image_data_version": "1",
+        "publisher_email":"NEW",
+        "publisher_website" : "https://www.klova.id",
+        "privacy_policy_website": "https://www.klova.id",
+        "license_agreement_website": "https://www.klova.id",
+        "stickers": [
+    
+          {
+            "image_file": "01_Chocony_A.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "02_Chocony_B.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "03_Chocony_C.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "04_Chocony_D.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "05_Chocony_E.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "06_Chocony_F.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "07_Chocony_G.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "08_Chocony_H.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "09_Chocony_I.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "10_Chocony_J.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "11_Chocony_K.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "12_Chocony_L.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "13_Chocony_M.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "14_Chocony_N.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "15_Chocony_O.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "16_Chocony_P.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "17_Chocony_Q.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "18_Chocony_R.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "19_Chocony_S.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "20_Chocony_T.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "21_Chocony_U.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "22_Chocony_V.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "23_Chocony_W.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "24_Chocony_X.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "25_Chocony_Y.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "26_Chocony_Z.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "27_Chocony_AA.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "28_Chocony_AB.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "29_Chocony_AC.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "30_Chocony_AD.webp",
+            "emojis": [""]
+          }
+        ]
+      },
+      {
+        "identifier": "centilia_raei_dailystickers",
+        "name": "Centilia & Raei Daily stickers",
+        "publisher": "Klova Studios",
+        "tray_image_file": "tray_CentiliaRaeiDailyStickers.webp",
+        "price": "PAID",
+        "image_data_version": "1",
+        "publisher_email":"NEW",
+        "publisher_website" : "https://www.klova.id",
+        "privacy_policy_website": "https://www.klova.id",
+        "license_agreement_website": "https://www.klova.id",
+        "stickers": [
+    
+          {
+            "image_file": "01_CentiliaRaeiDailyStickers_A.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "02_CentiliaRaeiDailyStickers_B.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "03_CentiliaRaeiDailyStickers_C.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "04_CentiliaRaeiDailyStickers_D.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "05_CentiliaRaeiDailyStickers_E.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "06_CentiliaRaeiDailyStickers_F.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "07_CentiliaRaeiDailyStickers_G.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "08_CentiliaRaeiDailyStickers_H.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "09_CentiliaRaeiDailyStickers_I.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "10_CentiliaRaeiDailyStickers_J.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "11_CentiliaRaeiDailyStickers_K.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "12_CentiliaRaeiDailyStickers_L.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "13_CentiliaRaeiDailyStickers_M.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "14_CentiliaRaeiDailyStickers_N.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "15_CentiliaRaeiDailyStickers_O.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "16_CentiliaRaeiDailyStickers_P.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "17_CentiliaRaeiDailyStickers_Q.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "18_CentiliaRaeiDailyStickers_R.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "19_CentiliaRaeiDailyStickers_S.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "20_CentiliaRaeiDailyStickers_T.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "21_CentiliaRaeiDailyStickers_U.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "22_CentiliaRaeiDailyStickers_V.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "23_CentiliaRaeiDailyStickers_W.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "24_CentiliaRaeiDailyStickers_X.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "25_CentiliaRaeiDailyStickers_Y.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "26_CentiliaRaeiDailyStickers_Z.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "27_CentiliaRaeiDailyStickers_AA.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "28_CentiliaRaeiDailyStickers_AB.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "29_CentiliaRaeiDailyStickers_AC.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "30_CentiliaRaeiDailyStickers_AD.webp",
+            "emojis": [""]
+          }
+        ]
+      },
+      {
+        "identifier": "centilia_static3",
+        "name": "Centilia Mood stickers 2",
+        "publisher": "Klova Studios",
+        "tray_image_file": "tray_CentiliaStatic3.webp",
+        "price": "PAID",
+        "image_data_version": "1",
+        "publisher_email":"NEW",
+        "publisher_website" : "https://www.klova.id",
+        "privacy_policy_website": "https://www.klova.id",
+        "license_agreement_website": "https://www.klova.id",
+        "stickers": [
+    
+          {
+            "image_file": "01_CentiliaStatic3_A.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "02_CentiliaStatic3_B.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "03_CentiliaStatic3_C.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "04_CentiliaStatic3_D.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "05_CentiliaStatic3_E.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "06_CentiliaStatic3_F.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "07_CentiliaStatic3_G.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "08_CentiliaStatic3_H.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "09_CentiliaStatic3_I.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "10_CentiliaStatic3_J.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "11_CentiliaStatic3_K.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "12_CentiliaStatic3_L.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "13_CentiliaStatic3_M.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "14_CentiliaStatic3_N.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "15_CentiliaStatic3_O.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "16_CentiliaStatic3_P.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "17_CentiliaStatic3_Q.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "18_CentiliaStatic3_R.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "19_CentiliaStatic3_S.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "20_CentiliaStatic3_T.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "21_CentiliaStatic3_U.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "22_CentiliaStatic3_V.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "23_CentiliaStatic3_W.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "24_CentiliaStatic3_X.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "25_CentiliaStatic3_Y.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "26_CentiliaStatic3_Z.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "27_CentiliaStatic3_AA.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "28_CentiliaStatic3_AB.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "29_CentiliaStatic3_AC.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "30_CentiliaStatic3_AD.webp",
+            "emojis": [""]
+          }
+        ]
+      },
+      {
+        "identifier": "centilia_static2",
+        "name": "Centilia Daily stickers",
+        "publisher": "Klova Studios",
+        "tray_image_file": "tray_CentiliaStatic2.webp",
+        "price": "PAID",
+        "image_data_version": "1",
+        "publisher_email":"NEW",
+        "publisher_website" : "https://www.klova.id",
+        "privacy_policy_website": "https://www.klova.id",
+        "license_agreement_website": "https://www.klova.id",
+        "stickers": [
+          {
+            "image_file": "01_CentiliaStatic2_A.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "02_CentiliaStatic2_B.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "03_CentiliaStatic2_C.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "04_CentiliaStatic2_D.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "05_CentiliaStatic2_E.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "06_CentiliaStatic2_F.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "07_CentiliaStatic2_G.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "08_CentiliaStatic2_H.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "09_CentiliaStatic2_I.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "10_CentiliaStatic2_J.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "11_CentiliaStatic2_K.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "12_CentiliaStatic2_L.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "13_CentiliaStatic2_M.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "14_CentiliaStatic2_N.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "15_CentiliaStatic2_O.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "16_CentiliaStatic2_P.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "17_CentiliaStatic2_Q.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "18_CentiliaStatic2_R.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "19_CentiliaStatic2_S.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "20_CentiliaStatic2_T.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "21_CentiliaStatic2_U.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "22_CentiliaStatic2_V.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "23_CentiliaStatic2_W.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "24_CentiliaStatic2_X.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "25_CentiliaStatic2_Y.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "26_CentiliaStatic2_Z.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "27_CentiliaStatic2_AA.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "28_CentiliaStatic2_AB.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "29_CentiliaStatic2_AC.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "30_CentiliaStatic2_AD.webp",
+            "emojis": [""]
+          }
+        ]
+      },
+      {
+        "identifier": "milk_daily",
+        "name": "Milk Daily Life stickers",
+        "publisher": "Klova Studios",
+        "price": "PAID",
+        "tray_image_file": "tray_MilkDaily.webp",
+        "image_data_version": "1",
+        "publisher_email":"klovastudios@gmail.com",
+        "publisher_website" : "https://www.klova.id",
+        "privacy_policy_website": "https://www.klova.id",
+        "license_agreement_website": "https://www.klova.id",
+        "stickers": [
+    
+          {
+            "image_file": "01_MilkDaily_A.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "02_MilkDaily_B.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "03_MilkDaily_C.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "04_MilkDaily_D.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "05_MilkDaily_E.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "06_MilkDaily_F.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "07_MilkDaily_G.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "08_MilkDaily_H.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "09_MilkDaily_I.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "10_MilkDaily_J.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "11_MilkDaily_K.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "12_MilkDaily_L.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "13_MilkDaily_M.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "14_MilkDaily_N.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "15_MilkDaily_O.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "16_MilkDaily_P.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "17_MilkDaily_Q.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "18_MilkDaily_R.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "19_MilkDaily_S.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "20_MilkDaily_T.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "21_MilkDaily_U.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "22_MilkDaily_V.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "23_MilkDaily_W.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "24_MilkDaily_X.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "25_MilkDaily_Y.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "26_MilkDaily_Z.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "27_MilkDaily_AA.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "28_MilkDaily_AB.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "29_MilkDaily_AC.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "30_MilkDaily_AD.webp",
+            "emojis": [""]
+          }
+        ]
+      },
+      {
+        "identifier": "mocha_daily",
+        "name": "Mocha Daily Life stickers",
+        "publisher": "Klova Studios",
+        "price": "PAID",
+        "tray_image_file": "tray_MochaDaily.webp",
+        "image_data_version": "1",
+        "publisher_email":"klovastudios@gmail.com",
+        "publisher_website" : "https://www.klova.id",
+        "privacy_policy_website": "https://www.klova.id",
+        "license_agreement_website": "https://www.klova.id",
+        "stickers": [
+    
+          {
+            "image_file": "01_MochaDaily_A.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "02_MochaDaily_B.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "03_MochaDaily_C.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "04_MochaDaily_D.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "05_MochaDaily_E.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "06_MochaDaily_F.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "07_MochaDaily_G.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "08_MochaDaily_H.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "09_MochaDaily_I.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "10_MochaDaily_J.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "11_MochaDaily_K.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "12_MochaDaily_L.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "13_MochaDaily_M.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "14_MochaDaily_N.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "15_MochaDaily_O.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "16_MochaDaily_P.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "17_MochaDaily_Q.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "18_MochaDaily_R.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "19_MochaDaily_S.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "20_MochaDaily_T.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "21_MochaDaily_U.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "22_MochaDaily_V.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "23_MochaDaily_W.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "24_MochaDaily_X.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "25_MochaDaily_Y.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "26_MochaDaily_Z.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "27_MochaDaily_AA.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "28_MochaDaily_AB.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "29_MochaDaily_AC.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "30_MochaDaily_AD.webp",
+            "emojis": [""]
+          }
+        ]
+      },
+      {
+        "identifier": "CentiliaStatic",
+        "name": "Centilia Mood stickers",
+        "publisher": "Klova Studios",
+        "tray_image_file": "tray_CentiliaStatic.webp",
+        "price": "FREE",
+        "image_data_version": "1",
+        "publisher_email":"NEW",
+        "publisher_website" : "https://www.klova.id",
+        "privacy_policy_website": "https://www.klova.id",
+        "license_agreement_website": "https://www.klova.id",
+        "stickers": [
+    
+          {
+            "image_file": "01_CentiliaStatic_A.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "02_CentiliaStatic_B.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "03_CentiliaStatic_C.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "04_CentiliaStatic_D.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "05_CentiliaStatic_E.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "06_CentiliaStatic_F.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "07_CentiliaStatic_G.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "08_CentiliaStatic_H.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "09_CentiliaStatic_I.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "10_CentiliaStatic_J.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "11_CentiliaStatic_K.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "12_CentiliaStatic_L.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "13_CentiliaStatic_M.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "14_CentiliaStatic_N.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "15_CentiliaStatic_O.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "16_CentiliaStatic_P.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "17_CentiliaStatic_Q.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "18_CentiliaStatic_R.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "19_CentiliaStatic_S.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "20_CentiliaStatic_T.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "21_CentiliaStatic_U.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "22_CentiliaStatic_V.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "23_CentiliaStatic_W.webp",
+            "emojis": [""]
+          },
+          {
+            "image_file": "24_CentiliaStatic_X.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "25_CentiliaStatic_Y.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "26_CentiliaStatic_Z.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "27_CentiliaStatic_AA.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "28_CentiliaStatic_AB.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "29_CentiliaStatic_AC.webp",
+            "emojis": [""]
+          },
+    
+          {
+            "image_file": "30_CentiliaStatic_AD.webp",
+            "emojis": [""]
+          }
           ]
-        },
-        {
-          "image_file": "02_WellDoThisTogether.webp",
-          "emojis": [
-            "✊",
-            "💪",
-            "🙏"
-          ]
-        },
-        {
-          "image_file": "03_Heart.webp",
-          "emojis": [
-            "❤️",
-            "😘",
-            "💕"
-          ]
-        },
-        {
-          "image_file": "04_AirHighFive.webp",
-          "emojis": [
-            "🖐",
-            "🙌",
-            "✋"
-          ]
-        },
-        {
-          "image_file": "05_GroupVideoCalling.webp",
-          "emojis": [
-            "📱",
-            "👯",
-            "👋"
-          ]
-        },
-        {
-          "image_file": "06_StayConnected.webp",
-          "emojis": [
-            "📱",
-            "🙋‍♀",
-            "🙋‍♂"
-          ]
-        },
-        {
-          "image_file": "07_OK.webp",
-          "emojis": [
-            "👍",
-            "👌",
-            "🙂"
-          ]
-        },
-        {
-          "image_file": "08_AreYouOK.webp",
-          "emojis": [
-            "👋",
-            "❓",
-            "📱"
-          ]
-        },
-        {
-          "image_file": "09_StayingHomeMug.webp",
-          "emojis": [
-            "☕",
-            "🍵",
-            "🏠"
-          ]
-        },
-        {
-          "image_file": "10_WorkingFromBed.webp",
-          "emojis": [
-            "👩‍💻",
-            "👨‍💻",
-            "🛏"
-          ]
-        },
-        {
-          "image_file": "11_StayCalm.webp",
-          "emojis": [
-            "☕",
-            "🍵",
-            "🤙"
-          ]
-        },
-        {
-          "image_file": "12_Gymnastics.webp",
-          "emojis": [
-            "🤸",
-            "🐩",
-            "💪"
-          ]
-        },
-        {
-          "image_file": "13_DoubleChecking.webp",
-          "emojis": [
-            "📰",
-            "🔎",
-            "🔍"
-          ]
-        },
-        {
-          "image_file": "14_CatOnTheLaptop.webp",
-          "emojis": [
-            "🐈",
-            "🐱",
-            "💻"
-          ]
-        },
-        {
-          "image_file": "15_WorkingFromHomeF.webp",
-          "emojis": [
-            "👩‍💻",
-            "🏠",
-            "💻"
-          ]
-        },
-        {
-          "image_file": "16_WorkingFromHomeM.webp",
-          "emojis": [
-            "👨‍💻",
-            "🏠",
-            "💻"
-          ]
-        },
-        {
-          "image_file": "17_WashingHands.webp",
-          "emojis": [
-            "✋",
-            "💦",
-            "🤧"
-          ]
-        },
-        {
-          "image_file": "18_DontTouchYourFace.webp",
-          "emojis": [
-            "😷",
-            "🤒",
-            "🤧"
-          ]
-        },
-        {
-          "image_file": "19_SocialDistancing.webp",
-          "emojis": [
-            "😷",
-            "🤒",
-            "🏠"
-          ]
-        },
-        {
-          "image_file": "20_SuperheroNurse.webp",
-          "emojis": [
-            "👩‍⚕",
-            "👨‍⚕️",
-            "🤒"
-          ]
-        },
-        {
-          "image_file": "21_YouAreMyHero.webp",
-          "emojis": [
-            "🙏",
-            "🎉",
-            "✨"
-          ]
-        }
-      ]
-    }]
-}
+      },
+      {
+        "identifier": "MilkandMocha",
+        "name": "Milk & Mocha",
+        "publisher": "Klova Studios",
+        "price": "FREE",
+        "image_data_version": "1",
+        "tray_image_file": "tray_MilkMocha.webp",
+        "publisher_email":"klovastudios@gmail.com",
+        "publisher_website" : "https://www.klova.id",
+        "privacy_policy_website": "https://www.klova.id",
+        "license_agreement_website": "https://www.klova.id",
+        "stickers": [
+          {
+            "image_file": "01_MilkMocha_backhug.webp",
+            "emojis": ["🤗","😍"]
+          },
+    
+          {
+            "image_file": "02_MilkMocha_headkiss.webp",
+            "emojis": ["😘","😚"]
+          },
+    
+          {
+            "image_file": "03_MilkMocha_cheer.webp",
+            "emojis": ["😁","💪"]
+          },
+    
+          {
+            "image_file": "04_MilkMocha_cheekkiss.webp",
+            "emojis": ["💋","😘"]
+          },
+    
+          {
+            "image_file": "05_MilkMocha_mouthkiss.webp",
+            "emojis": ["💋","😘"]
+          },
+    
+          {
+            "image_file": "06_MilkMocha_hearts.webp",
+            "emojis": ["😍","❤"]
+          },
+    
+          {
+            "image_file": "07_MilkMocha_bite.webp",
+            "emojis": ["😋","😘"]
+          },
+    
+          {
+            "image_file": "08_MilkMocha_ribbon.webp",
+            "emojis": ["💝","🎁"]
+          },
+    
+          {
+            "image_file": "09_MilkMocha_sad.webp",
+            "emojis": ["😢","😭"]
+          },
+    
+          {
+            "image_file": "10_MilkMocha_badmood.webp",
+            "emojis": ["😔","😟"]
+          },
+    
+          {
+            "image_file": "11_MilkMocha_cry.webp",
+            "emojis": ["😢","😭"]
+          },
+    
+          {
+            "image_file": "12_MilkMocha_thankyou.webp",
+            "emojis": ["☺","😊"]
+          },
+    
+          {
+            "image_file": "13_MilkMocha_hug.webp",
+            "emojis": ["🤗","😌"]
+          },
+    
+          {
+            "image_file": "14_MilkMocha_itsokay.webp",
+            "emojis": ["🤗","😌"]
+          },
+    
+          {
+            "image_file": "15_MilkMocha_arrow.webp",
+            "emojis": ["💘","😍"]
+          },
+    
+          {
+            "image_file": "16_MilkMocha_cheeksuck.webp",
+            "emojis": ["😋","😝"]
+          },
+    
+          {
+            "image_file": "17_MilkMocha_easyhit.webp",
+            "emojis": ["😖","😝"]
+          },
+    
+          {
+            "image_file": "18_MilkMocha_hardhit.webp",
+            "emojis": ["😖","😝"]
+          },
+    
+          {
+            "image_file": "19_MilkMocha_annoyed.webp",
+            "emojis": ["😒","😠"]
+          },
+    
+          {
+            "image_file": "20_MilkMocha_angry.webp",
+            "emojis": ["😤","😡"]
+          },
+    
+          {
+            "image_file": "21_MilkMocha_pinch.webp",
+            "emojis": ["😚","😗"]
+          },
+    
+          {
+            "image_file": "22_MilkMocha_bite.webp",
+            "emojis": ["😤","😡"]
+          },
+    
+          {
+            "image_file": "23_MilkMocha_easyhammer.webp",
+            "emojis": ["😤","😠"]
+          },
+    
+          {
+            "image_file": "24_MilkMocha_hardhammer.webp",
+            "emojis": ["😤","😡"]
+          },
+    
+          {
+            "image_file": "25_MilkMocha_wrestling.webp",
+            "emojis": ["😤","😠"]
+          },
+          {
+            "image_file": "26_MilkMocha_iloveyou.webp",
+            "emojis": ["❤","🤗"]
+          },
+          {
+            "image_file": "27_MilkMocha_congrats.webp",
+            "emojis": ["🎉","👏"]
+          },
+          {
+            "image_file": "28_MilkMocha_hungry.webp",
+            "emojis": ["😨","😥"]
+          },
+          {
+            "image_file": "29_MilkMocha_goodnight.webp",
+            "emojis": ["😴","😪"]
+          },
+          {
+            "image_file": "30_MilkMocha_scenery.webp",
+            "emojis": ["❤","🤗"]
+          }
+        ]
+      },
+      {
+        "identifier": "CentiliaandRaeiCouples",
+        "name": "Centilia & Raei Couples",
+        "publisher": "Klova Studios",
+        "price": "FREE",
+        "image_data_version": "1",
+        "tray_image_file": "tray_CentiliaRaei.webp",
+        "publisher_email":"klovastudios@gmail.com",
+        "publisher_website" : "https://klova.id",
+        "privacy_policy_website": "https://klova.id",
+        "license_agreement_website": "https://klova.id",
+        "stickers": [
+    
+          {
+            "image_file": "01_CentiliaRaei_A.webp",
+            "emojis": ["💝","🎁"]
+          },
+    
+          {
+            "image_file": "02_CentiliaRaei_B.webp",
+            "emojis": ["😘","😍"]
+          },
+    
+          {
+            "image_file": "03_CentiliaRaei_C.webp",
+            "emojis": ["😔","😢"]
+          },
+    
+          {
+            "image_file": "04_CentiliaRaei_D.webp",
+            "emojis": ["😗","😚"]
+          },
+    
+          {
+            "image_file": "05_CentiliaRaei_E.webp",
+            "emojis": ["😢","😔"]
+          },
+    
+          {
+            "image_file": "06_CentiliaRaei_F.webp",
+            "emojis": ["😤","😠"]
+          },
+    
+          {
+            "image_file": "07_CentiliaRaei_G.webp",
+            "emojis": ["😔","😢"]
+          },
+    
+          {
+            "image_file": "08_CentiliaRaei_H.webp",
+            "emojis": ["😣","😗"]
+          },
+    
+          {
+            "image_file": "09_CentiliaRaei_I.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "10_CentiliaRaei_J.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "11_CentiliaRaei_K.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "12_CentiliaRaei_L.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "13_CentiliaRaei_M.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "14_CentiliaRaei_N.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "15_CentiliaRaei_O.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "16_CentiliaRaei_P.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "17_CentiliaRaei_Q.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "18_CentiliaRaei_R.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "19_CentiliaRaei_S.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "20_CentiliaRaei_T.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "21_CentiliaRaei_U.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "22_CentiliaRaei_V.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "23_CentiliaRaei_W.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "24_CentiliaRaei_X.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "25_CentiliaRaei_Y.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "26_CentiliaRaei_Z.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "27_CentiliaRaei_AA.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "28_CentiliaRaei_AB.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "29_CentiliaRaei_AC.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "30_CentiliaRaei_AD.webp",
+            "emojis": ["❤","🤗"]
+          }
+        ]
+      },
+      {
+        "identifier": "ILoveKpop",
+        "name": "ILoveKpop",
+        "publisher": "Klova Studios",
+        "price": "FREE",
+        "image_data_version": "1",
+        "tray_image_file": "tray_ILoveKpop.webp",
+        "publisher_email":"klovastudios@gmail.com",
+        "publisher_website" : "https://www.klova.id",
+        "privacy_policy_website": "https://www.klova.id",
+        "license_agreement_website": "https://www.klova.id",
+        "stickers": [
+    
+          {
+            "image_file": "01_ILoveKpop_A.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "02_ILoveKpop_B.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "03_ILoveKpop_C.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "04_ILoveKpop_D.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "05_ILoveKpop_E.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "06_ILoveKpop_F.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "07_ILoveKpop_G.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "08_ILoveKpop_H.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "09_ILoveKpop_I.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "10_ILoveKpop_J.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "11_ILoveKpop_K.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "12_ILoveKpop_L.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "13_ILoveKpop_M.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "14_ILoveKpop_N.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "15_ILoveKpop_O.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "16_ILoveKpop_P.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "17_ILoveKpop_Q.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "18_ILoveKpop_R.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "19_ILoveKpop_S.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "20_ILoveKpop_T.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "21_ILoveKpop_U.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "22_ILoveKpop_V.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "23_ILoveKpop_W.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "24_ILoveKpop_X.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "25_ILoveKpop_Y.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "26_ILoveKpop_Z.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "27_ILoveKpop_AA.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "28_ILoveKpop_AB.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "29_ILoveKpop_AC.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "30_ILoveKpop_AD.webp",
+            "emojis": ["",""]
+          }
+        ]
+      },
+      {
+        "identifier": "Raei",
+        "name": "Raei",
+        "publisher": "Klova Studios",
+        "price": "FREE",
+        "image_data_version": "1",
+        "tray_image_file": "tray_Raei.webp",
+        "publisher_email":"klovastudios@gmail.com",
+        "publisher_website" : "https://www.klova.id",
+        "privacy_policy_website": "https://www.klova.id",
+        "license_agreement_website": "https://www.klova.id",
+        "stickers": [
+    
+          {
+            "image_file": "01_Raei_A.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "02_Raei_B.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "03_Raei_C.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "04_Raei_D.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "05_Raei_E.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "06_Raei_F.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "07_Raei_G.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "08_Raei_H.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "09_Raei_I.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "10_Raei_J.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "11_Raei_K.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "12_Raei_L.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "13_Raei_M.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "14_Raei_N.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "15_Raei_O.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "16_Raei_P.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "17_Raei_Q.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "18_Raei_R.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "19_Raei_S.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "20_Raei_T.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "21_Raei_U.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "22_Raei_V.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "23_Raei_W.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "24_Raei_X.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "25_Raei_Y.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "26_Raei_Z.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "27_Raei_AA.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "28_Raei_AB.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "29_Raei_AC.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "30_Raei_AD.webp",
+            "emojis": ["",""]
+          }
+        ]
+      },
+      {
+        "identifier": "FangirlActivities",
+        "name": "FangirlActivities",
+        "publisher": "Klova Studios",
+        "price": "FREE",
+        "image_data_version": "1",
+        "tray_image_file": "tray_FangirlActivities.webp",
+        "publisher_email":"klovastudios@gmail.com",
+        "publisher_website" : "https://www.klova.id",
+        "privacy_policy_website": "https://www.klova.id",
+        "license_agreement_website": "https://www.klova.id",
+        "stickers": [
+    
+          {
+            "image_file": "01_FangirlActivities_A.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "02_FangirlActivities_B.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "03_FangirlActivities_C.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "04_FangirlActivities_D.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "05_FangirlActivities_E.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "06_FangirlActivities_F.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "07_FangirlActivities_G.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "08_FangirlActivities_H.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "09_FangirlActivities_I.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "10_FangirlActivities_J.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "11_FangirlActivities_K.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "12_FangirlActivities_L.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "13_FangirlActivities_M.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "14_FangirlActivities_N.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "15_FangirlActivities_O.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "16_FangirlActivities_P.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "17_FangirlActivities_Q.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "18_FangirlActivities_R.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "19_FangirlActivities_S.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "20_FangirlActivities_T.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "21_FangirlActivities_U.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "22_FangirlActivities_V.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "23_FangirlActivities_W.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "24_FangirlActivities_X.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "25_FangirlActivities_Y.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "26_FangirlActivities_Z.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "27_FangirlActivities_AA.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "28_FangirlActivities_AB.webp",
+            "emojis": ["",""]
+          },
+          {
+            "image_file": "29_FangirlActivities_AC.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "30_FangirlActivities_AD.webp",
+            "emojis": ["",""]
+          }
+        ]
+      },
+      {
+        "identifier": "BeSassy",
+        "name": "BeSassy",
+        "publisher": "Klova Studios",
+        "price": "FREE",
+        "image_data_version": "1",
+        "tray_image_file": "tray_BeSassy.webp",
+        "publisher_email":"klovastudios@gmail.com",
+        "publisher_website" : "https://www.klova.id",
+        "privacy_policy_website": "https://www.klova.id",
+        "license_agreement_website": "https://www.klova.id",
+        "stickers": [
+    
+          {
+            "image_file": "01_BeSassy_A.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "02_BeSassy_B.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "03_BeSassy_C.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "04_BeSassy_D.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "05_BeSassy_E.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "06_BeSassy_F.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "07_BeSassy_G.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "08_BeSassy_H.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "09_BeSassy_I.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "10_BeSassy_J.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "11_BeSassy_K.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "12_BeSassy_L.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "13_BeSassy_M.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "14_BeSassy_N.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "15_BeSassy_O.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "16_BeSassy_P.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "17_BeSassy_Q.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "18_BeSassy_R.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "19_BeSassy_S.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "20_BeSassy_T.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "21_BeSassy_U.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "22_BeSassy_V.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "23_BeSassy_W.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "24_BeSassy_X.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "25_BeSassy_Y.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "26_BeSassy_Z.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "27_BeSassy_AA.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "28_BeSassy_AB.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "29_BeSassy_AC.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "30_BeSassy_AD.webp",
+            "emojis": ["",""]
+          }
+        ]
+      },
+      {
+        "identifier": "GadisKantorID",
+        "name": "GadisKantor",
+        "publisher": "Klova Studios",
+        "price": "FREE",
+        "image_data_version": "1",
+        "tray_image_file": "tray_GadisKantor.webp",
+        "publisher_email":"klovastudios@gmail.com",
+        "publisher_website" : "https://www.klova.id",
+        "privacy_policy_website": "https://www.klova.id",
+        "license_agreement_website": "https://www.klova.id",
+        "stickers": [
+    
+          {
+            "image_file": "01_GadisKantor_A.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "02_GadisKantor_B.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "03_GadisKantor_C.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "04_GadisKantor_D.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "05_GadisKantor_E.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "06_GadisKantor_F.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "07_GadisKantor_G.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "08_GadisKantor_H.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "09_GadisKantor_I.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "10_GadisKantor_J.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "11_GadisKantor_K.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "12_GadisKantor_L.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "13_GadisKantor_M.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "14_GadisKantor_N.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "15_GadisKantor_O.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "16_GadisKantor_P.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "17_GadisKantor_Q.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "18_GadisKantor_R.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "19_GadisKantor_S.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "20_GadisKantor_T.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "21_GadisKantor_U.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "22_GadisKantor_V.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "23_GadisKantor_W.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "24_GadisKantor_X.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "25_GadisKantor_Y.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "26_GadisKantor_Z.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "27_GadisKantor_AA.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "28_GadisKantor_AB.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "29_GadisKantor_AC.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "30_GadisKantor_AD.webp",
+            "emojis": ["",""]
+          }
+        ]
+      },
+      {
+        "identifier": "SiTengilID",
+        "name": "SiTengil",
+        "publisher": "Klova Studios",
+        "price": "FREE",
+        "image_data_version": "1",
+        "tray_image_file": "tray_SiTengil.webp",
+        "publisher_email":"klovastudios@gmail.com",
+        "publisher_website" : "https://www.klova.id",
+        "privacy_policy_website": "https://www.klova.id",
+        "license_agreement_website": "https://www.klova.id",
+        "stickers": [
+    
+          {
+            "image_file": "01_SiTengil_A.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "02_SiTengil_B.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "03_SiTengil_C.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "04_SiTengil_D.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "05_SiTengil_E.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "06_SiTengil_F.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "07_SiTengil_G.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "08_SiTengil_H.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "09_SiTengil_I.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "10_SiTengil_J.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "11_SiTengil_K.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "12_SiTengil_L.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "13_SiTengil_M.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "14_SiTengil_N.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "15_SiTengil_O.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "16_SiTengil_P.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "17_SiTengil_Q.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "18_SiTengil_R.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "19_SiTengil_S.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "20_SiTengil_T.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "21_SiTengil_U.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "22_SiTengil_V.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "23_SiTengil_W.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "24_SiTengil_X.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "25_SiTengil_Y.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "26_SiTengil_Z.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "27_SiTengil_AA.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "28_SiTengil_AB.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "29_SiTengil_AC.webp",
+            "emojis": ["",""]
+          },
+    
+          {
+            "image_file": "30_SiTengil_AD.webp",
+            "emojis": ["",""]
+          }
+        ]
+      }
+    ]
+  }
+  
