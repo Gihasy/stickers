@@ -203,19 +203,17 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity implement
     }
 
     private void updateAddUI(Boolean isWhitelisted) {
-        if(stickerPack.price.equals("FREE")){
-            if (isWhitelisted) {
-                alreadyAddedText.setVisibility(View.VISIBLE);
-                findViewById(R.id.sticker_pack_details_tap_to_preview).setVisibility(View.GONE);
-            } else {
-                alreadyAddedText.setVisibility(View.GONE);
-                findViewById(R.id.sticker_pack_details_tap_to_preview).setVisibility(View.VISIBLE);
+        if (isWhitelisted) {
+            alreadyAddedText.setVisibility(View.VISIBLE);
+            addButton.setVisibility(View.GONE);
+            findViewById(R.id.sticker_pack_details_tap_to_preview).setVisibility(View.GONE);
+        } else {
+            if(stickerPack.price.equals("PAID")){
+                addText.setText("Purchase");
             }
-        }else{
-            addText.setText("Purchase");
+            alreadyAddedText.setVisibility(View.GONE);
+            findViewById(R.id.sticker_pack_details_tap_to_preview).setVisibility(View.VISIBLE);
         }
-
-
     }
 
     @Override
