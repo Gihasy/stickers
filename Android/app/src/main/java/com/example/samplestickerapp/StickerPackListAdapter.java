@@ -10,6 +10,7 @@ package com.example.samplestickerapp;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.text.format.Formatter;
@@ -54,6 +55,16 @@ public class StickerPackListAdapter extends RecyclerView.Adapter<StickerPackList
         StickerPack pack = stickerPacks.get(index);
         final Context context = viewHolder.publisherView.getContext();
         viewHolder.publisherView.setText(pack.publisher);
+        int red = Color.parseColor("#FFFFFF");
+        int green = Color.parseColor("#228C22");
+
+        if(pack.price.equals("PAID")){
+            viewHolder.priceView.setBackgroundColor(red);
+        }else{
+            viewHolder.priceView.setText("FREE");
+            viewHolder.priceView.setBackgroundColor(green);
+        }
+
         viewHolder.filesizeView.setText(Formatter.formatShortFileSize(context, pack.getTotalSize()));
 
         viewHolder.titleView.setText(pack.name);
