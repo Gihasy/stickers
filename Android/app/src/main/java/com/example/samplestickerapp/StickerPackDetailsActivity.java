@@ -237,7 +237,6 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity implement
         {
             addText.setText("Add to WhatsApp");
             addButton.setOnClickListener(v -> addStickerPackToWhatsApp(stickerPack.identifier, stickerPack.name));
-//                    Toast.makeText(getApplicationContext(), "Billing Intialized, Owned: ", Toast.LENGTH_SHORT).show();
         }
 
     }

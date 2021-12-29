@@ -3,16 +3,508 @@
     "ios_app_store_link": "https://itunes.apple.com/app/id1523469785?fbclid=IwAR1MNCzf50WbVrrqwYidSTRmVhbUxzVlp5Xbm7YGJSEkWtAhBm9",
     "sticker_packs": [
       {
+        "identifier": "milkmocha_animated",
+        "name": "(NEW) Milk Mocha Animated",
+        "publisher": "Klova Studios",
+        "price": "PAID",
+        "tray_image_file": "tray_MilkMochaAnimated.webp",
+        "image_data_version": "1",
+        "publisher_email":"NEW",
+        "publisher_website" : "https://klovastudios.com",
+        "privacy_policy_website": "https://klovastudios.com",
+        "license_agreement_website": "https://klovastudios.com",
+        "animated_sticker_pack": true,
+        "stickers": [
+          {
+            "image_file": "1.webp",
+            "emojis": ["",""]
+          },
+
+          {
+            "image_file": "2.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "3.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "4.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "5.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "6.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "7.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "8.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "9.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "10.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "11.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "12.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "13.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "14.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "15.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "16.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "17.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "18.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "19.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "20.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "21.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "22.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "23.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "24.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "25.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "26.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "27.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "28.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "29.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "30.webp",
+            "emojis": [""]
+          }
+        ]
+      },
+      {
+        "identifier": "centilia_you2",
+        "name": "(NEW) Centilia It's You 2",
+        "publisher": "Klova Studios",
+        "price": "PAID",
+        "tray_image_file": "tray_CentiliaItsYou2.webp",
+        "image_data_version": "1",
+        "publisher_email":"NEW",
+        "publisher_website" : "https://klovastudios.com",
+        "privacy_policy_website": "https://klovastudios.com",
+        "license_agreement_website": "https://klovastudios.com",
+        "animated_sticker_pack": false,
+        "stickers": [
+          {
+            "image_file": "1.webp",
+            "emojis": ["",""]
+          },
+
+          {
+            "image_file": "2.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "3.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "4.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "5.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "6.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "7.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "8.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "9.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "10.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "11.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "12.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "13.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "14.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "15.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "16.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "17.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "18.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "19.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "20.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "21.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "22.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "23.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "24.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "25.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "26.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "27.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "28.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "29.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "30.webp",
+            "emojis": [""]
+          }
+        ]
+      },
+      {
+        "identifier": "centilia_its_you",
+        "name": "(NEW) Centilia It's You 1",
+        "publisher": "Klova Studios",
+        "price": "PAID",
+        "tray_image_file": "tray_CentiliaItsYou.webp",
+        "image_data_version": "1",
+        "publisher_email":"NEW",
+        "publisher_website" : "https://klovastudios.com",
+        "privacy_policy_website": "https://klovastudios.com",
+        "license_agreement_website": "https://klovastudios.com",
+        "animated_sticker_pack": false,
+        "stickers": [
+          {
+            "image_file": "1.webp",
+            "emojis": ["",""]
+          },
+
+          {
+            "image_file": "2.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "3.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "4.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "5.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "6.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "7.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "8.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "9.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "10.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "11.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "12.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "13.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "14.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "15.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "16.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "17.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "18.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "19.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "20.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "21.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "22.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "23.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "24.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "25.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "26.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "27.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "28.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "29.webp",
+            "emojis": [""]
+          },
+
+          {
+            "image_file": "30.webp",
+            "emojis": [""]
+          }
+        ]
+      },
+      {
         "identifier": "centilia_animated2",
-        "name": "(NEW) Centilia Animated 2",
+        "name": "Centilia Animated 2",
         "publisher": "Klova Studios",
         "price": "PAID",
         "tray_image_file": "tray_centilia_raei_cuddle.webp",
         "image_data_version": "1",
         "publisher_email":"NEW",
-        "publisher_website" : "https://klova.id",
-        "privacy_policy_website": "https://klova.id",
-        "license_agreement_website": "https://klova.id",
+        "publisher_website" : "https://klovastudios.com",
+        "privacy_policy_website": "https://klovastudios.com",
+        "license_agreement_website": "https://klovastudios.com",
         "animated_sticker_pack": true,
         "stickers": [
           {
@@ -133,15 +625,15 @@
       },
       {
         "identifier": "centilia_animated1",
-        "name": "(NEW) Centilia Animated 1",
+        "name": "Centilia Animated 1",
         "publisher": "Klova Studios",
         "price": "FREE",
         "tray_image_file": "tray_centilia_raei_cuddle.webp",
         "image_data_version": "1",
         "publisher_email":"NEW",
-        "publisher_website" : "https://klova.id",
-        "privacy_policy_website": "https://klova.id",
-        "license_agreement_website": "https://klova.id",
+        "publisher_website" : "https://klovastudios.com",
+        "privacy_policy_website": "https://klovastudios.com",
+        "license_agreement_website": "https://klovastudios.com",
         "animated_sticker_pack": true,
         "stickers": [
           {
@@ -222,15 +714,15 @@
       },
       {
         "identifier": "centilia_raei_cuddle",
-        "name": "(NEW) Centilia & Raei Cuddle",
+        "name": "Centilia & Raei Cuddle",
         "publisher": "Klova Studios",
         "price": "PAID",
         "tray_image_file": "tray_centilia_raei_cuddle.webp",
         "image_data_version": "1",
         "publisher_email":"NEW",
-        "publisher_website" : "https://klova.id",
-        "privacy_policy_website": "https://klova.id",
-        "license_agreement_website": "https://klova.id",
+        "publisher_website" : "https://klovastudios.com",
+        "privacy_policy_website": "https://klovastudios.com",
+        "license_agreement_website": "https://klovastudios.com",
         "stickers": [
           {
             "image_file": "centilia_raei_cuddle_1.webp",
@@ -390,9 +882,9 @@
         "tray_image_file": "tray_everyday_milk_mocha.webp",
         "image_data_version": "1",
         "publisher_email":"NEW", 
-        "publisher_website" : "https://klova.id",
-        "privacy_policy_website": "https://klova.id",
-        "license_agreement_website": "https://klova.id",
+        "publisher_website" : "https://klovastudios.com",
+        "privacy_policy_website": "https://klovastudios.com",
+        "license_agreement_website": "https://klovastudios.com",
         "stickers": [
           {
             "image_file": "everyday_milk_mocha_01.webp",
@@ -528,9 +1020,9 @@
         "tray_image_file": "tray_Mocca.webp",
         "image_data_version": "1",
         "publisher_email":"NEW",
-        "publisher_website" : "https://klova.id",
-        "privacy_policy_website": "https://klova.id",
-        "license_agreement_website": "https://klova.id",
+        "publisher_website" : "https://klovastudios.com",
+        "privacy_policy_website": "https://klovastudios.com",
+        "license_agreement_website": "https://klovastudios.com",
         "stickers": [
           {
             "image_file": "01_Mocca_A.webp",
@@ -691,9 +1183,9 @@
         "price": "FREE",
         "image_data_version": "1",
         "publisher_email":"NEW",
-        "publisher_website" : "https://www.klova.id",
-        "privacy_policy_website": "https://www.klova.id",
-        "license_agreement_website": "https://www.klova.id",
+        "publisher_website" : "https://www.klovastudios.com",
+        "privacy_policy_website": "https://www.klovastudios.com",
+        "license_agreement_website": "https://www.klovastudios.com",
         "stickers": [
     
           {
@@ -841,9 +1333,9 @@
         "price": "PAID",
         "image_data_version": "1",
         "publisher_email":"NEW", 
-        "publisher_website" : "https://www.klova.id",
-        "privacy_policy_website": "https://www.klova.id",
-        "license_agreement_website": "https://www.klova.id",
+        "publisher_website" : "https://www.klovastudios.com",
+        "privacy_policy_website": "https://www.klovastudios.com",
+        "license_agreement_website": "https://www.klovastudios.com",
         "stickers": [
     
           {
@@ -991,9 +1483,9 @@
         "price": "PAID",
         "image_data_version": "1",
         "publisher_email":"NEW",
-        "publisher_website" : "https://www.klova.id",
-        "privacy_policy_website": "https://www.klova.id",
-        "license_agreement_website": "https://www.klova.id",
+        "publisher_website" : "https://www.klovastudios.com",
+        "privacy_policy_website": "https://www.klovastudios.com",
+        "license_agreement_website": "https://www.klovastudios.com",
         "stickers": [
     
           {
@@ -1141,9 +1633,9 @@
         "price": "PAID",
         "image_data_version": "1",
         "publisher_email":"NEW",
-        "publisher_website" : "https://www.klova.id",
-        "privacy_policy_website": "https://www.klova.id",
-        "license_agreement_website": "https://www.klova.id",
+        "publisher_website" : "https://www.klovastudios.com",
+        "privacy_policy_website": "https://www.klovastudios.com",
+        "license_agreement_website": "https://www.klovastudios.com",
         "stickers": [
           {
             "image_file": "01_CentiliaStatic2_A.webp",
@@ -1290,9 +1782,9 @@
         "tray_image_file": "tray_MilkDaily.webp",
         "image_data_version": "1",
         "publisher_email":"klovastudios@gmail.com",
-        "publisher_website" : "https://www.klova.id",
-        "privacy_policy_website": "https://www.klova.id",
-        "license_agreement_website": "https://www.klova.id",
+        "publisher_website" : "https://www.klovastudios.com",
+        "privacy_policy_website": "https://www.klovastudios.com",
+        "license_agreement_website": "https://www.klovastudios.com",
         "stickers": [
     
           {
@@ -1454,9 +1946,9 @@
         "tray_image_file": "tray_MochaDaily.webp",
         "image_data_version": "1",
         "publisher_email":"klovastudios@gmail.com",
-        "publisher_website" : "https://www.klova.id",
-        "privacy_policy_website": "https://www.klova.id",
-        "license_agreement_website": "https://www.klova.id",
+        "publisher_website" : "https://www.klovastudios.com",
+        "privacy_policy_website": "https://www.klovastudios.com",
+        "license_agreement_website": "https://www.klovastudios.com",
         "stickers": [
     
           {
@@ -1618,9 +2110,9 @@
         "price": "FREE",
         "image_data_version": "1",
         "publisher_email":"NEW",
-        "publisher_website" : "https://www.klova.id",
-        "privacy_policy_website": "https://www.klova.id",
-        "license_agreement_website": "https://www.klova.id",
+        "publisher_website" : "https://www.klovastudios.com",
+        "privacy_policy_website": "https://www.klovastudios.com",
+        "license_agreement_website": "https://www.klovastudios.com",
         "stickers": [
     
           {
@@ -1768,9 +2260,9 @@
         "image_data_version": "1",
         "tray_image_file": "tray_MilkMocha.webp",
         "publisher_email":"klovastudios@gmail.com",
-        "publisher_website" : "https://www.klova.id",
-        "privacy_policy_website": "https://www.klova.id",
-        "license_agreement_website": "https://www.klova.id",
+        "publisher_website" : "https://www.klovastudios.com",
+        "privacy_policy_website": "https://www.klovastudios.com",
+        "license_agreement_website": "https://www.klovastudios.com",
         "stickers": [
           {
             "image_file": "01_MilkMocha_backhug.webp",
@@ -1926,9 +2418,9 @@
         "image_data_version": "1",
         "tray_image_file": "tray_CentiliaRaei.webp",
         "publisher_email":"klovastudios@gmail.com",
-        "publisher_website" : "https://klova.id",
-        "privacy_policy_website": "https://klova.id",
-        "license_agreement_website": "https://klova.id",
+        "publisher_website" : "https://klovastudios.com",
+        "privacy_policy_website": "https://klovastudios.com",
+        "license_agreement_website": "https://klovastudios.com",
         "stickers": [
     
           {
@@ -2087,9 +2579,9 @@
         "image_data_version": "1",
         "tray_image_file": "tray_ILoveKpop.webp",
         "publisher_email":"klovastudios@gmail.com",
-        "publisher_website" : "https://www.klova.id",
-        "privacy_policy_website": "https://www.klova.id",
-        "license_agreement_website": "https://www.klova.id",
+        "publisher_website" : "https://www.klovastudios.com",
+        "privacy_policy_website": "https://www.klovastudios.com",
+        "license_agreement_website": "https://www.klovastudios.com",
         "stickers": [
     
           {
@@ -2251,9 +2743,9 @@
         "image_data_version": "1",
         "tray_image_file": "tray_Raei.webp",
         "publisher_email":"klovastudios@gmail.com",
-        "publisher_website" : "https://www.klova.id",
-        "privacy_policy_website": "https://www.klova.id",
-        "license_agreement_website": "https://www.klova.id",
+        "publisher_website" : "https://www.klovastudios.com",
+        "privacy_policy_website": "https://www.klovastudios.com",
+        "license_agreement_website": "https://www.klovastudios.com",
         "stickers": [
     
           {
@@ -2415,9 +2907,9 @@
         "image_data_version": "1",
         "tray_image_file": "tray_FangirlActivities.webp",
         "publisher_email":"klovastudios@gmail.com",
-        "publisher_website" : "https://www.klova.id",
-        "privacy_policy_website": "https://www.klova.id",
-        "license_agreement_website": "https://www.klova.id",
+        "publisher_website" : "https://www.klovastudios.com",
+        "privacy_policy_website": "https://www.klovastudios.com",
+        "license_agreement_website": "https://www.klovastudios.com",
         "stickers": [
     
           {
@@ -2562,9 +3054,9 @@
         "image_data_version": "1",
         "tray_image_file": "tray_BeSassy.webp",
         "publisher_email":"klovastudios@gmail.com",
-        "publisher_website" : "https://www.klova.id",
-        "privacy_policy_website": "https://www.klova.id", 
-        "license_agreement_website": "https://www.klova.id",
+        "publisher_website" : "https://www.klovastudios.com",
+        "privacy_policy_website": "https://www.klovastudios.com", 
+        "license_agreement_website": "https://www.klovastudios.com",
         "stickers": [
     
           {
@@ -2726,9 +3218,9 @@
         "image_data_version": "1",
         "tray_image_file": "tray_GadisKantor.webp",
         "publisher_email":"klovastudios@gmail.com",
-        "publisher_website" : "https://www.klova.id",
-        "privacy_policy_website": "https://www.klova.id",
-        "license_agreement_website": "https://www.klova.id",
+        "publisher_website" : "https://www.klovastudios.com",
+        "privacy_policy_website": "https://www.klovastudios.com",
+        "license_agreement_website": "https://www.klovastudios.com",
         "stickers": [
     
           {
@@ -2890,9 +3382,9 @@
         "image_data_version": "1",
         "tray_image_file": "tray_SiTengil.webp",
         "publisher_email":"klovastudios@gmail.com",
-        "publisher_website" : "https://www.klova.id",
-        "privacy_policy_website": "https://www.klova.id",
-        "license_agreement_website": "https://www.klova.id",
+        "publisher_website" : "https://www.klovastudios.com",
+        "privacy_policy_website": "https://www.klovastudios.com",
+        "license_agreement_website": "https://www.klovastudios.com",
         "stickers": [
     
           {
