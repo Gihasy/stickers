@@ -5,5 +5,7 @@
         android:id="@+id/action_info"
         android:icon="@drawable/sticker_3rdparty_info"
         android:title="@string/more_info_button"
-        app:showAsAction="always" />
+        android:visible="false"
+        app:showAsAction="always"
+        />
 </menu>
