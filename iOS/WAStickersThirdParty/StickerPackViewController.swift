@@ -87,7 +87,7 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
         stickerPackAnimationIcon.isHidden = !stickerPack.animated
 
         let tapGuideLabel: UILabel = UILabel()
-        tapGuideLabel.text = "Tap on any sticker to copy or share it"
+        tapGuideLabel.text = "Tap on any sticker to view it"
         tapGuideLabel.font = UIFont.systemFont(ofSize: 15)
         tapGuideLabel.textColor = UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 1.0)
         tapGuideLabel.translatesAutoresizingMaskIntoConstraints = false
