@@ -21,7 +21,7 @@ final class StickerPackTableViewCell: UITableViewCell, UICollectionViewDataSourc
     var stickerPack: StickerPack? {
         didSet {
             stickerPackTitle = stickerPack?.name
-            stickerPackSecondaryInfo = stickerPack?.publisher
+            stickerPackSecondaryInfo = stickerPack?.price == "FREE" ? stickerPack?.price : ""
             stickerPackAnimated = stickerPack?.animated
             stickerPackCollectionView.reloadData()
         }

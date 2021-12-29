@@ -1,0 +1,123 @@
+{
+  "identifier" : "F119A07A",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "38C2626A",
+      "localizations" : [
+        {
+          "description" : "Centilia & Raei Cuddle",
+          "displayName" : "Centilia & Raei Cuddle",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "centilia_raei_cuddle",
+      "referenceName" : "Centilia & Raei Cuddle",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "EF5E5562",
+      "localizations" : [
+        {
+          "description" : "Centilia & Raei Daily Stickers",
+          "displayName" : "Centilia & Raei Daily Stickers",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "centilia_raei_dailystickers1",
+      "referenceName" : "Centilia & Raei Daily Stickers",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "0B28BABE",
+      "localizations" : [
+        {
+          "description" : "Centilia Daily Stickers",
+          "displayName" : "Centilia Daily Stickers",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "centilia_static2_1",
+      "referenceName" : "Centilia Daily Stickers",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "2FD8F152",
+      "localizations" : [
+        {
+          "description" : "Centilia Mood Stickers 2",
+          "displayName" : "Centilia Mood Stickers 2",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "centilia_static3_1",
+      "referenceName" : "Centilia Mood Stickers 2",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "C2DB7E0B",
+      "localizations" : [
+        {
+          "description" : "Everyday Milk Mocha Stickers",
+          "displayName" : "Everyday Milk Mocha Stickers",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "everyday_milk_mocha",
+      "referenceName" : "Everyday Milk Mocha Stickers",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "DD8C2AD6",
+      "localizations" : [
+        {
+          "description" : "Milk Daily Life Stickers",
+          "displayName" : "Milk Daily Life Stickers",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "milk_daily_1",
+      "referenceName" : "Milk Daily Life Stickers",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "41E6EB78",
+      "localizations" : [
+        {
+          "description" : "Mocha Daily Life Stickers",
+          "displayName" : "Mocha Daily Life Stickers",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "mocha_daily_1",
+      "referenceName" : "Mocha Daily Life Stickers",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 1
+  }
+}

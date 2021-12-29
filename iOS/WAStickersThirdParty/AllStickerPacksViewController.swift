@@ -10,21 +10,53 @@ import UIKit
 
 class AllStickerPacksViewController: UIViewController {
 
+    @IBOutlet weak var imageBanner: UIImageView!
     @IBOutlet private weak var stickerPacksTableView: UITableView!
+    var imgArr = [  UIImage(named:"1"),
+                    UIImage(named:"2") ,
+                    UIImage(named:"3") ,
+                    UIImage(named:"4") ,
+                    UIImage(named:"5") ]
+    var imageNames = ["1","2","3","4","5"]//List of image names
 
     private var needsFetchStickerPacks = true
     private var stickerPacks: [StickerPack] = []
     private var selectedIndex: IndexPath?
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+
         if #available(iOS 11.0, *) {
             navigationItem.largeTitleDisplayMode = .automatic
         }
         navigationController?.navigationBar.shadowImage = UIImage()
         navigationController?.navigationBar.alpha = 0.0
+
+        //Sticker Table View
         stickerPacksTableView.register(UINib(nibName: "StickerPackTableViewCell", bundle: nil), forCellReuseIdentifier: "StickerPackCell")
         stickerPacksTableView.tableFooterView = UIView()
+        
+        //Carousel
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
+        self.imageBanner.isUserInteractionEnabled = true
+        self.imageBanner.addGestureRecognizer(tapGestureRecognizer)
+
+        let timer = Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { timer in
+            self.imageBanner.image = UIImage(named: self.imageNames.randomElement()!) //Slideshow logic
+        }
+    }
+    @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
+    {
+        let tappedImage = tapGestureRecognizer.view as! UIImageView
+        if let url = URL(string: "https://klovastudios.com") {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:])
+            }
+        }
+
+        
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -34,7 +66,7 @@ class AllStickerPacksViewController: UIViewController {
             stickerPacksTableView.deselectRow(at: selectedIndex, animated: true)
         }
     }
-
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         if needsFetchStickerPacks {
@@ -43,9 +75,10 @@ class AllStickerPacksViewController: UIViewController {
 //                
 //            }))
 //            present(alert, animated: true)
-//            self.needsFetchStickerPacks = false
+            self.needsFetchStickerPacks = false
             self.fetchStickerPacks()
         }
+
     }
 
     private func fetchStickerPacks() {
@@ -55,7 +88,7 @@ class AllStickerPacksViewController: UIViewController {
 
         do {
             try StickerPackManager.fetchStickerPacks(fromJSON: StickerPackManager.stickersJSON(contentsOfFile: "sticker_packs")) { stickerPacks in
-                loadingAlert.dismiss(animated: false) {
+                loadingAlert.dismiss(animated: false) { [self] in
                     self.navigationController?.navigationBar.alpha = 1.0
 
                     if stickerPacks.count > 1 {
@@ -64,6 +97,10 @@ class AllStickerPacksViewController: UIViewController {
                     } else {
                         self.show(stickerPack: stickerPacks[0], animated: false)
                     }
+//                    for element in self.imgArr {
+//                      print(element, terminator: " ")
+//                    }
+
                 }
             }
         } catch StickerPackError.fileNotFound {

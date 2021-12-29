@@ -70,6 +70,7 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
         let addButton: AquaButton = AquaButton(frame: .zero)
         addButton.setTitle("Add to WhatsApp", for: .normal)
         addButton.setImage(buttonImage, for: .normal)
+        addButton.backgroundColor = UIColor.systemGreen
         addButton.addTarget(self, action: #selector(addButtonPressed(button:)), for: .touchUpInside)
         addButton.translatesAutoresizingMaskIntoConstraints = false
         addButton.isEnabled = Interoperability.canSend()

@@ -36,6 +36,7 @@ class StickerPack {
     let identifier: String
     let name: String
     let publisher: String
+    let price: String
     let trayImage: ImageData
     let publisherWebsite: String?
     let privacyPolicyWebsite: String?
@@ -73,7 +74,7 @@ class StickerPack {
      - .incorrectImageSize if the tray image is not within the allowed size
      - .animatedImagesNotSupported if the tray image is animated
      */
-    init(identifier: String, name: String, publisher: String, trayImageFileName: String, animatedStickerPack: Bool?, publisherWebsite: String?, privacyPolicyWebsite: String?, licenseAgreementWebsite: String?) throws {
+    init(identifier: String, name: String, publisher: String,price: String, trayImageFileName: String, animatedStickerPack: Bool?, publisherWebsite: String?, privacyPolicyWebsite: String?, licenseAgreementWebsite: String?) throws {
         guard !name.isEmpty && !publisher.isEmpty && !identifier.isEmpty else {
             throw StickerPackError.emptyString
         }
@@ -85,6 +86,7 @@ class StickerPack {
         self.identifier = identifier
         self.name = name
         self.publisher = publisher
+        self.price = price
 
         let trayCompliantImageData: ImageData = try ImageData.imageDataIfCompliant(contentsOfFile: trayImageFileName, isTray: true)
         self.trayImage = trayCompliantImageData
@@ -117,7 +119,7 @@ class StickerPack {
      - .incorrectImageSize if the tray image is not within the allowed size
      - .animatedImagesNotSupported if the tray image is animated
      */
-    init(identifier: String, name: String, publisher: String, trayImagePNGData: Data, publisherWebsite: String?, privacyPolicyWebsite: String?, licenseAgreementWebsite: String?) throws {
+    init(identifier: String, name: String, publisher: String, price: String, trayImagePNGData: Data, publisherWebsite: String?, privacyPolicyWebsite: String?, licenseAgreementWebsite: String?) throws {
         guard !name.isEmpty && !publisher.isEmpty && !identifier.isEmpty else {
             throw StickerPackError.emptyString
         }
@@ -129,6 +131,7 @@ class StickerPack {
         self.identifier = identifier
         self.name = name
         self.publisher = publisher
+        self.price = price
 
         let trayCompliantImageData: ImageData = try ImageData.imageDataIfCompliant(rawData: trayImagePNGData, extensionType: .png, isTray: true)
         self.trayImage = trayCompliantImageData
@@ -216,6 +219,7 @@ class StickerPack {
             json["identifier"] = self.identifier
             json["name"] = self.name
             json["publisher"] = self.publisher
+            json["price"] = self.price
             json["tray_image"] = self.trayImage.image!.pngData()?.base64EncodedString()
             if self.animated {
                 json["animated_sticker_pack"] = self.animated
