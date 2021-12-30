@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8A22EDFF1F9A9F40003A7F21"
-               BuildableName = "WAStickersThirdParty.app"
+               BuildableName = "Klova Studios.app"
                BlueprintName = "Klova Studios"
                ReferencedContainer = "container:Klova Studios.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8A22EDFF1F9A9F40003A7F21"
-            BuildableName = "WAStickersThirdParty.app"
+            BuildableName = "Klova Studios.app"
             BlueprintName = "Klova Studios"
             ReferencedContainer = "container:Klova Studios.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8A22EDFF1F9A9F40003A7F21"
-            BuildableName = "WAStickersThirdParty.app"
+            BuildableName = "Klova Studios.app"
             BlueprintName = "Klova Studios"
             ReferencedContainer = "container:Klova Studios.xcodeproj">
          </BuildableReference>

@@ -23,6 +23,14 @@ class AllStickerPacksViewController: UIViewController {
     private var stickerPacks: [StickerPack] = []
     private var selectedIndex: IndexPath?
     
+    public static let caesarSalad = "com.raywenderlich.GreenBar.recipes.caesar"
+    public static let easyPastaSalad =
+      "com.raywenderlich.GreenBar.recipes.easypasta"
+    public static let healthyTacoSalad =
+      "com.raywenderlich.GreenBar.recipes.healthytaco"
+    public static let tartCherrySalad =
+      "com.raywenderlich.GreenBar.recipes.tartcherrysalad"
+
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -694,6 +694,7 @@
 		71C8917C2767F64800477498 /* 07_Raei_G.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71C88F2B2767F64800477498 /* 07_Raei_G.webp */; };
 		71C8917D2767F64800477498 /* 26_Chocony_Z.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71C88F2C2767F64800477498 /* 26_Chocony_Z.webp */; };
 		71C8917E2767F64800477498 /* 04_CentiliaStatic3_D.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71C88F2D2767F64800477498 /* 04_CentiliaStatic3_D.webp */; };
+		71F2F6F1277DDC56003D29CB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F2F6F0277DDC56003D29CB /* StoreKit.framework */; };
 		8A0A6DCD1FE9F1CE00110AF2 /* UIAlertController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A6DCC1FE9F1CE00110AF2 /* UIAlertController+Additions.swift */; };
 		8A18E2EE1FB3B47D0082201D /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E2E51FB3B47B0082201D /* YYImage.m */; };
 		8A18E2EF1FB3B47D0082201D /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E2E81FB3B47C0082201D /* YYAnimatedImageView.m */; };
@@ -1428,6 +1429,7 @@
 		71C88F2C2767F64800477498 /* 26_Chocony_Z.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = 26_Chocony_Z.webp; path = ../../assets/chocony_centilia_friends/26_Chocony_Z.webp; sourceTree = "<group>"; };
 		71C88F2D2767F64800477498 /* 04_CentiliaStatic3_D.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = 04_CentiliaStatic3_D.webp; path = ../../assets/centilia_static3/04_CentiliaStatic3_D.webp; sourceTree = "<group>"; };
 		71E0DE04277CFB43005AD26D /* NonConsumables.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = NonConsumables.storekit; sourceTree = "<group>"; };
+		71F2F6F0277DDC56003D29CB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		8A0A6DCC1FE9F1CE00110AF2 /* UIAlertController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Additions.swift"; sourceTree = "<group>"; };
 		8A18E2E31FB3B47A0082201D /* WAStickersThirdParty-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WAStickersThirdParty-Bridging-Header.h"; sourceTree = "<group>"; };
 		8A18E2E41FB3B47B0082201D /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
@@ -1482,6 +1484,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ABEBD8421029767005F348C /* WebP.framework in Frameworks */,
+				71F2F6F1277DDC56003D29CB /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2243,6 +2246,7 @@
 		8A40BE481FB100C3003AD704 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71F2F6F0277DDC56003D29CB /* StoreKit.framework */,
 				8A18E2F91FB3B5D00082201D /* libz.tbd */,
 				8ABEBD8321029766005F348C /* WebP.framework */,
 				8A18E2F81FB3B5CC0082201D /* MobileCoreServices.framework */,
@@ -3213,8 +3217,8 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2.0;
-				DEVELOPMENT_TEAM = Q8V7GTS4XH;
+				CURRENT_PROJECT_VERSION = 3.0;
+				DEVELOPMENT_TEAM = ULQYTRXM6V;
 				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3223,7 +3227,7 @@
 				INFOPLIST_FILE = WAStickersThirdParty/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.klovastudios.apps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3242,8 +3246,8 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2.0;
-				DEVELOPMENT_TEAM = Q8V7GTS4XH;
+				CURRENT_PROJECT_VERSION = 3.0;
+				DEVELOPMENT_TEAM = ULQYTRXM6V;
 				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3252,7 +3256,7 @@
 				INFOPLIST_FILE = WAStickersThirdParty/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.klovastudios.apps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

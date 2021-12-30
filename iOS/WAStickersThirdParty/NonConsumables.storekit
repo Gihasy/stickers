@@ -108,6 +108,66 @@
       "productID" : "mocha_daily_1",
       "referenceName" : "Mocha Daily Life Stickers",
       "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "2E66DBE4",
+      "localizations" : [
+        {
+          "description" : "Centilia Animated 2",
+          "displayName" : "Centilia Animated 2",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "centilia_animated2",
+      "referenceName" : "Centilia Animated 2",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "108721BB",
+      "localizations" : [
+        {
+          "description" : "Centilia It's You 1",
+          "displayName" : "Centilia It's You 1",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "centilia_its_you",
+      "referenceName" : "Centilia It's You 1",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "3BC1A529",
+      "localizations" : [
+        {
+          "description" : "Centilia It's You 2",
+          "displayName" : "Centilia It's You 2",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "centilia_you2",
+      "referenceName" : "Centilia It's You 2",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "2D1933D5",
+      "localizations" : [
+        {
+          "description" : "Milk Mocha Animated",
+          "displayName" : "Milk Mocha Animated",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "milkmocha_animated",
+      "referenceName" : "Milk Mocha Animated",
+      "type" : "NonConsumable"
     }
   ],
   "settings" : {

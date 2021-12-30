@@ -68,6 +68,7 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
         let shareImage: UIImage = UIImage(named: "ShareIcon")!.withRenderingMode(.alwaysTemplate)
 
         let addButton: AquaButton = AquaButton(frame: .zero)
+        
         addButton.setTitle("Add to WhatsApp", for: .normal)
         addButton.setImage(buttonImage, for: .normal)
         addButton.backgroundColor = UIColor.systemGreen
