@@ -7,9 +7,18 @@
 //
 
 import UIKit
+import StoreKit
 
-class AllStickerPacksViewController: UIViewController {
+class AllStickerPacksViewController: UIViewController,SKProductsRequestDelegate, SKPaymentTransactionObserver{
+    func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
+    }
+    
+    func paymentQueue(_ queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
+    }
+    
+    
 
+    @IBOutlet weak var restoreBtn: UIButton!
     @IBOutlet weak var imageBanner: UIImageView!
     @IBOutlet private weak var stickerPacksTableView: UITableView!
     var imgArr = [  UIImage(named:"1"),
@@ -23,19 +32,17 @@ class AllStickerPacksViewController: UIViewController {
     private var stickerPacks: [StickerPack] = []
     private var selectedIndex: IndexPath?
     
-    public static let caesarSalad = "com.raywenderlich.GreenBar.recipes.caesar"
-    public static let easyPastaSalad =
-      "com.raywenderlich.GreenBar.recipes.easypasta"
-    public static let healthyTacoSalad =
-      "com.raywenderlich.GreenBar.recipes.healthytaco"
-    public static let tartCherrySalad =
-      "com.raywenderlich.GreenBar.recipes.tartcherrysalad"
-
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
+        restoreBtn.addTarget(self, action: #selector(restorePurchases(button:)), for: .touchUpInside)
+        let restored = UserDefaults.standard.bool(forKey: "isRestored")
+        if(restored){
+            restoreBtn.isEnabled = false
+            restoreBtn.setTitle("Restored", for: .normal)
+        }else{
+            restoreBtn.isEnabled = true
+        }
         if #available(iOS 11.0, *) {
             navigationItem.largeTitleDisplayMode = .automatic
         }
@@ -51,10 +58,30 @@ class AllStickerPacksViewController: UIViewController {
         self.imageBanner.isUserInteractionEnabled = true
         self.imageBanner.addGestureRecognizer(tapGestureRecognizer)
 
-        let timer = Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { timer in
+        let timer = Timer.scheduledTimer(withTimeInterval: 3, repeats: true) { timer in
             self.imageBanner.image = UIImage(named: self.imageNames.randomElement()!) //Slideshow logic
         }
     }
+    @objc func restorePurchases(button: UIButton) {
+      print("restore p")
+      SKPaymentQueue.default().add(self)
+      SKPaymentQueue.default().restoreCompletedTransactions()
+    }
+    func paymentQueueRestoreCompletedTransactionsFinished(_ queue: SKPaymentQueue) {
+        for transaction in queue.transactions {
+            let t: SKPaymentTransaction = transaction
+            let prodID = t.payment.productIdentifier as String
+            UserDefaults.standard.set(true, forKey: prodID)
+        }
+        UserDefaults.standard.set(true, forKey: "isRestored")
+        restoreBtn.isEnabled = false
+        restoreBtn.setTitle("Restored", for: .normal)
+        self.showToast(message: "Purchase Restored", seconds: 1.5)
+        
+
+
+    }
+
     @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
     {
         let tappedImage = tapGestureRecognizer.view as! UIImageView
@@ -190,12 +217,25 @@ extension AllStickerPacksViewController: UITableViewDataSource {
       guard let cell: StickerPackTableViewCell = tableView.dequeueReusableCell(withIdentifier: "StickerPackCell") as? StickerPackTableViewCell else { return UITableViewCell() }
       cell.stickerPack = stickerPacks[indexPath.row]
 
-      let addButton = UIButton(type: .contactAdd)
-      addButton.tag = indexPath.row
-      addButton.isEnabled = Interoperability.canSend()
-      addButton.addTarget(self, action: #selector(addButtonTapped(button:)), for: .touchUpInside)
-      cell.accessoryView = addButton
+//      let addButton = UIButton(type: .contactAdd)
+//      addButton.tag = indexPath.row
+//      addButton.isEnabled = Interoperability.canSend()
+//      addButton.addTarget(self, action: #selector(addButtonTapped(button:)), for: .touchUpInside)
+//      cell.accessoryView = addButton
 
       return cell
   }
 }
+extension UIViewController{
+
+func showToast(message : String, seconds: Double){
+        let alert = UIAlertController(title: nil, message: message, preferredStyle: .alert)
+        alert.view.backgroundColor = .black
+        alert.view.alpha = 0.5
+        alert.view.layer.cornerRadius = 15
+        self.present(alert, animated: true)
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + seconds) {
+            alert.dismiss(animated: true)
+        }
+    }
+ }

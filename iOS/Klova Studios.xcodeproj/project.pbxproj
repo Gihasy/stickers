@@ -1430,6 +1430,7 @@
 		71C88F2D2767F64800477498 /* 04_CentiliaStatic3_D.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = 04_CentiliaStatic3_D.webp; path = ../../assets/centilia_static3/04_CentiliaStatic3_D.webp; sourceTree = "<group>"; };
 		71E0DE04277CFB43005AD26D /* NonConsumables.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = NonConsumables.storekit; sourceTree = "<group>"; };
 		71F2F6F0277DDC56003D29CB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		71F2F6F2277DE6A8003D29CB /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
 		8A0A6DCC1FE9F1CE00110AF2 /* UIAlertController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Additions.swift"; sourceTree = "<group>"; };
 		8A18E2E31FB3B47A0082201D /* WAStickersThirdParty-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WAStickersThirdParty-Bridging-Header.h"; sourceTree = "<group>"; };
 		8A18E2E41FB3B47B0082201D /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
@@ -1536,6 +1537,7 @@
 				8A8D4A791FB291290078C4AF /* Interoperability.swift */,
 				8A18E3341FBA5CA90082201D /* StickerPackManager.swift */,
 				8A18E33E1FBA7DC50082201D /* WebPManager.swift */,
+				71F2F6F2277DE6A8003D29CB /* IAPManager.swift */,
 				8A22EE071F9A9F40003A7F21 /* Main.storyboard */,
 				8A18E33C1FBA793F0082201D /* sticker_packs.wasticker */,
 				8A26A6A71FEB2E2400256DE8 /* SampleStickers */,
@@ -3219,7 +3221,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3.0;
 				DEVELOPMENT_TEAM = ULQYTRXM6V;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -3248,7 +3250,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3.0;
 				DEVELOPMENT_TEAM = ULQYTRXM6V;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

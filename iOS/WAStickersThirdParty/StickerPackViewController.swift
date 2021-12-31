@@ -7,9 +7,26 @@
 //
 
 import UIKit
+import StoreKit
 
-class StickerPackViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+class StickerPackViewController: UIViewController, SKProductsRequestDelegate, SKPaymentTransactionObserver, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+    
+    enum Product: String, CaseIterable{
+        case centilia_raei_cuddle = "centilia_raei_cuddle"
+        case centilia_raei_dailystickers1 = "centilia_raei_dailystickers1"
+        case centilia_animated2 = "centilia_animated2"
+        case centilia_static2_1 = "centilia_static2_1"
+        case centilia_its_you = "centilia_its_you"
+        case centilia_static3_1 = "centilia_static3_1"
+        case centilia_you2 = "centilia_you2"
+        case everyday_milk_mocha = "everyday_milk_mocha"
+        case milk_daily_1 = "milk_daily_1"
+        case milkmocha_animated = "milkmocha_animated"
+        case mocha_daily_1 = "mocha_daily_1"
+    }
+    var purchasedProductIdentifiers: [String] = []
 
+ 
     @IBOutlet private weak var stickerPackPublisherLabel: UILabel!
     @IBOutlet private weak var stickerPackAnimationIcon: UIImageView!
     @IBOutlet private weak var stickersCollectionView: UICollectionView!
@@ -21,6 +38,7 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
     private var itemsPerRow: Int = 4
     private let portraitItems = 4
     private let landscapeItems = 8
+    let addButton: AquaButton = AquaButton(frame: .zero)
 
     private var portraitConstraints: [NSLayoutConstraint] = []
     private var landscapeConstraints: [NSLayoutConstraint] = []
@@ -34,7 +52,7 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
     }
 
     var stickerPack: StickerPack!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -67,15 +85,19 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
         let buttonImage: UIImage = UIImage(named: "WALogoIcon")!.withRenderingMode(.alwaysTemplate)
         let shareImage: UIImage = UIImage(named: "ShareIcon")!.withRenderingMode(.alwaysTemplate)
 
-        let addButton: AquaButton = AquaButton(frame: .zero)
-        
-        addButton.setTitle("Add to WhatsApp", for: .normal)
         addButton.setImage(buttonImage, for: .normal)
         addButton.backgroundColor = UIColor.systemGreen
-        addButton.addTarget(self, action: #selector(addButtonPressed(button:)), for: .touchUpInside)
+        if(stickerPack.price == "FREE"){
+            addButton.setTitle("Add to WhatsApp", for: .normal)
+            addButton.addTarget(self, action: #selector(addButtonPressed(button:)), for: .touchUpInside)
+            addButton.isEnabled = Interoperability.canSend()
+        }else{
+            checkButton()
+        }
+        
         addButton.translatesAutoresizingMaskIntoConstraints = false
-        addButton.isEnabled = Interoperability.canSend()
         view.addSubview(addButton)
+        
 
 //        let shareButton: GrayRoundedButton = GrayRoundedButton(frame: .zero)
 //        shareButton.setTitle("Share", for: .normal)
@@ -164,7 +186,23 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
 
         changeConstraints()
     }
+    private func checkButton(){
+        let productIdentifier = stickerPack.identifier
+        let purchased = UserDefaults.standard.bool(forKey: productIdentifier)
+        if purchased {
+            purchasedProductIdentifiers.insert(productIdentifier, at: 0)
+            print("Previously purchased: \(productIdentifier)")
+            addButton.setTitle("Add to WhatsApp", for: .normal)
+            addButton.addTarget(self, action: #selector(addButtonPressed(button:)), for: .touchUpInside)
+            addButton.isEnabled = Interoperability.canSend()
+        } else {
+            print("Not purchased: \(productIdentifier)")
+            addButton.setTitle("Purchase", for: .normal)
+            addButton.addTarget(self, action: #selector(purchaseButtonPressed(button:)), for: .touchUpInside)
 
+            addButton.isEnabled = true
+        }
+    }
     private func changeConstraints() {
         portraitConstraints.forEach { $0.isActive = portraitOrientation }
         landscapeConstraints.forEach { $0.isActive = !portraitOrientation }
@@ -225,7 +263,50 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
         let cell = collectionView.cellForItem(at: indexPath)
         showActionSheet(withSticker: sticker, overCell: cell!)
     }
+    // MARK: Purchase
 
+    func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
+        if let oProduct = response.products.first{
+            print("product avail")
+            self.purchase(aproduct: oProduct)
+        }else{
+            print("product error")
+        }
+        
+    }
+    
+    func paymentQueue(_ queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
+        for transaction in transactions {
+            switch transaction.transactionState{
+            case .purchasing:
+                print("processing purchase")
+            case .purchased:
+                purchasedProductIdentifiers.insert(transaction.payment.productIdentifier,at:0)
+                UserDefaults.standard.set(true, forKey: transaction.payment.productIdentifier)
+                SKPaymentQueue.default().finishTransaction(transaction)
+                checkButton()
+                print("purchased")
+            case .failed:
+                SKPaymentQueue.default().finishTransaction(transaction)
+                print("failed purchase")
+            case .restored:
+                purchasedProductIdentifiers.insert(transaction.payment.productIdentifier,at:0)
+                UserDefaults.standard.set(true, forKey: transaction.payment.productIdentifier)
+                checkButton()
+                print("restore purchase")
+            case .deferred:
+                print("deffered purchase")
+            default: break
+                
+            }
+        }
+    }
+    func purchase(aproduct: SKProduct){
+        let payment = SKPayment(product: aproduct)
+        SKPaymentQueue.default().add(self)
+        SKPaymentQueue.default().add(payment)
+    }
+    
     // MARK: Targets
 
     func showActionSheet(withSticker sticker: Sticker, overCell cell: UICollectionViewCell) {
@@ -287,7 +368,15 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
             loadingAlert.dismiss(animated: true)
         }
     }
-
+    
+    @objc func purchaseButtonPressed(button: AquaButton) {
+        if SKPaymentQueue.canMakePayments(){
+            let productRequest = SKProductsRequest(productIdentifiers: [stickerPack.identifier])
+            productRequest.delegate = self
+            productRequest.start()
+        }
+    }
+    
     @objc func shareButtonPressed(button: GrayRoundedButton) {
         var stickerImages: [UIImage] = []
 

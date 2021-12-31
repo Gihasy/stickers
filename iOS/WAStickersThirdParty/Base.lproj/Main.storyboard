@@ -4,13 +4,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Sticker Packs-->
         <scene sceneID="B1S-hN-MFe">
             <objects>
-                <viewController title="Sticker Packs" id="M67-ew-auO" customClass="AllStickerPacksViewController" customModule="WAStickersThirdParty" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Sticker Packs" id="M67-ew-auO" customClass="AllStickerPacksViewController" customModule="Klova_Studios" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="83V-gx-xE9"/>
                         <viewControllerLayoutGuide type="bottom" id="ajP-Ty-Icd"/>
@@ -41,7 +42,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Klova Studios" largeTitleDisplayMode="never" id="x4y-Ef-GnB">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="hoA-cc-ZmA">
+                        <barButtonItem key="rightBarButtonItem" title="Restore" style="plain" id="hoA-cc-ZmA">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="jrA-Y3-YTV">
                                 <rect key="frame" x="276.5" y="5" width="82.5" height="34.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -54,6 +55,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="imageBanner" destination="2AS-cc-ggR" id="Gdw-K8-vo8"/>
+                        <outlet property="restoreBtn" destination="jrA-Y3-YTV" id="Dtf-Uj-Av8"/>
                         <outlet property="stickerPacksTableView" destination="CD6-Ts-Zg8" id="2vb-pz-MeQ"/>
                         <segue destination="Ngp-pe-fiT" kind="show" identifier="stickerPackAnimated" id="xrT-yi-hRx"/>
                         <segue destination="Ngp-pe-fiT" kind="show" identifier="stickerPackNotAnimated" animates="NO" id="ejY-ay-Qg6"/>
@@ -66,7 +68,7 @@
         <!--Sticker Pack View Controller-->
         <scene sceneID="edg-Pz-Hza">
             <objects>
-                <viewController storyboardIdentifier="stickerPackVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ngp-pe-fiT" customClass="StickerPackViewController" customModule="WAStickersThirdParty" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="stickerPackVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ngp-pe-fiT" customClass="StickerPackViewController" customModule="Klova_Studios" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xVg-Eq-uuA"/>
                         <viewControllerLayoutGuide type="bottom" id="40j-fZ-Ld1"/>
@@ -137,7 +139,7 @@
         <!--Info-->
         <scene sceneID="GSF-2F-TCa">
             <objects>
-                <tableViewController id="VuN-R9-mKn" customClass="StickerPackInfoViewController" customModule="WAStickersThirdParty" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="VuN-R9-mKn" customClass="StickerPackInfoViewController" customModule="Klova_Studios" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="dwL-sg-TYV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
