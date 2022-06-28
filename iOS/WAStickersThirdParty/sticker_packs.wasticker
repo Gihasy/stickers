@@ -3,8 +3,171 @@
     "ios_app_store_link": "https://itunes.apple.com/app/id1523469785?fbclid=IwAR1MNCzf50WbVrrqwYidSTRmVhbUxzVlp5Xbm7YGJSEkWtAhBm9",
     "sticker_packs": [
       {
+            "identifier": "centilia_summer",
+            "name": "(NEW) Centilia Summer",
+            "publisher": "Klova Studios",
+            "price": "PAID",
+            "tray_image_file": "tray_centilia_summer.webp",
+            "image_data_version": "1",
+            "publisher_email":"NEW",
+            "publisher_website" : "https://klovastudios.com",
+            "privacy_policy_website": "https://klovastudios.com",
+            "license_agreement_website": "https://klovastudios.com",
+            "stickers": [
+                {
+                  "image_file": "centilia_summer_1.webp",
+                  "emojis": ["",""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_2.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_3.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_4.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_5.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_6.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_7.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_8.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_9.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_10.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_11.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_12.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_13.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_14.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_15.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_16.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_17.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_18.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_19.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_20.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_21.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_22.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_23.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_24.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_25.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_26.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_27.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_28.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_29.webp",
+                  "emojis": [""]
+                },
+            
+                {
+                  "image_file": "centilia_summer_30.webp",
+                  "emojis": [""]
+                }
+            ]
+      },
+      {
         "identifier": "milkmocha_animated",
-        "name": "(NEW) Milk Mocha Animated",
+        "name": "Milk Mocha Animated",
         "publisher": "Klova Studios",
         "price": "PAID",
         "tray_image_file": "tray_MilkMochaAnimated.webp",
@@ -168,7 +331,7 @@
       },
       {
         "identifier": "centilia_you2",
-        "name": "(NEW) Centilia It's You 2",
+        "name": "Centilia It's You 2",
         "publisher": "Klova Studios",
         "price": "PAID",
         "tray_image_file": "tray_CentiliaItsYou2.webp",
@@ -332,7 +495,7 @@
       },
       {
         "identifier": "centilia_its_you",
-        "name": "(NEW) Centilia It's You 1",
+        "name": "Centilia It's You 1",
         "publisher": "Klova Studios",
         "price": "PAID",
         "tray_image_file": "tray_CentiliaItsYou.webp",
@@ -496,7 +659,7 @@
       },
       {
         "identifier": "centilia_animated2",
-        "name": "(NEW) Centilia Animated 2",
+        "name": "Centilia Animated 2",
         "publisher": "Klova Studios",
         "price": "PAID",
         "tray_image_file": "tray_centilia_animated2.webp",
@@ -625,7 +788,7 @@
       },
       {
         "identifier": "centilia_animated1",
-        "name": "(NEW) Centilia Animated 1",
+        "name": "Centilia Animated 1",
         "publisher": "Klova Studios",
         "price": "FREE",
         "tray_image_file": "tray_centilia_animated1.webp",
@@ -1326,7 +1489,7 @@
         ]
       },
       {
-        "identifier": "centilia_raei_dailystickers",
+        "identifier": "centilia_raei_dailystickers1",
         "name": "Centilia & Raei Daily stickers",
         "publisher": "Klova Studios",
         "tray_image_file": "tray_CentiliaRaeiDailyStickers.webp",
@@ -1476,7 +1639,7 @@
         ]
       },
       {
-        "identifier": "centilia_static3",
+        "identifier": "centilia_static3_1",
         "name": "Centilia Mood stickers 2",
         "publisher": "Klova Studios",
         "tray_image_file": "tray_CentiliaStatic3.webp",
@@ -1626,7 +1789,7 @@
         ]
       },
       {
-        "identifier": "centilia_static2",
+        "identifier": "centilia_static2_1",
         "name": "Centilia Daily stickers",
         "publisher": "Klova Studios",
         "tray_image_file": "tray_CentiliaStatic2.webp",
@@ -1775,7 +1938,7 @@
         ]
       },
       {
-        "identifier": "milk_daily",
+        "identifier": "milk_daily_1",
         "name": "Milk Daily Life stickers",
         "publisher": "Klova Studios",
         "price": "PAID",
@@ -1939,7 +2102,7 @@
         ]
       },
       {
-        "identifier": "mocha_daily",
+        "identifier": "mocha_daily_1",
         "name": "Mocha Daily Life stickers",
         "publisher": "Klova Studios",
         "price": "PAID",

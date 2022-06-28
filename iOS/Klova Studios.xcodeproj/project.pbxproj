@@ -101,6 +101,37 @@
 		7114A52E277CB47A00A4735A /* milkmocha_animated_12.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7114A4D1277CB47A00A4735A /* milkmocha_animated_12.webp */; };
 		7114A52F277CB47A00A4735A /* centilia_you2_30.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7114A4D2277CB47A00A4735A /* centilia_you2_30.webp */; };
 		7114A530277CB47A00A4735A /* milkmocha_animated_23.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7114A4D3277CB47A00A4735A /* milkmocha_animated_23.webp */; };
+		71398542286B705900151E1C /* centilia_summer_10.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398523286B705800151E1C /* centilia_summer_10.webp */; };
+		71398543286B705900151E1C /* centilia_summer_23.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398524286B705800151E1C /* centilia_summer_23.webp */; };
+		71398544286B705900151E1C /* centilia_summer_9.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398525286B705800151E1C /* centilia_summer_9.webp */; };
+		71398545286B705900151E1C /* centilia_summer_29.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398526286B705800151E1C /* centilia_summer_29.webp */; };
+		71398546286B705900151E1C /* centilia_summer_14.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398527286B705800151E1C /* centilia_summer_14.webp */; };
+		71398547286B705900151E1C /* centilia_summer_5.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398528286B705800151E1C /* centilia_summer_5.webp */; };
+		71398548286B705900151E1C /* centilia_summer_3.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398529286B705800151E1C /* centilia_summer_3.webp */; };
+		71398549286B705900151E1C /* centilia_summer_18.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7139852A286B705800151E1C /* centilia_summer_18.webp */; };
+		7139854A286B705900151E1C /* centilia_summer_1.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7139852B286B705800151E1C /* centilia_summer_1.webp */; };
+		7139854B286B705900151E1C /* centilia_summer_12.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7139852C286B705800151E1C /* centilia_summer_12.webp */; };
+		7139854C286B705900151E1C /* centilia_summer_17.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7139852D286B705800151E1C /* centilia_summer_17.webp */; };
+		7139854D286B705900151E1C /* centilia_summer_6.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7139852E286B705800151E1C /* centilia_summer_6.webp */; };
+		7139854E286B705900151E1C /* centilia_summer_22.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7139852F286B705800151E1C /* centilia_summer_22.webp */; };
+		7139854F286B705900151E1C /* centilia_summer_27.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398530286B705800151E1C /* centilia_summer_27.webp */; };
+		71398550286B705900151E1C /* centilia_summer_24.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398531286B705800151E1C /* centilia_summer_24.webp */; };
+		71398551286B705900151E1C /* centilia_summer_30.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398532286B705800151E1C /* centilia_summer_30.webp */; };
+		71398552286B705900151E1C /* centilia_summer_2.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398533286B705800151E1C /* centilia_summer_2.webp */; };
+		71398553286B705900151E1C /* centilia_summer_28.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398534286B705900151E1C /* centilia_summer_28.webp */; };
+		71398554286B705900151E1C /* centilia_summer_19.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398535286B705900151E1C /* centilia_summer_19.webp */; };
+		71398555286B705900151E1C /* centilia_summer_21.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398536286B705900151E1C /* centilia_summer_21.webp */; };
+		71398556286B705900151E1C /* centilia_summer_4.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398537286B705900151E1C /* centilia_summer_4.webp */; };
+		71398557286B705900151E1C /* tray_centilia_summer.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398538286B705900151E1C /* tray_centilia_summer.webp */; };
+		71398558286B705900151E1C /* centilia_summer_20.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398539286B705900151E1C /* centilia_summer_20.webp */; };
+		71398559286B705900151E1C /* centilia_summer_13.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7139853A286B705900151E1C /* centilia_summer_13.webp */; };
+		7139855A286B705900151E1C /* centilia_summer_15.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7139853B286B705900151E1C /* centilia_summer_15.webp */; };
+		7139855B286B705900151E1C /* centilia_summer_16.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7139853C286B705900151E1C /* centilia_summer_16.webp */; };
+		7139855C286B705900151E1C /* centilia_summer_26.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7139853D286B705900151E1C /* centilia_summer_26.webp */; };
+		7139855D286B705900151E1C /* centilia_summer_8.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7139853E286B705900151E1C /* centilia_summer_8.webp */; };
+		7139855E286B705900151E1C /* centilia_summer_7.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7139853F286B705900151E1C /* centilia_summer_7.webp */; };
+		7139855F286B705900151E1C /* centilia_summer_25.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398540286B705900151E1C /* centilia_summer_25.webp */; };
+		71398560286B705900151E1C /* centilia_summer_11.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71398541286B705900151E1C /* centilia_summer_11.webp */; };
 		71C88F2E2767F64800477498 /* 06_MilkDaily_F.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71C88CDD2767F63B00477498 /* 06_MilkDaily_F.webp */; };
 		71C88F2F2767F64800477498 /* 21_CentiliaStatic3_U.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71C88CDE2767F63B00477498 /* 21_CentiliaStatic3_U.webp */; };
 		71C88F302767F64800477498 /* 11_CentiliaStatic2_K.webp in Resources */ = {isa = PBXBuildFile; fileRef = 71C88CDF2767F63B00477498 /* 11_CentiliaStatic2_K.webp */; };
@@ -835,6 +866,37 @@
 		7114A4D1277CB47A00A4735A /* milkmocha_animated_12.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = milkmocha_animated_12.webp; path = ../../assets/milkmocha_animated/milkmocha_animated_12.webp; sourceTree = "<group>"; };
 		7114A4D2277CB47A00A4735A /* centilia_you2_30.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = centilia_you2_30.webp; path = ../../assets/centilia_you2/centilia_you2_30.webp; sourceTree = "<group>"; };
 		7114A4D3277CB47A00A4735A /* milkmocha_animated_23.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = milkmocha_animated_23.webp; path = ../../assets/milkmocha_animated/milkmocha_animated_23.webp; sourceTree = "<group>"; };
+		71398523286B705800151E1C /* centilia_summer_10.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_10.webp; sourceTree = "<group>"; };
+		71398524286B705800151E1C /* centilia_summer_23.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_23.webp; sourceTree = "<group>"; };
+		71398525286B705800151E1C /* centilia_summer_9.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_9.webp; sourceTree = "<group>"; };
+		71398526286B705800151E1C /* centilia_summer_29.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_29.webp; sourceTree = "<group>"; };
+		71398527286B705800151E1C /* centilia_summer_14.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_14.webp; sourceTree = "<group>"; };
+		71398528286B705800151E1C /* centilia_summer_5.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_5.webp; sourceTree = "<group>"; };
+		71398529286B705800151E1C /* centilia_summer_3.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_3.webp; sourceTree = "<group>"; };
+		7139852A286B705800151E1C /* centilia_summer_18.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_18.webp; sourceTree = "<group>"; };
+		7139852B286B705800151E1C /* centilia_summer_1.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_1.webp; sourceTree = "<group>"; };
+		7139852C286B705800151E1C /* centilia_summer_12.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_12.webp; sourceTree = "<group>"; };
+		7139852D286B705800151E1C /* centilia_summer_17.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_17.webp; sourceTree = "<group>"; };
+		7139852E286B705800151E1C /* centilia_summer_6.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_6.webp; sourceTree = "<group>"; };
+		7139852F286B705800151E1C /* centilia_summer_22.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_22.webp; sourceTree = "<group>"; };
+		71398530286B705800151E1C /* centilia_summer_27.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_27.webp; sourceTree = "<group>"; };
+		71398531286B705800151E1C /* centilia_summer_24.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_24.webp; sourceTree = "<group>"; };
+		71398532286B705800151E1C /* centilia_summer_30.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_30.webp; sourceTree = "<group>"; };
+		71398533286B705800151E1C /* centilia_summer_2.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_2.webp; sourceTree = "<group>"; };
+		71398534286B705900151E1C /* centilia_summer_28.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_28.webp; sourceTree = "<group>"; };
+		71398535286B705900151E1C /* centilia_summer_19.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_19.webp; sourceTree = "<group>"; };
+		71398536286B705900151E1C /* centilia_summer_21.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_21.webp; sourceTree = "<group>"; };
+		71398537286B705900151E1C /* centilia_summer_4.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_4.webp; sourceTree = "<group>"; };
+		71398538286B705900151E1C /* tray_centilia_summer.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = tray_centilia_summer.webp; sourceTree = "<group>"; };
+		71398539286B705900151E1C /* centilia_summer_20.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_20.webp; sourceTree = "<group>"; };
+		7139853A286B705900151E1C /* centilia_summer_13.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_13.webp; sourceTree = "<group>"; };
+		7139853B286B705900151E1C /* centilia_summer_15.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_15.webp; sourceTree = "<group>"; };
+		7139853C286B705900151E1C /* centilia_summer_16.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_16.webp; sourceTree = "<group>"; };
+		7139853D286B705900151E1C /* centilia_summer_26.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_26.webp; sourceTree = "<group>"; };
+		7139853E286B705900151E1C /* centilia_summer_8.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_8.webp; sourceTree = "<group>"; };
+		7139853F286B705900151E1C /* centilia_summer_7.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_7.webp; sourceTree = "<group>"; };
+		71398540286B705900151E1C /* centilia_summer_25.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_25.webp; sourceTree = "<group>"; };
+		71398541286B705900151E1C /* centilia_summer_11.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = centilia_summer_11.webp; sourceTree = "<group>"; };
 		71C88CDD2767F63B00477498 /* 06_MilkDaily_F.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = 06_MilkDaily_F.webp; path = ../../assets/milk_daily/06_MilkDaily_F.webp; sourceTree = "<group>"; };
 		71C88CDE2767F63B00477498 /* 21_CentiliaStatic3_U.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = 21_CentiliaStatic3_U.webp; path = ../../assets/centilia_static3/21_CentiliaStatic3_U.webp; sourceTree = "<group>"; };
 		71C88CDF2767F63B00477498 /* 11_CentiliaStatic2_K.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = 11_CentiliaStatic2_K.webp; path = ../../assets/centilia_static2/11_CentiliaStatic2_K.webp; sourceTree = "<group>"; };
@@ -1553,6 +1615,37 @@
 		8A26A6A71FEB2E2400256DE8 /* SampleStickers */ = {
 			isa = PBXGroup;
 			children = (
+				7139852B286B705800151E1C /* centilia_summer_1.webp */,
+				71398533286B705800151E1C /* centilia_summer_2.webp */,
+				71398529286B705800151E1C /* centilia_summer_3.webp */,
+				71398537286B705900151E1C /* centilia_summer_4.webp */,
+				71398528286B705800151E1C /* centilia_summer_5.webp */,
+				7139852E286B705800151E1C /* centilia_summer_6.webp */,
+				7139853F286B705900151E1C /* centilia_summer_7.webp */,
+				7139853E286B705900151E1C /* centilia_summer_8.webp */,
+				71398525286B705800151E1C /* centilia_summer_9.webp */,
+				71398523286B705800151E1C /* centilia_summer_10.webp */,
+				71398541286B705900151E1C /* centilia_summer_11.webp */,
+				7139852C286B705800151E1C /* centilia_summer_12.webp */,
+				7139853A286B705900151E1C /* centilia_summer_13.webp */,
+				71398527286B705800151E1C /* centilia_summer_14.webp */,
+				7139853B286B705900151E1C /* centilia_summer_15.webp */,
+				7139853C286B705900151E1C /* centilia_summer_16.webp */,
+				7139852D286B705800151E1C /* centilia_summer_17.webp */,
+				7139852A286B705800151E1C /* centilia_summer_18.webp */,
+				71398535286B705900151E1C /* centilia_summer_19.webp */,
+				71398539286B705900151E1C /* centilia_summer_20.webp */,
+				71398536286B705900151E1C /* centilia_summer_21.webp */,
+				7139852F286B705800151E1C /* centilia_summer_22.webp */,
+				71398524286B705800151E1C /* centilia_summer_23.webp */,
+				71398531286B705800151E1C /* centilia_summer_24.webp */,
+				71398540286B705900151E1C /* centilia_summer_25.webp */,
+				7139853D286B705900151E1C /* centilia_summer_26.webp */,
+				71398530286B705800151E1C /* centilia_summer_27.webp */,
+				71398534286B705900151E1C /* centilia_summer_28.webp */,
+				71398526286B705800151E1C /* centilia_summer_29.webp */,
+				71398532286B705800151E1C /* centilia_summer_30.webp */,
+				71398538286B705900151E1C /* tray_centilia_summer.webp */,
 				7114A48F277CB47800A4735A /* centilia_its_you_1.webp */,
 				7114A4B3277CB47900A4735A /* centilia_its_you_2.webp */,
 				7114A4B5277CB47900A4735A /* centilia_its_you_3.webp */,
@@ -2346,6 +2439,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7139855B286B705900151E1C /* centilia_summer_16.webp in Resources */,
 				71C891082767F64800477498 /* 30_BeSassy_AD.webp in Resources */,
 				71C890422767F64800477498 /* 10_BeSassy_J.webp in Resources */,
 				7114A521277CB47A00A4735A /* milkmocha_animated_9.webp in Resources */,
@@ -2364,6 +2458,7 @@
 				71C890B82767F64800477498 /* 09_MochaDaily_I.webp in Resources */,
 				71C88F3E2767F64800477498 /* 27_BeSassy_AA.webp in Resources */,
 				71C88FBD2767F64800477498 /* 04_BeSassy_D.webp in Resources */,
+				7139854B286B705900151E1C /* centilia_summer_12.webp in Resources */,
 				7114A4FB277CB47A00A4735A /* milkmocha_animated_13.webp in Resources */,
 				71C890942767F64800477498 /* 24_GadisKantor_X.webp in Resources */,
 				71C8910D2767F64800477498 /* 16_CentiliaStatic3_P.webp in Resources */,
@@ -2399,11 +2494,13 @@
 				71C890A32767F64800477498 /* 02_MilkDaily_B.webp in Resources */,
 				71C890832767F64800477498 /* everyday_milk_mocha_23.webp in Resources */,
 				71C88FB02767F64800477498 /* 06_SiTengil_F.webp in Resources */,
+				7139855E286B705900151E1C /* centilia_summer_7.webp in Resources */,
 				71C890962767F64800477498 /* 01_SiTengil_A.webp in Resources */,
 				71C88FA02767F64800477498 /* 03_SiTengil_C.webp in Resources */,
 				71C8917E2767F64800477498 /* 04_CentiliaStatic3_D.webp in Resources */,
 				71C890992767F64800477498 /* 12_Chocony_L.webp in Resources */,
 				71C890262767F64800477498 /* 28_ILoveKpop_AB.webp in Resources */,
+				7139854C286B705900151E1C /* centilia_summer_17.webp in Resources */,
 				71C891692767F64800477498 /* 13_MochaDaily_M.webp in Resources */,
 				71C891762767F64800477498 /* 28_CentiliaStatic_AB.webp in Resources */,
 				71C891662767F64800477498 /* 17_CentiliaStatic2_Q.webp in Resources */,
@@ -2501,6 +2598,7 @@
 				71C890B62767F64800477498 /* 21_Mocca_U.webp in Resources */,
 				71C8903F2767F64800477498 /* 21_CentiliaStatic_U.webp in Resources */,
 				8A22EE0E1F9A9F40003A7F21 /* LaunchScreen.storyboard in Resources */,
+				71398550286B705900151E1C /* centilia_summer_24.webp in Resources */,
 				71C890762767F64800477498 /* 28_BeSassy_AB.webp in Resources */,
 				71C88F312767F64800477498 /* 23_MilkMocha_easyhammer.webp in Resources */,
 				71C88FEF2767F64800477498 /* 01_CentiliaStatic_A.webp in Resources */,
@@ -2579,10 +2677,12 @@
 				71C890072767F64800477498 /* 28_Chocony_AB.webp in Resources */,
 				71C88F702767F64800477498 /* centilia_animated2_9.webp in Resources */,
 				71C891192767F64800477498 /* 17_MochaDaily_Q.webp in Resources */,
+				7139854F286B705900151E1C /* centilia_summer_27.webp in Resources */,
 				71C891732767F64800477498 /* 01_GadisKantor_A.webp in Resources */,
 				71C88FBC2767F64800477498 /* 09_CentiliaRaei_I.webp in Resources */,
 				71C891092767F64800477498 /* tray_BeSassy.webp in Resources */,
 				71C890902767F64800477498 /* 06_CentiliaRaei_F.webp in Resources */,
+				71398558286B705900151E1C /* centilia_summer_20.webp in Resources */,
 				71C88F352767F64800477498 /* 08_ILoveKpop_H.webp in Resources */,
 				71C891322767F64800477498 /* 09_ILoveKpop_I.webp in Resources */,
 				71C88F372767F64800477498 /* tray_CentiliaRaeiDailyStickers.webp in Resources */,
@@ -2639,7 +2739,10 @@
 				71C88F7D2767F64800477498 /* 11_Chocony_K.webp in Resources */,
 				7114A530277CB47A00A4735A /* milkmocha_animated_23.webp in Resources */,
 				71C890BA2767F64800477498 /* everyday_milk_mocha_07.webp in Resources */,
+				7139854E286B705900151E1C /* centilia_summer_22.webp in Resources */,
+				71398560286B705900151E1C /* centilia_summer_11.webp in Resources */,
 				71C8903B2767F64800477498 /* 12_FangirlActivities_L.webp in Resources */,
+				71398542286B705900151E1C /* centilia_summer_10.webp in Resources */,
 				71C88F862767F64800477498 /* tray_everyday_milk_mocha.webp in Resources */,
 				71C88FF62767F64800477498 /* 26_Raei_Z.webp in Resources */,
 				71C890D42767F64800477498 /* 14_Mocca_N.webp in Resources */,
@@ -2701,6 +2804,7 @@
 				71C890102767F64800477498 /* 16_CentiliaRaei_P.webp in Resources */,
 				71C88F4A2767F64800477498 /* 10_CentiliaStatic_J.webp in Resources */,
 				71C8916E2767F64800477498 /* 25_Raei_Y.webp in Resources */,
+				7139855C286B705900151E1C /* centilia_summer_26.webp in Resources */,
 				71C891552767F64800477498 /* 24_ILoveKpop_X.webp in Resources */,
 				7114A51B277CB47A00A4735A /* centilia_you2_3.webp in Resources */,
 				71C891632767F64800477498 /* 14_CentiliaRaeiDailyStickers_N.webp in Resources */,
@@ -2714,6 +2818,7 @@
 				7114A505277CB47A00A4735A /* centilia_you2_23.webp in Resources */,
 				71C890662767F64800477498 /* 25_CentiliaStatic3_Y.webp in Resources */,
 				71C8901D2767F64800477498 /* centilia_animated2_12.webp in Resources */,
+				71398555286B705900151E1C /* centilia_summer_21.webp in Resources */,
 				71C890472767F64800477498 /* centilia_animated1_7.webp in Resources */,
 				71C890132767F64800477498 /* 20_SiTengil_T.webp in Resources */,
 				71C890E92767F64800477498 /* centilia_animated2_6.webp in Resources */,
@@ -2767,6 +2872,7 @@
 				71C891282767F64800477498 /* 21_MilkDaily_U.webp in Resources */,
 				7114A4E4277CB47A00A4735A /* centilia_its_you_23.webp in Resources */,
 				71C891012767F64800477498 /* 24_Raei_X.webp in Resources */,
+				71398549286B705900151E1C /* centilia_summer_18.webp in Resources */,
 				71C890982767F64800477498 /* 24_MilkDaily_X.webp in Resources */,
 				71C890542767F64800477498 /* 14_MilkMocha_itsokay.webp in Resources */,
 				71C8911B2767F64800477498 /* centilia_animated2_18.webp in Resources */,
@@ -2782,6 +2888,8 @@
 				71C88F5C2767F64800477498 /* 01_CentiliaStatic3_A.webp in Resources */,
 				71C890972767F64800477498 /* 08_Chocony_H.webp in Resources */,
 				7114A52F277CB47A00A4735A /* centilia_you2_30.webp in Resources */,
+				71398556286B705900151E1C /* centilia_summer_4.webp in Resources */,
+				71398548286B705900151E1C /* centilia_summer_3.webp in Resources */,
 				71C891702767F64800477498 /* 22_Chocony_V.webp in Resources */,
 				71C891212767F64800477498 /* 27_CentiliaStatic2_AA.webp in Resources */,
 				71C890352767F64800477498 /* 09_SiTengil_I.webp in Resources */,
@@ -2807,10 +2915,12 @@
 				71C891672767F64800477498 /* centilia_raei_cuddle_19.webp in Resources */,
 				71C890E62767F64800477498 /* 05_MochaDaily_E.webp in Resources */,
 				7114A4DB277CB47A00A4735A /* milkmocha_animated_1.webp in Resources */,
+				71398554286B705900151E1C /* centilia_summer_19.webp in Resources */,
 				71C88FD42767F64800477498 /* 22_BeSassy_V.webp in Resources */,
 				71C890402767F64800477498 /* 27_Chocony_AA.webp in Resources */,
 				7114A514277CB47A00A4735A /* centilia_its_you_28.webp in Resources */,
 				71C891312767F64800477498 /* 27_MilkMocha_congrats.webp in Resources */,
+				71398551286B705900151E1C /* centilia_summer_30.webp in Resources */,
 				71C890EB2767F64800477498 /* 01_MochaDaily_A.webp in Resources */,
 				7114A513277CB47A00A4735A /* centilia_its_you_27.webp in Resources */,
 				71C8903D2767F64800477498 /* 05_Chocony_E.webp in Resources */,
@@ -2855,8 +2965,10 @@
 				71C890AF2767F64800477498 /* 12_CentiliaRaei_L.webp in Resources */,
 				71C88F382767F64800477498 /* everyday_milk_mocha_04.webp in Resources */,
 				71C8905E2767F64800477498 /* 15_ILoveKpop_O.webp in Resources */,
+				71398543286B705900151E1C /* centilia_summer_23.webp in Resources */,
 				7114A519277CB47A00A4735A /* centilia_you2_5.webp in Resources */,
 				7114A525277CB47A00A4735A /* milkmocha_animated_20.webp in Resources */,
+				71398559286B705900151E1C /* centilia_summer_13.webp in Resources */,
 				71C88F922767F64800477498 /* 15_CentiliaRaei_O.webp in Resources */,
 				7114A4FE277CB47A00A4735A /* centilia_you2_25.webp in Resources */,
 				71C890CE2767F64800477498 /* 26_FangirlActivities_Z.webp in Resources */,
@@ -2870,6 +2982,7 @@
 				71C88F522767F64800477498 /* 07_FangirlActivities_G.webp in Resources */,
 				7114A4F0277CB47A00A4735A /* milkmocha_animated_22.webp in Resources */,
 				7114A4EE277CB47A00A4735A /* centilia_its_you_19.webp in Resources */,
+				7139855D286B705900151E1C /* centilia_summer_8.webp in Resources */,
 				71C891372767F64800477498 /* 05_MilkDaily_E.webp in Resources */,
 				71C890A02767F64800477498 /* centilia_raei_cuddle_28.webp in Resources */,
 				71C891262767F64800477498 /* 24_SiTengil_X.webp in Resources */,
@@ -2878,11 +2991,13 @@
 				71C88FBE2767F64800477498 /* 14_GadisKantor_N.webp in Resources */,
 				71C8912F2767F64800477498 /* 20_ILoveKpop_T.webp in Resources */,
 				71C890112767F64800477498 /* tray_Mocca.webp in Resources */,
+				71398557286B705900151E1C /* tray_centilia_summer.webp in Resources */,
 				7114A528277CB47A00A4735A /* centilia_its_you_29.webp in Resources */,
 				71C8904E2767F64800477498 /* 07_CentiliaStatic2_G.webp in Resources */,
 				71C890842767F64800477498 /* 20_MochaDaily_T.webp in Resources */,
 				71C88FE82767F64800477498 /* tray_CentiliaStatic2.webp in Resources */,
 				71C88FDB2767F64800477498 /* 03_CentiliaStatic2_C.webp in Resources */,
+				71398545286B705900151E1C /* centilia_summer_29.webp in Resources */,
 				71C890852767F64800477498 /* 29_MilkMocha_goodnight.webp in Resources */,
 				71C891032767F64800477498 /* centilia_raei_cuddle_18.webp in Resources */,
 				71C890482767F64800477498 /* 23_CentiliaStatic3_W.webp in Resources */,
@@ -2896,6 +3011,7 @@
 				71C88FF92767F64800477498 /* 02_BeSassy_B.webp in Resources */,
 				7114A51E277CB47A00A4735A /* centilia_you2_19.webp in Resources */,
 				71C88FA22767F64800477498 /* 26_ILoveKpop_Z.webp in Resources */,
+				7139855A286B705900151E1C /* centilia_summer_15.webp in Resources */,
 				7114A4E7277CB47A00A4735A /* centilia_you2_1.webp in Resources */,
 				71C88F3F2767F64800477498 /* 19_CentiliaStatic3_S.webp in Resources */,
 				71C890D62767F64800477498 /* 30_GadisKantor_AD.webp in Resources */,
@@ -2935,6 +3051,7 @@
 				7114A4DC277CB47A00A4735A /* milkmocha_animated_21.webp in Resources */,
 				71C8912C2767F64800477498 /* 22_Mocca_V.webp in Resources */,
 				7114A522277CB47A00A4735A /* milkmocha_animated_14.webp in Resources */,
+				7139854D286B705900151E1C /* centilia_summer_6.webp in Resources */,
 				71C890372767F64800477498 /* centilia_animated2_15.webp in Resources */,
 				71C891342767F64800477498 /* 10_CentiliaStatic2_J.webp in Resources */,
 				71C8913E2767F64800477498 /* 26_MilkDaily_Z.webp in Resources */,
@@ -2948,22 +3065,27 @@
 				71C88FAC2767F64800477498 /* 02_FangirlActivities_B.webp in Resources */,
 				7114A50F277CB47A00A4735A /* centilia_you2_8.webp in Resources */,
 				71C88F8A2767F64800477498 /* 09_CentiliaStatic3_I.webp in Resources */,
+				71398553286B705900151E1C /* centilia_summer_28.webp in Resources */,
 				71C88F482767F64800477498 /* 19_FangirlActivities_S.webp in Resources */,
 				71C8913B2767F64800477498 /* 12_GadisKantor_L.webp in Resources */,
 				71C88F5B2767F64800477498 /* 16_BeSassy_P.webp in Resources */,
 				71C891232767F64800477498 /* 21_CentiliaRaeiDailyStickers_U.webp in Resources */,
 				71C890C32767F64800477498 /* 10_Chocony_J.webp in Resources */,
 				71C890192767F64800477498 /* 08_Mocca_H.webp in Resources */,
+				7139854A286B705900151E1C /* centilia_summer_1.webp in Resources */,
 				7114A4F4277CB47A00A4735A /* centilia_you2_18.webp in Resources */,
+				71398552286B705900151E1C /* centilia_summer_2.webp in Resources */,
 				71C891482767F64800477498 /* 07_GadisKantor_G.webp in Resources */,
 				71C88FA62767F64800477498 /* 09_CentiliaStatic_I.webp in Resources */,
 				71C890082767F64800477498 /* 08_MochaDaily_H.webp in Resources */,
 				71C88FB62767F64800477498 /* everyday_milk_mocha_03.webp in Resources */,
+				71398546286B705900151E1C /* centilia_summer_14.webp in Resources */,
 				71C890742767F64800477498 /* centilia_animated2_20.webp in Resources */,
 				71C890392767F64800477498 /* 26_CentiliaRaeiDailyStickers_Z.webp in Resources */,
 				7114A4F9277CB47A00A4735A /* centilia_its_you_13.webp in Resources */,
 				71C890D92767F64800477498 /* 20_MilkMocha_angry.webp in Resources */,
 				71C890B72767F64800477498 /* 26_BeSassy_Z.webp in Resources */,
+				7139855F286B705900151E1C /* centilia_summer_25.webp in Resources */,
 				7114A529277CB47A00A4735A /* centilia_you2_20.webp in Resources */,
 				71C8915E2767F64800477498 /* 23_MochaDaily_W.webp in Resources */,
 				71C890642767F64800477498 /* 11_MilkMocha_cry.webp in Resources */,
@@ -3011,6 +3133,7 @@
 				71C88F9C2767F64800477498 /* 08_FangirlActivities_H.webp in Resources */,
 				71C890D22767F64800477498 /* 05_MilkMocha_mouthkiss.webp in Resources */,
 				71C891412767F64800477498 /* 11_MochaDaily_K.webp in Resources */,
+				71398544286B705900151E1C /* centilia_summer_9.webp in Resources */,
 				8A22EE091F9A9F40003A7F21 /* Main.storyboard in Resources */,
 				71C891202767F64800477498 /* 21_FangirlActivities_U.webp in Resources */,
 				71C891172767F64800477498 /* 16_SiTengil_P.webp in Resources */,
@@ -3020,6 +3143,7 @@
 				71C88F7B2767F64800477498 /* 09_Raei_I.webp in Resources */,
 				71C8906F2767F64800477498 /* 11_CentiliaStatic3_K.webp in Resources */,
 				71C890A52767F64800477498 /* centilia_animated2_17.webp in Resources */,
+				71398547286B705900151E1C /* centilia_summer_5.webp in Resources */,
 				71C890692767F64800477498 /* 09_MilkMocha_sad.webp in Resources */,
 				71C890DE2767F64800477498 /* 25_FangirlActivities_Y.webp in Resources */,
 				8A18E33D1FBA793F0082201D /* sticker_packs.wasticker in Resources */,
