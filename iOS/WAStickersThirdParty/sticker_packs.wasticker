@@ -167,7 +167,7 @@
       },
       {
         "identifier": "milkmocha_animated",
-        "name": "(NEW) Milk Mocha Animated",
+        "name": "Milk Mocha Animated",
         "publisher": "Klova Studios",
         "price": "PAID",
         "tray_image_file": "tray_MilkMochaAnimated.webp",
@@ -331,7 +331,7 @@
       },
       {
         "identifier": "centilia_you2",
-        "name": "(NEW) Centilia It's You 2",
+        "name": "Centilia It's You 2",
         "publisher": "Klova Studios",
         "price": "PAID",
         "tray_image_file": "tray_CentiliaItsYou2.webp",
@@ -495,7 +495,7 @@
       },
       {
         "identifier": "centilia_its_you",
-        "name": "(NEW) Centilia It's You 1",
+        "name": "Centilia It's You 1",
         "publisher": "Klova Studios",
         "price": "PAID",
         "tray_image_file": "tray_CentiliaItsYou.webp",
@@ -659,7 +659,7 @@
       },
       {
         "identifier": "centilia_animated2",
-        "name": "(NEW) Centilia Animated 2",
+        "name": "Centilia Animated 2",
         "publisher": "Klova Studios",
         "price": "PAID",
         "tray_image_file": "tray_centilia_animated2.webp",
@@ -788,7 +788,7 @@
       },
       {
         "identifier": "centilia_animated1",
-        "name": "(NEW) Centilia Animated 1",
+        "name": "Centilia Animated 1",
         "publisher": "Klova Studios",
         "price": "FREE",
         "tray_image_file": "tray_centilia_animated1.webp",
