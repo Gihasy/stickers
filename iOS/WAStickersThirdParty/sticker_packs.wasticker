@@ -2,9 +2,173 @@
     "android_play_store_link": "https://play.google.com/store/apps/details?id=com.klovastudios.wasticker",
     "ios_app_store_link": "https://itunes.apple.com/app/id1523469785?fbclid=IwAR1MNCzf50WbVrrqwYidSTRmVhbUxzVlp5Xbm7YGJSEkWtAhBm9",
     "sticker_packs": [
+    {
+    "identifier": "milk_mocha_happiness",
+    "name": "(NEW) Milk Mocha : Happiness!",
+    "publisher": "Klova Studios",
+    "price": "PAID",
+    "tray_image_file": "tray_milk_mocha_happiness.png",
+    "image_data_version": "1",
+    "publisher_email":"NEW",
+    "publisher_website" : "https://klovastudios.com",
+    "privacy_policy_website": "https://klovastudios.com",
+    "license_agreement_website": "https://klovastudios.com",
+    "animated_sticker_pack": true,
+    "stickers": [
+      {
+        "image_file": "milk_mocha_happiness_1.webp",
+        "emojis": ["",""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_2.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_3.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_4.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_5.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_6.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_7.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_8.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_9.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_10.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_11.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_12.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_13.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_14.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_15.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_16.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_17.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_18.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_19.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_20.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_21.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_22.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_23.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_24.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_25.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_26.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_27.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_28.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_29.webp",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "milk_mocha_happiness_30.webp",
+        "emojis": [""]
+      }
+    ]
+  },
       {
             "identifier": "centilia_summer",
-            "name": "(NEW) Centilia Summer",
+            "name": "Centilia Summer",
             "publisher": "Klova Studios",
             "price": "PAID",
             "tray_image_file": "tray_centilia_summer.webp",
@@ -877,7 +1041,7 @@
       },
       {
         "identifier": "centilia_raei_cuddle",
-        "name": "(NEW) Centilia & Raei Cuddle",
+        "name": "Centilia & Raei Cuddle",
         "publisher": "Klova Studios",
         "price": "PAID",
         "tray_image_file": "tray_centilia_raei_cuddle.webp",
