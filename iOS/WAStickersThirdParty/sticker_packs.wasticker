@@ -2,9 +2,398 @@
     "android_play_store_link": "https://play.google.com/store/apps/details?id=com.klovastudios.wasticker",
     "ios_app_store_link": "https://itunes.apple.com/app/id1523469785?fbclid=IwAR1MNCzf50WbVrrqwYidSTRmVhbUxzVlp5Xbm7YGJSEkWtAhBm9",
     "sticker_packs": [
+{
+    "identifier": "adorable_milk_mocha",
+    "name": "(NEW) Adorable Milk Mocha",
+    "publisher": "Klova Studios",
+    "price": "PAID",
+    "tray_image_file": "adorable_milk_mocha_tray.png",
+    "image_data_version": "1",
+    "publisher_email":"NEW",
+    "publisher_website" : "https://klovastudios.com",
+    "privacy_policy_website": "https://klovastudios.com",
+    "license_agreement_website": "https://klovastudios.com",
+    "stickers": [
+      {
+        "image_file": "adorable_milk_mocha_01.png",
+        "emojis": ["",""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_02.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_03.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_04.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_05.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_06.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_07.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_08.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_09.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_10.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_11.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_12.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_13.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_14.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_15.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_16.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_17.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_18.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_19.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_20.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_21.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_22.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_23.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_24.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_25.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_26.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_27.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_28.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_29.png",
+        "emojis": [""]
+      },
+
+      {
+        "image_file": "adorable_milk_mocha_30.png",
+        "emojis": [""]
+      }
+    ]
+},
+    {
+    "identifier": "centilia_autumn",
+    "name": "(NEW) Centilia - Autumn",
+    "publisher": "Klova Studios",
+    "price": "PAID",
+    "tray_image_file": "centilia_autumn_tray.png",
+    "image_data_version": "1",
+    "publisher_email":"NEW",
+    "publisher_website" : "https://klovastudios.com",
+    "privacy_policy_website": "https://klovastudios.com",
+    "license_agreement_website": "https://klovastudios.com",
+    "stickers": [
+        {
+        "image_file": "centilia_autumn_1.png",
+        "emojis": ["",""]
+        },
+
+        {
+        "image_file": "centilia_autumn_2.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_3.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_4.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_5.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_6.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_7.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_8.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_9.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_10.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_11.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_12.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_13.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_14.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_15.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_16.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_17.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_18.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_19.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_20.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_21.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_22.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_23.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_24.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_25.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_26.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_27.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_28.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_29.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_30.png",
+        "emojis": [""]
+        }
+    ]
+    },
+    {
+    "identifier": "centilia_autumn_free",
+    "name": "(NEW) Centilia - Autumn",
+    "publisher": "Klova Studios",
+    "price": "FREE",
+    "tray_image_file": "centilia_autumn_free_tray.png",
+    "image_data_version": "1",
+    "publisher_email":"NEW",
+    "publisher_website" : "https://klovastudios.com",
+    "privacy_policy_website": "https://klovastudios.com",
+    "license_agreement_website": "https://klovastudios.com",
+    "stickers": [
+        {
+        "image_file": "centilia_autumn_free_1.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_free_2.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_free_3.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_free_4.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_free_5.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_free_6.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_free_7.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_free_8.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_free_9.png",
+        "emojis": [""]
+        },
+
+        {
+        "image_file": "centilia_autumn_free_10.png",
+        "emojis": [""]
+        }
+    ]
+    },
     {
     "identifier": "milk_mocha_happiness",
-    "name": "(NEW) Milk Mocha : Happiness!",
+    "name": "Milk Mocha : Happiness!",
     "publisher": "Klova Studios",
     "price": "PAID",
     "tray_image_file": "tray_milk_mocha_happiness.png",
