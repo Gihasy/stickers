@@ -5,11 +5,11 @@ android {
     aaptOptions {
         noCompress "webp"
     }
-    compileSdkVersion 30
+    compileSdkVersion 31
     defaultConfig {
         applicationId "com.klovastudios.wasticker"
         minSdkVersion 15
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 600
         versionName "6.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"

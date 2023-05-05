@@ -36,10 +36,10 @@ public class StickerPackListActivity extends AddStickerPackActivity {
     private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
     private ArrayList<StickerPack> stickerPackList;
     String url1 = "https://klovastudios.com/wp-content/uploads/2021/08/1.1.jpg";
-    String url2 = "https://klovastudios.com/wp-content/uploads/2021/08/1.2-5.jpg";
-    String url3 = "https://klovastudios.com/wp-content/uploads/2021/08/1.3.jpg";
-    String url4 = "https://klovastudios.com/wp-content/uploads/2021/10/1.1-3.jpg";
-    String url5 = "https://klovastudios.com/wp-content/uploads/2021/10/1.2-2.jpg";
+    String url2 = "https://klovastudios.com/wp-content/uploads/2023/02/1-6.png";
+    String url3 = "https://klovastudios.com/wp-content/uploads/2023/02/2-6.png";
+    String url4 = "https://klovastudios.com/wp-content/uploads/2023/02/4-5.png";
+    String url5 = "https://klovastudios.com/wp-content/uploads/2023/02/3-6.png";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

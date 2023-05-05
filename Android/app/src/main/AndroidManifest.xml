@@ -15,7 +15,8 @@
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:allowBackup"
         >
-        <activity android:name=".EntryActivity">
+        <activity android:name=".EntryActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
