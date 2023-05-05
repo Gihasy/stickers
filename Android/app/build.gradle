@@ -10,8 +10,8 @@ android {
         applicationId "com.klovastudios.wasticker"
         minSdkVersion 15
         targetSdkVersion 30
-        versionCode 508
-        versionName "5.8"
+        versionCode 600
+        versionName "6.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         def contentProviderAuthority = applicationId + ".stickercontentprovider"
         // Creates a placeholder property to use in the manifest.
