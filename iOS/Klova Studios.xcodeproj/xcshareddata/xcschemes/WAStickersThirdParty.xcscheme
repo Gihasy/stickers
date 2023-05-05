@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8A22EDFF1F9A9F40003A7F21"
-               BuildableName = "Klova Studios.app"
-               BlueprintName = "Klova Studios"
+               BuildableName = "Centilia.app"
+               BlueprintName = "Centilia"
                ReferencedContainer = "container:Klova Studios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8A22EDFF1F9A9F40003A7F21"
-            BuildableName = "Klova Studios.app"
-            BlueprintName = "Klova Studios"
+            BuildableName = "Centilia.app"
+            BlueprintName = "Centilia"
             ReferencedContainer = "container:Klova Studios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -65,8 +65,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8A22EDFF1F9A9F40003A7F21"
-            BuildableName = "Klova Studios.app"
-            BlueprintName = "Klova Studios"
+            BuildableName = "Centilia.app"
+            BlueprintName = "Centilia"
             ReferencedContainer = "container:Klova Studios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
