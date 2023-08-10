@@ -87,6 +87,7 @@ class StickerPackViewController: UIViewController, SKProductsRequestDelegate, SK
 
         addButton.setImage(buttonImage, for: .normal)
         addButton.backgroundColor = UIColor.systemGreen
+        addButton.center = self.view.center
         if(stickerPack.price == "FREE"){
             addButton.setTitle("Add to WhatsApp", for: .normal)
             addButton.addTarget(self, action: #selector(addButtonPressed(button:)), for: .touchUpInside)
@@ -199,7 +200,6 @@ class StickerPackViewController: UIViewController, SKProductsRequestDelegate, SK
             print("Not purchased: \(productIdentifier)")
             addButton.setTitle("Purchase", for: .normal)
             addButton.addTarget(self, action: #selector(purchaseButtonPressed(button:)), for: .touchUpInside)
-
             addButton.isEnabled = true
         }
     }

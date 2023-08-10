@@ -35,11 +35,8 @@ public class StickerPackListActivity extends AddStickerPackActivity {
     private StickerPackListAdapter allStickerPacksListAdapter;
     private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
     private ArrayList<StickerPack> stickerPackList;
-    String url1 = "https://klovastudios.com/wp-content/uploads/2021/08/1.1.jpg";
-    String url2 = "https://klovastudios.com/wp-content/uploads/2021/08/1.2-5.jpg";
-    String url3 = "https://klovastudios.com/wp-content/uploads/2021/08/1.3.jpg";
-    String url4 = "https://klovastudios.com/wp-content/uploads/2021/10/1.1-3.jpg";
-    String url5 = "https://klovastudios.com/wp-content/uploads/2021/10/1.2-2.jpg";
+    String url1 = "https://centilia.id/wp-content/uploads/banner2.png";
+    String url2 = "https://centilia.id/wp-content/uploads/banner1.png";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
