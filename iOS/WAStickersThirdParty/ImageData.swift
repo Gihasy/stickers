@@ -18,18 +18,6 @@ extension CGSize {
         return left.width.isLess(than: right.width) && left.height.isLess(than: right.height)
     }
 
-    public static func >(left: CGSize, right: CGSize) -> Bool {
-        return !left.width.isLessThanOrEqualTo(right.width) && !left.height.isLessThanOrEqualTo(right.height)
-    }
-
-    public static func <=(left: CGSize, right: CGSize) -> Bool {
-        return left.width.isLessThanOrEqualTo(right.width) && left.height.isLessThanOrEqualTo(right.height)
-    }
-
-    public static func >=(left: CGSize, right: CGSize) -> Bool {
-        return !left.width.isLess(than: right.width) && !left.height.isLess(than: right.height)
-    }
-
 }
 
 /**

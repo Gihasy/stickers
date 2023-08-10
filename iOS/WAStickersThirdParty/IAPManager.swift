@@ -3,16 +3,12 @@ class IAPManager: NSObject {
   static let shared = IAPManager()
     private let allTicketIdentifiers: Set<String> = [
     "centilia_raei_cuddle",
-    "centilia_raei_dailystickers1",
+    "centilia_raei_dailystickerss1",
     "centilia_animated2",
     "centilia_static2_1",
     "centilia_its_you",
     "centilia_you2",
-    "centilia_static3_1",
-    "everyday_milk_mocha",
-    "milk_daily_1",
-    "milkmocha_animated",
-    "mocha_daily_1"]
+    "centilia_static3_1"]
   private override init() {
     super.init()
   }

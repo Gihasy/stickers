@@ -1,18 +1,18 @@
 {
-  "android_play_store_link": "https://play.google.com/store/apps/details?id=com.klovastudios.wasticker",
+  "android_play_store_link": "https://play.google.com/store/apps/details?id=com.centilia.wasticker",
   "ios_app_store_link": "https://itunes.apple.com/app/id1523469785?fbclid=IwAR1MNCzf50WbVrrqwYidSTRmVhbUxzVlp5Xbm7YGJSEkWtAhBm9",
   "sticker_packs": [
     {
       "identifier": "centilia_autumn",
-      "name": "(NEW) Centilia - Autumn",
-      "publisher": "Klova Studios",
+      "name": "Centilia - Autumn",
+      "publisher": "Centilia",
       "price": "PAID",
       "tray_image_file": "centilia_autumn_tray.png",
       "image_data_version": "1",
       "publisher_email": "NEW",
-      "publisher_website": "https://klovastudios.com",
-      "privacy_policy_website": "https://klovastudios.com",
-      "license_agreement_website": "https://klovastudios.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "stickers": [
         {
           "image_file": "centilia_autumn_1.png",
@@ -167,15 +167,15 @@
     },
     {
       "identifier": "centilia_autumn_free",
-      "name": "(NEW) Centilia - Autumn",
-      "publisher": "Klova Studios",
+      "name": "Centilia - Autumn",
+      "publisher": "Centilia",
       "price": "FREE",
       "tray_image_file": "centilia_autumn_free_tray.png",
       "image_data_version": "1",
       "publisher_email": "NEW",
-      "publisher_website": "https://klovastudios.com",
-      "privacy_policy_website": "https://klovastudios.com",
-      "license_agreement_website": "https://klovastudios.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "stickers": [
         {
           "image_file": "centilia_autumn_free_1.png",
@@ -231,14 +231,14 @@
     {
       "identifier": "centilia_summer",
       "name": "Centilia Summer",
-      "publisher": "Klova Studios",
+      "publisher": "Centilia",
       "price": "PAID",
       "tray_image_file": "tray_centilia_summer.webp",
       "image_data_version": "1",
       "publisher_email": "NEW",
-      "publisher_website": "https://klovastudios.com",
-      "privacy_policy_website": "https://klovastudios.com",
-      "license_agreement_website": "https://klovastudios.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "stickers": [
         {
           "image_file": "centilia_summer_1.webp",
@@ -394,14 +394,14 @@
     {
       "identifier": "centilia_you2",
       "name": "Centilia It's You 2",
-      "publisher": "Klova Studios",
+      "publisher": "Centilia",
       "price": "PAID",
       "tray_image_file": "tray_CentiliaItsYou2.webp",
       "image_data_version": "1",
       "publisher_email": "NEW",
-      "publisher_website": "https://klovastudios.com",
-      "privacy_policy_website": "https://klovastudios.com",
-      "license_agreement_website": "https://klovastudios.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "animated_sticker_pack": false,
       "stickers": [
         {
@@ -558,14 +558,14 @@
     {
       "identifier": "centilia_its_you",
       "name": "Centilia It's You 1",
-      "publisher": "Klova Studios",
+      "publisher": "Centilia",
       "price": "PAID",
       "tray_image_file": "tray_CentiliaItsYou.webp",
       "image_data_version": "1",
       "publisher_email": "NEW",
-      "publisher_website": "https://klovastudios.com",
-      "privacy_policy_website": "https://klovastudios.com",
-      "license_agreement_website": "https://klovastudios.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "animated_sticker_pack": false,
       "stickers": [
         {
@@ -722,14 +722,14 @@
     {
       "identifier": "centilia_animated2",
       "name": "Centilia Animated 2",
-      "publisher": "Klova Studios",
+      "publisher": "Centilia",
       "price": "PAID",
       "tray_image_file": "tray_centilia_animated2.webp",
       "image_data_version": "1",
       "publisher_email": "NEW",
-      "publisher_website": "https://klovastudios.com",
-      "privacy_policy_website": "https://klovastudios.com",
-      "license_agreement_website": "https://klovastudios.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "animated_sticker_pack": true,
       "stickers": [
         {
@@ -851,14 +851,14 @@
     {
       "identifier": "centilia_animated1",
       "name": "Centilia Animated 1",
-      "publisher": "Klova Studios",
+      "publisher": "Centilia",
       "price": "FREE",
       "tray_image_file": "tray_centilia_animated1.webp",
       "image_data_version": "1",
       "publisher_email": "NEW",
-      "publisher_website": "https://klovastudios.com",
-      "privacy_policy_website": "https://klovastudios.com",
-      "license_agreement_website": "https://klovastudios.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "animated_sticker_pack": true,
       "stickers": [
         {
@@ -940,14 +940,14 @@
     {
       "identifier": "centilia_raei_cuddle",
       "name": "Centilia & Raei Cuddle",
-      "publisher": "Klova Studios",
+      "publisher": "Centilia",
       "price": "PAID",
       "tray_image_file": "tray_centilia_raei_cuddle.webp",
       "image_data_version": "1",
       "publisher_email": "NEW",
-      "publisher_website": "https://klovastudios.com",
-      "privacy_policy_website": "https://klovastudios.com",
-      "license_agreement_website": "https://klovastudios.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "stickers": [
         {
           "image_file": "centilia_raei_cuddle_1.webp",
@@ -1102,14 +1102,14 @@
     {
       "identifier": "mocca_centilia_friends",
       "name": "Mocca - Centilia Friends",
-      "publisher": "Klova Studios",
+      "publisher": "Centilia",
       "price": "FREE",
       "tray_image_file": "tray_Mocca.webp",
       "image_data_version": "1",
       "publisher_email": "NEW",
-      "publisher_website": "https://klovastudios.com",
-      "privacy_policy_website": "https://klovastudios.com",
-      "license_agreement_website": "https://klovastudios.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "stickers": [
         {
           "image_file": "01_Mocca_A.webp",
@@ -1265,14 +1265,14 @@
     {
       "identifier": "chocony_centilia_friends",
       "name": "Chocony - Centilia Friends",
-      "publisher": "Klova Studios",
+      "publisher": "Centilia",
       "tray_image_file": "tray_Chocony.webp",
       "price": "FREE",
       "image_data_version": "1",
       "publisher_email": "NEW",
-      "publisher_website": "https://www.klovastudios.com",
-      "privacy_policy_website": "https://www.klovastudios.com",
-      "license_agreement_website": "https://www.klovastudios.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "stickers": [
         {
           "image_file": "01_Chocony_A.webp",
@@ -1412,16 +1412,16 @@
       ]
     },
     {
-      "identifier": "centilia_raei_dailystickers1",
+      "identifier": "centilia_raei_dailystickerss1",
       "name": "Centilia & Raei Daily stickers",
-      "publisher": "Klova Studios",
+      "publisher": "Centilia",
       "tray_image_file": "tray_CentiliaRaeiDailyStickers.webp",
       "price": "PAID",
       "image_data_version": "1",
       "publisher_email": "NEW",
-      "publisher_website": "https://www.klovastudios.com",
-      "privacy_policy_website": "https://www.klovastudios.com",
-      "license_agreement_website": "https://www.klovastudios.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "stickers": [
         {
           "image_file": "01_CentiliaRaeiDailyStickers_A.webp",
@@ -1563,14 +1563,14 @@
     {
       "identifier": "centilia_static3_1",
       "name": "Centilia Mood stickers 2",
-      "publisher": "Klova Studios",
+      "publisher": "Centilia",
       "tray_image_file": "tray_CentiliaStatic3.webp",
       "price": "PAID",
       "image_data_version": "1",
       "publisher_email": "NEW",
-      "publisher_website": "https://www.klovastudios.com",
-      "privacy_policy_website": "https://www.klovastudios.com",
-      "license_agreement_website": "https://www.klovastudios.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "stickers": [
         {
           "image_file": "01_CentiliaStatic3_A.webp",
@@ -1712,14 +1712,14 @@
     {
       "identifier": "centilia_static2_1",
       "name": "Centilia Daily stickers",
-      "publisher": "Klova Studios",
+      "publisher": "Centilia",
       "tray_image_file": "tray_CentiliaStatic2.webp",
       "price": "PAID",
       "image_data_version": "1",
       "publisher_email": "NEW",
-      "publisher_website": "https://www.klovastudios.com",
-      "privacy_policy_website": "https://www.klovastudios.com",
-      "license_agreement_website": "https://www.klovastudios.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "stickers": [
         {
           "image_file": "01_CentiliaStatic2_A.webp",
@@ -1861,14 +1861,14 @@
     {
       "identifier": "CentiliaStatic",
       "name": "Centilia Mood stickers",
-      "publisher": "Klova Studios",
+      "publisher": "Centilia",
       "tray_image_file": "tray_CentiliaStatic.webp",
       "price": "FREE",
       "image_data_version": "1",
       "publisher_email": "NEW",
-      "publisher_website": "https://www.klovastudios.com",
-      "privacy_policy_website": "https://www.klovastudios.com",
-      "license_agreement_website": "https://www.klovastudios.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "stickers": [
         {
           "image_file": "01_CentiliaStatic_A.webp",
@@ -2010,14 +2010,14 @@
     {
       "identifier": "CentiliaandRaeiCouples",
       "name": "Centilia & Raei Couples",
-      "publisher": "Klova Studios",
+      "publisher": "Centilia",
       "price": "FREE",
       "image_data_version": "1",
       "tray_image_file": "tray_CentiliaRaei.webp",
-      "publisher_email": "klovastudios@gmail.com",
-      "publisher_website": "https://klovastudios.com",
-      "privacy_policy_website": "https://klovastudios.com",
-      "license_agreement_website": "https://klovastudios.com",
+      "publisher_email": "centilia.official@gmail.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "stickers": [
         {
           "image_file": "01_CentiliaRaei_A.webp",
@@ -2170,14 +2170,14 @@
     {
       "identifier": "Raei",
       "name": "Raei",
-      "publisher": "Klova Studios",
+      "publisher": "Centilia",
       "price": "FREE",
       "image_data_version": "1",
       "tray_image_file": "tray_Raei.webp",
-      "publisher_email": "klovastudios@gmail.com",
-      "publisher_website": "https://www.klovastudios.com",
-      "privacy_policy_website": "https://www.klovastudios.com",
-      "license_agreement_website": "https://www.klovastudios.com",
+      "publisher_email": "centilia.official@gmail.com",
+      "publisher_website": "https://centilia.id",
+      "privacy_policy_website": "https://centilia.id",
+      "license_agreement_website": "https://centilia.id",
       "stickers": [
         {
           "image_file": "01_Raei_A.webp",

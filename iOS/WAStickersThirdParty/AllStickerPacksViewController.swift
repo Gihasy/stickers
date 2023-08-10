@@ -22,11 +22,8 @@ class AllStickerPacksViewController: UIViewController,SKProductsRequestDelegate,
     @IBOutlet weak var imageBanner: UIImageView!
     @IBOutlet private weak var stickerPacksTableView: UITableView!
     var imgArr = [  UIImage(named:"1"),
-                    UIImage(named:"2") ,
-                    UIImage(named:"3") ,
-                    UIImage(named:"4") ,
-                    UIImage(named:"5") ]
-    var imageNames = ["1","2","3","4","5"]//List of image names
+                    UIImage(named:"2") ,]
+    var imageNames = ["1","2"]//List of image names
 
     private var needsFetchStickerPacks = true
     private var stickerPacks: [StickerPack] = []
@@ -85,7 +82,7 @@ class AllStickerPacksViewController: UIViewController,SKProductsRequestDelegate,
     @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
     {
         let tappedImage = tapGestureRecognizer.view as! UIImageView
-        if let url = URL(string: "https://klovastudios.com") {
+        if let url = URL(string: "https://portaly.cc/centilia.official") {
             if UIApplication.shared.canOpenURL(url) {
                 UIApplication.shared.open(url, options: [:])
             }

@@ -30,7 +30,7 @@
           "locale" : "en_US"
         }
       ],
-      "productID" : "centilia_raei_dailystickers1",
+      "productID" : "centilia_raei_dailystickerss1",
       "referenceName" : "Centilia & Raei Daily Stickers",
       "type" : "NonConsumable"
     },
@@ -62,51 +62,6 @@
       ],
       "productID" : "centilia_static3_1",
       "referenceName" : "Centilia Mood Stickers 2",
-      "type" : "NonConsumable"
-    },
-    {
-      "displayPrice" : "0.99",
-      "familyShareable" : false,
-      "internalID" : "C2DB7E0B",
-      "localizations" : [
-        {
-          "description" : "Everyday Milk Mocha Stickers",
-          "displayName" : "Everyday Milk Mocha Stickers",
-          "locale" : "en_US"
-        }
-      ],
-      "productID" : "everyday_milk_mocha",
-      "referenceName" : "Everyday Milk Mocha Stickers",
-      "type" : "NonConsumable"
-    },
-    {
-      "displayPrice" : "0.99",
-      "familyShareable" : false,
-      "internalID" : "DD8C2AD6",
-      "localizations" : [
-        {
-          "description" : "Milk Daily Life Stickers",
-          "displayName" : "Milk Daily Life Stickers",
-          "locale" : "en_US"
-        }
-      ],
-      "productID" : "milk_daily_1",
-      "referenceName" : "Milk Daily Life Stickers",
-      "type" : "NonConsumable"
-    },
-    {
-      "displayPrice" : "0.99",
-      "familyShareable" : false,
-      "internalID" : "41E6EB78",
-      "localizations" : [
-        {
-          "description" : "Mocha Daily Life Stickers",
-          "displayName" : "Mocha Daily Life Stickers",
-          "locale" : "en_US"
-        }
-      ],
-      "productID" : "mocha_daily_1",
-      "referenceName" : "Mocha Daily Life Stickers",
       "type" : "NonConsumable"
     },
     {
@@ -153,21 +108,6 @@
       "productID" : "centilia_you2",
       "referenceName" : "Centilia It's You 2",
       "type" : "NonConsumable"
-    },
-    {
-      "displayPrice" : "1.99",
-      "familyShareable" : false,
-      "internalID" : "2D1933D5",
-      "localizations" : [
-        {
-          "description" : "Milk Mocha Animated",
-          "displayName" : "Milk Mocha Animated",
-          "locale" : "en_US"
-        }
-      ],
-      "productID" : "milkmocha_animated",
-      "referenceName" : "Milk Mocha Animated",
-      "type" : "NonConsumable"
     }
   ],
   "settings" : {
@@ -177,7 +117,7 @@
 
   ],
   "version" : {
-    "major" : 1,
-    "minor" : 1
+    "major" : 2,
+    "minor" : 0
   }
 }
