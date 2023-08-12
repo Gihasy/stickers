@@ -65,7 +65,7 @@ public class SliderAdapter extends SliderViewAdapter<SliderAdapter.SliderAdapter
             this.itemView = itemView;
 
             Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse("https://klovastudios.com"));
+            intent.setData(Uri.parse("https://centilia.id"));
 
             itemView.setOnClickListener(v ->
                     itemView.getContext().startActivity(intent)

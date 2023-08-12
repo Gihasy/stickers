@@ -1,6 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- This is the app's name, translators please do not translate and put in the same text as English version. Developers can consider putting in their own translation, this string must be changed before publishing -->
-    <string name="app_name">Centilia Whatsapp Stickers</string>
+    <string name="app_name" translatable="false">Centilia Whatsapp Stickers</string>
+    <string name="iap_key" translatable="false">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApDBjWRJn7/bXvnEdN+7i3/dVWodbjQejyeYwgE1Y1RBYny+5mmmWRVezNWtqkCHqTkjlCwvVfDrp13Tr+gMh4BfiwqdWe5b+EVyULlrnYYm3QnujIgV8eRIi8gue/v4Hk2M2ezl4DwhwAmi8MWpHdVEsGONOgsRc/fQLDSEEi9XvsMrHu7M8O54RMq1WciB5UBIkPNu6oEMQgcg58GmLW7Y3Kk7cVX5a6oyAR1vbYmmRAAUgegFQq6RMu2lT5f9Q2lKqXQqsn8lfT5CMM8ZOv2lXghW3TJnRUIHYhqYdJ5tTqTnmYrjUjoYtIEy/dESfSb7xKbw0nxyxWMgirIQ4uwIDAQAB</string>
     <!-- Content description for the sticker pack tray image -->
     <string name="tray_image_content_description">Sticker Pack Tray Image</string>
     <!-- the title of info button in the menu that takes the user to more information about that pack showing publisher website and so on -->
