@@ -118,6 +118,34 @@
 			<key>uniqueIdentifier</key>
 			<string>03EAFB4F-7407-4D40-866D-F8301EE7C9B8</string>
 		</dict>
+		<key>04C5457B-557C-4819-AA31-9102913AAC6A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>04C5457B-557C-4819-AA31-9102913AAC6A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>eyJ0eXBlIjp7ImJsdWVwcmludFByb3ZpZGVyIjp7fX0sImJsdWVwcmludFByb3ZpZGVyX3Byb3ZpZGVyRmlsZVBhdGhTdHJpbmciOiJcL1VzZXJzXC9naWxhbmdsaWVcL0Rlc2t0b3BcL3dvcmtcL2FwcHNcL3N0aWNrZXJzXC9pT1NcL0NlbnRpbGlhIFN0aWNrZXJzLnhjb2RlcHJvaiJ9</string>
+			<key>timeStartedRecording</key>
+			<real>714348508.86708903</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>04C5457B-557C-4819-AA31-9102913AAC6A</string>
+		</dict>
 		<key>05B5E992-A881-4B63-98AA-510D11BB5D70</key>
 		<dict>
 			<key>className</key>
@@ -566,6 +594,34 @@
 			<key>uniqueIdentifier</key>
 			<string>10878B16-4BF1-477E-9632-772C958CBD3E</string>
 		</dict>
+		<key>10FEFA3F-9196-4901-9993-A1AB93FB6D19</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>10FEFA3F-9196-4901-9993-A1AB93FB6D19.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>eyJ0eXBlIjp7ImJsdWVwcmludFByb3ZpZGVyIjp7fX0sImJsdWVwcmludFByb3ZpZGVyX3Byb3ZpZGVyRmlsZVBhdGhTdHJpbmciOiJcL1VzZXJzXC9naWxhbmdsaWVcL0Rlc2t0b3BcL3dvcmtcL2FwcHNcL3N0aWNrZXJzXC9pT1NcL0NlbnRpbGlhIFN0aWNrZXJzLnhjb2RlcHJvaiJ9</string>
+			<key>timeStartedRecording</key>
+			<real>714348172.10696995</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>10FEFA3F-9196-4901-9993-A1AB93FB6D19</string>
+		</dict>
 		<key>1269882E-5DD6-413E-966D-004EBDCCD1AD</key>
 		<dict>
 			<key>className</key>
@@ -593,6 +649,34 @@
 			<string>Build Centilia Stickers</string>
 			<key>uniqueIdentifier</key>
 			<string>1269882E-5DD6-413E-966D-004EBDCCD1AD</string>
+		</dict>
+		<key>130F61D8-D709-42DA-994C-250BBF017FE8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>130F61D8-D709-42DA-994C-250BBF017FE8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>eyJ0eXBlIjp7ImJsdWVwcmludCI6e319LCJibHVlcHJpbnRfcHJvdmlkZXJGaWxlUGF0aFN0cmluZyI6IlwvVXNlcnNcL2dpbGFuZ2xpZVwvRGVza3RvcFwvd29ya1wvYXBwc1wvc3RpY2tlcnNcL2lPU1wvQ2VudGlsaWEgU3RpY2tlcnMueGNvZGVwcm9qIiwiYmx1ZXByaW50X2JsdWVwcmludElkZW50aWZpZXIiOiI4QTIyRURGRjFGOUE5RjQwMDAzQTdGMjEifQ==</string>
+			<key>timeStartedRecording</key>
+			<real>714348242.95473802</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>130F61D8-D709-42DA-994C-250BBF017FE8</string>
 		</dict>
 		<key>135E33CA-0EA2-4260-A928-5075B9768A6D</key>
 		<dict>
@@ -2582,6 +2666,34 @@
 			<key>uniqueIdentifier</key>
 			<string>6751A1D0-CE8D-49B8-B9C9-6453622884E9</string>
 		</dict>
+		<key>68A8737A-DE7D-416E-AC0F-09D3244051AC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>68A8737A-DE7D-416E-AC0F-09D3244051AC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>eyJ0eXBlIjp7ImJsdWVwcmludFByb3ZpZGVyIjp7fX0sImJsdWVwcmludFByb3ZpZGVyX3Byb3ZpZGVyRmlsZVBhdGhTdHJpbmciOiJcL1VzZXJzXC9naWxhbmdsaWVcL0Rlc2t0b3BcL3dvcmtcL2FwcHNcL3N0aWNrZXJzXC9pT1NcL0NlbnRpbGlhIFN0aWNrZXJzLnhjb2RlcHJvaiJ9</string>
+			<key>timeStartedRecording</key>
+			<real>714348242.95473802</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>68A8737A-DE7D-416E-AC0F-09D3244051AC</string>
+		</dict>
 		<key>69565CE9-FAA8-4EE5-B3D8-A4A31BCAAD7F</key>
 		<dict>
 			<key>className</key>
@@ -2974,6 +3086,34 @@
 			<key>uniqueIdentifier</key>
 			<string>7725A47F-9EE8-4ED5-9406-8D12E93A26DB</string>
 		</dict>
+		<key>7C2782ED-6224-4094-96B0-882767F0C13A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7C2782ED-6224-4094-96B0-882767F0C13A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>eyJ0eXBlIjp7ImJsdWVwcmludCI6e319LCJibHVlcHJpbnRfcHJvdmlkZXJGaWxlUGF0aFN0cmluZyI6IlwvVXNlcnNcL2dpbGFuZ2xpZVwvRGVza3RvcFwvd29ya1wvYXBwc1wvc3RpY2tlcnNcL2lPU1wvQ2VudGlsaWEgU3RpY2tlcnMueGNvZGVwcm9qIiwiYmx1ZXByaW50X2JsdWVwcmludElkZW50aWZpZXIiOiI4QTIyRURGRjFGOUE5RjQwMDAzQTdGMjEifQ==</string>
+			<key>timeStartedRecording</key>
+			<real>714348598.86266398</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>7C2782ED-6224-4094-96B0-882767F0C13A</string>
+		</dict>
 		<key>7D8E2B58-5D30-45EE-A543-5404D0D83ABC</key>
 		<dict>
 			<key>className</key>
@@ -3030,6 +3170,62 @@
 			<key>uniqueIdentifier</key>
 			<string>7E034693-DFE3-44CB-9330-3EC4D09BC776</string>
 		</dict>
+		<key>7F317DC3-A56E-455E-B5B3-21124BDC8E6A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7F317DC3-A56E-455E-B5B3-21124BDC8E6A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>eyJ0eXBlIjp7ImJsdWVwcmludCI6e319LCJibHVlcHJpbnRfcHJvdmlkZXJGaWxlUGF0aFN0cmluZyI6IlwvVXNlcnNcL2dpbGFuZ2xpZVwvRGVza3RvcFwvd29ya1wvYXBwc1wvc3RpY2tlcnNcL2lPU1wvQ2VudGlsaWEgU3RpY2tlcnMueGNvZGVwcm9qIiwiYmx1ZXByaW50X2JsdWVwcmludElkZW50aWZpZXIiOiI4QTIyRURGRjFGOUE5RjQwMDAzQTdGMjEifQ==</string>
+			<key>timeStartedRecording</key>
+			<real>714348172.10696995</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>7F317DC3-A56E-455E-B5B3-21124BDC8E6A</string>
+		</dict>
+		<key>7F6BCA36-3E19-4644-9341-E61E178E2F93</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7F6BCA36-3E19-4644-9341-E61E178E2F93.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>eyJ0eXBlIjp7ImJ1aWxkU3lzdGVtVGFzayI6e319LCJidWlsZFN5c3RlbVRhc2tfYnVpbGRUYXNrIjoiUHJlcGFyZSBidWlsZCJ9</string>
+			<key>timeStartedRecording</key>
+			<real>714348172.10696995</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>7F6BCA36-3E19-4644-9341-E61E178E2F93</string>
+		</dict>
 		<key>818149EE-0D8F-4594-A63B-B7FDA0275F69</key>
 		<dict>
 			<key>className</key>
@@ -3057,6 +3253,34 @@
 			<string>Build Centilia Stickers</string>
 			<key>uniqueIdentifier</key>
 			<string>818149EE-0D8F-4594-A63B-B7FDA0275F69</string>
+		</dict>
+		<key>82538AD0-77EA-4B7C-B321-3FAE4AF3F15F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>82538AD0-77EA-4B7C-B321-3FAE4AF3F15F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>eyJ0eXBlIjp7ImJsdWVwcmludCI6e319LCJibHVlcHJpbnRfcHJvdmlkZXJGaWxlUGF0aFN0cmluZyI6IlwvVXNlcnNcL2dpbGFuZ2xpZVwvRGVza3RvcFwvd29ya1wvYXBwc1wvc3RpY2tlcnNcL2lPU1wvQ2VudGlsaWEgU3RpY2tlcnMueGNvZGVwcm9qIiwiYmx1ZXByaW50X2JsdWVwcmludElkZW50aWZpZXIiOiI4QTIyRURGRjFGOUE5RjQwMDAzQTdGMjEifQ==</string>
+			<key>timeStartedRecording</key>
+			<real>714348508.86708903</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>82538AD0-77EA-4B7C-B321-3FAE4AF3F15F</string>
 		</dict>
 		<key>82BF753D-B9B4-4DD3-9E23-A26421F45F7E</key>
 		<dict>
@@ -3786,6 +4010,34 @@
 			<key>uniqueIdentifier</key>
 			<string>9AC30FAF-DFDC-474E-882B-DB42F63C1AEB</string>
 		</dict>
+		<key>9D2A2A5B-F216-47F4-BFF2-AB651EF5414B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9D2A2A5B-F216-47F4-BFF2-AB651EF5414B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>eyJ0eXBlIjp7ImJ1aWxkU3lzdGVtVGFzayI6e319LCJidWlsZFN5c3RlbVRhc2tfYnVpbGRUYXNrIjoiUHJlcGFyZSBidWlsZCJ9</string>
+			<key>timeStartedRecording</key>
+			<real>714348508.86708903</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>9D2A2A5B-F216-47F4-BFF2-AB651EF5414B</string>
+		</dict>
 		<key>9DA8A56B-07D7-4276-8A31-13FA9AC886B0</key>
 		<dict>
 			<key>className</key>
@@ -4065,6 +4317,34 @@
 			<string>Build Centilia Stickers</string>
 			<key>uniqueIdentifier</key>
 			<string>A963A64D-5DC4-407E-8AAE-8BCFD7F7B0EA</string>
+		</dict>
+		<key>AA4D1A6B-291F-4343-80CA-042FD2E22D4A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AA4D1A6B-291F-4343-80CA-042FD2E22D4A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>eyJ0eXBlIjp7ImJ1aWxkU3lzdGVtVGFzayI6e319LCJidWlsZFN5c3RlbVRhc2tfYnVpbGRUYXNrIjoiUHJlcGFyZSBidWlsZCJ9</string>
+			<key>timeStartedRecording</key>
+			<real>714348598.86266398</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>AA4D1A6B-291F-4343-80CA-042FD2E22D4A</string>
 		</dict>
 		<key>AABC1033-3890-4622-8737-3FFE883B4E1C</key>
 		<dict>
@@ -5326,6 +5606,34 @@
 			<key>uniqueIdentifier</key>
 			<string>DD54A3F7-3319-47B7-9801-F67F6F2E0FE8</string>
 		</dict>
+		<key>DDEA5503-2C1D-479A-BD24-AF3E9A1BBA68</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DDEA5503-2C1D-479A-BD24-AF3E9A1BBA68.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>eyJ0eXBlIjp7ImJ1aWxkU3lzdGVtVGFzayI6e319LCJidWlsZFN5c3RlbVRhc2tfYnVpbGRUYXNrIjoiUHJlcGFyZSBidWlsZCJ9</string>
+			<key>timeStartedRecording</key>
+			<real>714348242.95473802</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>DDEA5503-2C1D-479A-BD24-AF3E9A1BBA68</string>
+		</dict>
 		<key>E03B0B1A-646E-46E6-8317-9D3421E2A7CD</key>
 		<dict>
 			<key>className</key>
@@ -5885,6 +6193,34 @@
 			<string>Clean Centilia Stickers</string>
 			<key>uniqueIdentifier</key>
 			<string>F6796C49-6E37-4EB9-AC8D-A8ECE4536512</string>
+		</dict>
+		<key>F8766D53-623F-41ED-A370-18AF4681886A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F8766D53-623F-41ED-A370-18AF4681886A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>eyJ0eXBlIjp7ImJsdWVwcmludFByb3ZpZGVyIjp7fX0sImJsdWVwcmludFByb3ZpZGVyX3Byb3ZpZGVyRmlsZVBhdGhTdHJpbmciOiJcL1VzZXJzXC9naWxhbmdsaWVcL0Rlc2t0b3BcL3dvcmtcL2FwcHNcL3N0aWNrZXJzXC9pT1NcL0NlbnRpbGlhIFN0aWNrZXJzLnhjb2RlcHJvaiJ9</string>
+			<key>timeStartedRecording</key>
+			<real>714348598.86266398</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>F8766D53-623F-41ED-A370-18AF4681886A</string>
 		</dict>
 		<key>FA8896FA-3BFB-45CA-9230-DA97FD1D8D39</key>
 		<dict>
