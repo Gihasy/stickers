@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0E6359A4203E148200805DEB /* StickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6359A3203E148200805DEB /* StickerCell.swift */; };
+		710410EE2A93F0F0005D6DBD /* CommisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710410ED2A93F0F0005D6DBD /* CommisionViewController.swift */; };
+		710410F52A9408B4005D6DBD /* CommisionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710410F42A9408B4005D6DBD /* CommisionCollectionViewCell.swift */; };
 		7114A4D6277CB47A00A4735A /* tray_CentiliaItsYou.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7114A479277CB47700A4735A /* tray_CentiliaItsYou.webp */; };
 		7114A4D7277CB47A00A4735A /* centilia_its_you_22.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7114A47A277CB47700A4735A /* centilia_its_you_22.webp */; };
 		7114A4D8277CB47A00A4735A /* centilia_its_you_18.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7114A47B277CB47700A4735A /* centilia_its_you_18.webp */; };
@@ -511,6 +513,8 @@
 
 /* Begin PBXFileReference section */
 		0E6359A3203E148200805DEB /* StickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCell.swift; sourceTree = "<group>"; };
+		710410ED2A93F0F0005D6DBD /* CommisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommisionViewController.swift; sourceTree = "<group>"; };
+		710410F42A9408B4005D6DBD /* CommisionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommisionCollectionViewCell.swift; sourceTree = "<group>"; };
 		7114A479277CB47700A4735A /* tray_CentiliaItsYou.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = tray_CentiliaItsYou.webp; path = ../../assets/centilia_its_you/tray_CentiliaItsYou.webp; sourceTree = "<group>"; };
 		7114A47A277CB47700A4735A /* centilia_its_you_22.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = centilia_its_you_22.webp; path = ../../assets/centilia_its_you/centilia_its_you_22.webp; sourceTree = "<group>"; };
 		7114A47B277CB47700A4735A /* centilia_its_you_18.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = centilia_its_you_18.webp; path = ../../assets/centilia_its_you/centilia_its_you_18.webp; sourceTree = "<group>"; };
@@ -1086,6 +1090,7 @@
 				8A22EE0F1F9A9F40003A7F21 /* Info.plist */,
 				8A18E2E31FB3B47A0082201D /* WAStickersThirdParty-Bridging-Header.h */,
 				71E0DE04277CFB43005AD26D /* NonConsumables.storekit */,
+				710410F42A9408B4005D6DBD /* CommisionCollectionViewCell.swift */,
 			);
 			path = WAStickersThirdParty;
 			sourceTree = "<group>";
@@ -1585,6 +1590,7 @@
 				8A27F1321FD9EA08001B2BBD /* LinkTableViewCell.swift */,
 				8A0A6DCC1FE9F1CE00110AF2 /* UIAlertController+Additions.swift */,
 				8A6001CB20298225001EC448 /* GradientView.swift */,
+				710410ED2A93F0F0005D6DBD /* CommisionViewController.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -2142,6 +2148,7 @@
 				8A0A6DCD1FE9F1CE00110AF2 /* UIAlertController+Additions.swift in Sources */,
 				8A18E2F11FB3B47D0082201D /* YYSpriteSheetImage.m in Sources */,
 				8A18E2EF1FB3B47D0082201D /* YYAnimatedImageView.m in Sources */,
+				710410F52A9408B4005D6DBD /* CommisionCollectionViewCell.swift in Sources */,
 				8A27F1221FD76937001B2BBD /* AquaButton.swift in Sources */,
 				8A8D4A7A1FB291290078C4AF /* Interoperability.swift in Sources */,
 				8AB5951920C1FC130076625E /* Sticker.swift in Sources */,
@@ -2149,6 +2156,7 @@
 				8A22EE041F9A9F40003A7F21 /* AppDelegate.swift in Sources */,
 				8A18E2EE1FB3B47D0082201D /* YYImage.m in Sources */,
 				8A18E2F21FB3B47D0082201D /* YYImageCoder.m in Sources */,
+				710410EE2A93F0F0005D6DBD /* CommisionViewController.swift in Sources */,
 				0E6359A4203E148200805DEB /* StickerCell.swift in Sources */,
 				8AB5951B20C1FC440076625E /* ImageData.swift in Sources */,
 			);
@@ -2282,6 +2290,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -2313,13 +2322,17 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.centilia.stickerpacks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "WAStickersThirdParty/WAStickersThirdParty-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -2346,13 +2359,16 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.centilia.stickerpacks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "WAStickersThirdParty/WAStickersThirdParty-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
