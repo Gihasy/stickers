@@ -8,10 +8,29 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Item-->
+        <scene sceneID="0Jh-pK-gF8">
+            <objects>
+                <viewController id="Rs0-Oj-dyU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="abr-US-sIF"/>
+                        <viewControllerLayoutGuide type="bottom" id="hlt-Er-5wK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CZ8-mA-X6V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="QXd-nu-MTh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D3K-Hp-Zhy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2172" y="246"/>
+        </scene>
         <!--Sticker Packs-->
         <scene sceneID="B1S-hN-MFe">
             <objects>
-                <viewController title="Sticker Packs" id="M67-ew-auO" customClass="AllStickerPacksViewController" customModule="Centilia_Whatsapp_Stickers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Sticker Packs" id="M67-ew-auO" customClass="AllStickerPacksViewController" customModule="Centilia_Stickers" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="83V-gx-xE9"/>
                         <viewControllerLayoutGuide type="bottom" id="ajP-Ty-Icd"/>
@@ -41,10 +60,10 @@
                             <constraint firstItem="CD6-Ts-Zg8" firstAttribute="trailing" secondItem="8NA-Zm-FU0" secondAttribute="trailing" id="vda-Sj-2Bg"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="HPf-7M-u4D"/>
                     <navigationItem key="navigationItem" title="Centilia" largeTitleDisplayMode="never" id="x4y-Ef-GnB" userLabel="Centilia">
                         <barButtonItem key="rightBarButtonItem" title="Restore" style="plain" id="hoA-cc-ZmA">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="jrA-Y3-YTV">
-                                <rect key="frame" x="276.5" y="5" width="82.5" height="34.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Restore">
@@ -63,12 +82,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uC1-1q-rug" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1212" y="915.29235382308855"/>
+            <point key="canvasLocation" x="2151.1999999999998" y="915.29235382308855"/>
         </scene>
         <!--Sticker Pack View Controller-->
         <scene sceneID="edg-Pz-Hza">
             <objects>
-                <viewController storyboardIdentifier="stickerPackVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ngp-pe-fiT" customClass="StickerPackViewController" customModule="Centilia_Whatsapp_Stickers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="stickerPackVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ngp-pe-fiT" customClass="StickerPackViewController" customModule="Centilia_Stickers" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xVg-Eq-uuA"/>
                         <viewControllerLayoutGuide type="bottom" id="40j-fZ-Ld1"/>
@@ -87,7 +106,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="opL-AO-nSO">
-                                <rect key="frame" x="0.0" y="53" width="375" height="530"/>
+                                <rect key="frame" x="0.0" y="53" width="375" height="481"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Cwh-cs-v6O">
                                     <size key="itemSize" width="91" height="83"/>
@@ -134,12 +153,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b2G-8x-4eR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1941.5999999999999" y="914.392803598201"/>
+            <point key="canvasLocation" x="2880.8000000000002" y="914.392803598201"/>
         </scene>
         <!--Info-->
         <scene sceneID="GSF-2F-TCa">
             <objects>
-                <tableViewController id="VuN-R9-mKn" customClass="StickerPackInfoViewController" customModule="Centilia_Whatsapp_Stickers" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="VuN-R9-mKn" customClass="StickerPackInfoViewController" customModule="Centilia_Stickers" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="dwL-sg-TYV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -159,7 +178,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pXA-R6-oeZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3641" y="916"/>
+            <point key="canvasLocation" x="4580" y="915.29235382308855"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cJb-jt-Zt3">
@@ -175,7 +194,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UNh-QS-CMO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2817" y="915"/>
+            <point key="canvasLocation" x="3756" y="914.392803598201"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ay7-pT-DQM">
@@ -189,12 +208,31 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="M67-ew-auO" kind="relationship" relationship="rootViewController" id="Gga-oJ-3kI"/>
+                        <segue destination="VqT-Rd-Gg8" kind="relationship" relationship="rootViewController" id="Gga-oJ-3kI"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v9T-AN-dLq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="465" y="915"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="mRf-6K-nos">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="VqT-Rd-Gg8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="3sm-ie-XbT"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OYQ-nn-YUI">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="M67-ew-auO" kind="relationship" relationship="viewControllers" id="s4V-QA-Dgv"/>
+                        <segue destination="Rs0-Oj-dyU" kind="relationship" relationship="viewControllers" id="iht-Av-HIJ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uO6-8k-pX9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1212" y="915.29235382308855"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -204,6 +242,9 @@
         <image name="StickerAnimation" width="16" height="16"/>
         <systemColor name="groupTableViewBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -51,6 +51,51 @@
 			<key>uniqueIdentifier</key>
 			<string>0B2B641E-7358-4508-AB8B-22EE5EF5516A</string>
 		</dict>
+		<key>13E09533-6E64-48D8-AE08-50D65A43F0CC</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>F5727AA5-43B1-460A-B179-1C0DF9CA6A6D</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Centilia Stickers-2023.08.22_01-57-32-+0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Centilia Stickers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Centilia Stickers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Centilia Stickers</string>
+			<key>timeStartedRecording</key>
+			<real>714337052.21278</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>13E09533-6E64-48D8-AE08-50D65A43F0CC</string>
+		</dict>
 		<key>1E3BCB53-9D15-44BB-A3E0-926034F02D0E</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -231,6 +276,51 @@
 			<key>uniqueIdentifier</key>
 			<string>33C50073-B479-41E6-842B-A74E2FC91DF1</string>
 		</dict>
+		<key>3EBD75C7-A835-451F-B557-F41091A127B6</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>4D58A196-E659-4E30-845D-4F6D04B4FBF3</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Centilia Stickers-2023.08.22_01-50-40-+0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Centilia Stickers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Centilia Stickers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Centilia Stickers</string>
+			<key>timeStartedRecording</key>
+			<real>714336640.69148505</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>3EBD75C7-A835-451F-B557-F41091A127B6</string>
+		</dict>
 		<key>42F058FD-DD12-4031-9261-DD785826B5BB</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -275,6 +365,96 @@
 			<string>Run Centilia Stickers</string>
 			<key>uniqueIdentifier</key>
 			<string>42F058FD-DD12-4031-9261-DD785826B5BB</string>
+		</dict>
+		<key>43E97252-1C44-4201-BC80-E9CF58211F6C</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>C0A29913-F04C-4619-9CDC-AC27BD38DFF4</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Centilia Stickers-2023.08.22_01-57-42-+0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Centilia Stickers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Centilia Stickers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Centilia Stickers</string>
+			<key>timeStartedRecording</key>
+			<real>714337062.09847605</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>43E97252-1C44-4201-BC80-E9CF58211F6C</string>
+		</dict>
+		<key>51907D95-0289-468D-A213-42994C432182</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>ED446648-44C3-4174-9D04-DDFE35020B61</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Centilia Stickers-2023.08.22_01-57-15-+0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Centilia Stickers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Centilia Stickers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Centilia Stickers</string>
+			<key>timeStartedRecording</key>
+			<real>714337035.830598</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>51907D95-0289-468D-A213-42994C432182</string>
 		</dict>
 		<key>576F0DF1-7629-4AA1-B98E-81F5594DCAF6</key>
 		<dict>
@@ -366,6 +546,51 @@
 			<key>uniqueIdentifier</key>
 			<string>73C30881-41EF-4D00-AD5E-19CB7A474409</string>
 		</dict>
+		<key>78BECC1A-ED81-4E23-A417-1D3B5D132D55</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>FCDB0D52-2AA1-4B04-9278-6CAD0A43E46E</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Centilia Stickers-2023.08.22_01-52-20-+0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Centilia Stickers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Centilia Stickers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Centilia Stickers</string>
+			<key>timeStartedRecording</key>
+			<real>714336740.30540895</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>78BECC1A-ED81-4E23-A417-1D3B5D132D55</string>
+		</dict>
 		<key>7A62B161-7C21-4CCE-8AB4-D591DD27FD4B</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -410,6 +635,51 @@
 			<string>Run Centilia Stickers</string>
 			<key>uniqueIdentifier</key>
 			<string>7A62B161-7C21-4CCE-8AB4-D591DD27FD4B</string>
+		</dict>
+		<key>89CD40DD-8A5E-41C5-A24C-F26A3867C9E3</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>4EA5C3B9-4268-4ED7-BD66-C9F27670E50C</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Centilia Stickers-2023.08.22_01-48-39-+0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Centilia Stickers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Centilia Stickers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Centilia Stickers</string>
+			<key>timeStartedRecording</key>
+			<real>714336519.02722299</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>89CD40DD-8A5E-41C5-A24C-F26A3867C9E3</string>
 		</dict>
 		<key>98CA54BF-EB6C-42F0-935D-1984C2C876A0</key>
 		<dict>
@@ -501,6 +771,51 @@
 			<key>uniqueIdentifier</key>
 			<string>9D72C805-53FA-4DAC-8634-2E461CE7FE82</string>
 		</dict>
+		<key>A92B6FB9-D2E6-4D5B-92D7-BE9DF78D6F90</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>4A720904-C2C3-4ACF-9A93-CC0B31F44E0E</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Centilia Stickers-2023.08.22_02-02-54-+0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Centilia Stickers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Centilia Stickers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Centilia Stickers</string>
+			<key>timeStartedRecording</key>
+			<real>714337374.26796901</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>A92B6FB9-D2E6-4D5B-92D7-BE9DF78D6F90</string>
+		</dict>
 		<key>B347B5C4-D069-422F-A411-BEF78BF5ADD8</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -545,6 +860,96 @@
 			<string>Run Centilia Stickers</string>
 			<key>uniqueIdentifier</key>
 			<string>B347B5C4-D069-422F-A411-BEF78BF5ADD8</string>
+		</dict>
+		<key>B9507755-4B92-4E89-BA81-6C91E12376AE</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>909039B6-1070-497A-A01C-04D2D25B77EF</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Centilia Stickers-2023.08.22_01-59-16-+0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Centilia Stickers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Centilia Stickers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Centilia Stickers</string>
+			<key>timeStartedRecording</key>
+			<real>714337156.82851505</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>B9507755-4B92-4E89-BA81-6C91E12376AE</string>
+		</dict>
+		<key>BF006E17-97EB-4300-B4BE-61E289E6D398</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>53FECEBD-A922-4615-8A05-A9CF51B2B1CF</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Centilia Stickers-2023.08.22_01-50-25-+0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Centilia Stickers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Centilia Stickers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Centilia Stickers</string>
+			<key>timeStartedRecording</key>
+			<real>714336625.61178899</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>BF006E17-97EB-4300-B4BE-61E289E6D398</string>
 		</dict>
 		<key>C64EEA9F-00B4-4632-A6EF-7A434601E93B</key>
 		<dict>
@@ -591,6 +996,51 @@
 			<key>uniqueIdentifier</key>
 			<string>C64EEA9F-00B4-4632-A6EF-7A434601E93B</string>
 		</dict>
+		<key>CBD6B2B8-F85B-4F59-89A0-F632F5598A99</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>0929E8E6-71B6-442D-BDB7-280211990444</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Centilia Stickers-2023.08.22_01-57-49-+0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Centilia Stickers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Centilia Stickers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Centilia Stickers</string>
+			<key>timeStartedRecording</key>
+			<real>714337069.43858397</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>CBD6B2B8-F85B-4F59-89A0-F632F5598A99</string>
+		</dict>
 		<key>D1E2E69B-6092-4DD6-A65F-0D08348E40C9</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -635,6 +1085,51 @@
 			<string>Run Centilia Stickers</string>
 			<key>uniqueIdentifier</key>
 			<string>D1E2E69B-6092-4DD6-A65F-0D08348E40C9</string>
+		</dict>
+		<key>DD4D0513-84EA-4358-96A1-4AD2C9474A1F</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>88688679-389E-4887-8D31-42ED2886A86C</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Centilia Stickers-2023.08.22_01-52-15-+0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Centilia Stickers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Centilia Stickers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Centilia Stickers</string>
+			<key>timeStartedRecording</key>
+			<real>714336735.57583904</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>DD4D0513-84EA-4358-96A1-4AD2C9474A1F</string>
 		</dict>
 		<key>E58D6A22-654F-443C-AE5A-1D5FB56B5DB4</key>
 		<dict>
@@ -681,6 +1176,51 @@
 			<key>uniqueIdentifier</key>
 			<string>E58D6A22-654F-443C-AE5A-1D5FB56B5DB4</string>
 		</dict>
+		<key>E61D59C1-A86D-436A-A8A3-4894B207E0B8</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>67B9F907-125C-45BC-A917-73F8FD97B808</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Centilia Stickers-2023.08.22_02-01-27-+0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Centilia Stickers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Centilia Stickers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Centilia Stickers</string>
+			<key>timeStartedRecording</key>
+			<real>714337287.53166604</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>E61D59C1-A86D-436A-A8A3-4894B207E0B8</string>
+		</dict>
 		<key>E63FB562-A42E-4C7E-B136-62DACFC5E823</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -725,6 +1265,51 @@
 			<string>Run Centilia Whatsapp Stickers</string>
 			<key>uniqueIdentifier</key>
 			<string>E63FB562-A42E-4C7E-B136-62DACFC5E823</string>
+		</dict>
+		<key>E92A83BF-63B6-422B-8A66-E64159EF5C2F</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>5BF5C291-9D8B-49CC-BAA4-BF3BAA2C1833</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Centilia Stickers-2023.08.22_02-02-25-+0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Centilia Stickers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Centilia Stickers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Centilia Stickers</string>
+			<key>timeStartedRecording</key>
+			<real>714337345.19526398</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Centilia Stickers</string>
+			<key>uniqueIdentifier</key>
+			<string>E92A83BF-63B6-422B-8A66-E64159EF5C2F</string>
 		</dict>
 	</dict>
 </dict>
