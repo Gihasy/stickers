@@ -355,8 +355,8 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
                 Log.d("BillingConnector", "Error type: " + response.getErrorType() +
                         " Response code: " + response.getResponseCode() + " Message: " + response.getDebugMessage()  + " Product: " + stickerPack.identifier );
 
-                Toast.makeText(getApplicationContext(), "Error type: " + response.getErrorType() +
-                        " Response code: " + response.getResponseCode() + " Message: " + response.getDebugMessage(), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(), "Error type: " + response.getErrorType() +
+//                        " Response code: " + response.getResponseCode() + " Message: " + response.getDebugMessage(), Toast.LENGTH_SHORT).show();
             }
         });
 
