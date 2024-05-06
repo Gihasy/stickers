@@ -14,13 +14,27 @@
         android:padding="16dp"
         android:textColor="@android:color/holo_red_dark"
         tools:text="@string/error_message" />
+
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/faq_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:autoLink="all"
+            android:backgroundTint="#ca5757"
+            android:textColor="#ffffff"
+            android:text="@string/privacy_policy" />
+
+
         <com.smarteist.autoimageslider.SliderView
             android:id="@+id/slider"
             android:layout_width="match_parent"
             android:layout_height="150dp"
+            android:layout_marginTop="50dp"
             app:sliderAnimationDuration="600"
             app:sliderAutoCycleDirection="back_and_forth"
             app:sliderIndicatorAnimationDuration="600"
@@ -32,13 +46,14 @@
             app:sliderIndicatorRadius="2dp"
             app:sliderIndicatorSelectedColor="#5A5A5A"
             app:sliderIndicatorUnselectedColor="#FFF"
-            app:sliderScrollTimeInSec="1" />
+            app:sliderScrollTimeInSec="1">
 
+        </com.smarteist.autoimageslider.SliderView>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/sticker_pack_list"
             android:layout_width="match_parent"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="200dp"
             android:layout_height="match_parent" />
     </RelativeLayout>
 

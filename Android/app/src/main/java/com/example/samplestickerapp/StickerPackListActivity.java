@@ -13,6 +13,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.recyclerview.widget.DividerItemDecoration;
@@ -37,13 +38,27 @@ public class StickerPackListActivity extends AddStickerPackActivity {
     private ArrayList<StickerPack> stickerPackList;
     String url1 = "https://centilia.id/wp-content/uploads/banner2.png";
     String url2 = "https://centilia.id/wp-content/uploads/banner1.png";
-    @Override
+    Button faqButton;
+    String faqUrl = "https://www.centilia.id/privacy-policy";
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sticker_pack_list);
         packRecyclerView = findViewById(R.id.sticker_pack_list);
         stickerPackList = getIntent().getParcelableArrayListExtra(EXTRA_STICKER_PACK_LIST_DATA);
         showStickerPackList(stickerPackList);
+        faqButton = (Button) findViewById(R.id.faq_button);
+        faqButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //set faq button
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(faqUrl));
+                startActivity(intent);
+            }
+        });
+
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle(getResources().getQuantityString(R.plurals.title_activity_sticker_packs_list, stickerPackList.size()));
         }
